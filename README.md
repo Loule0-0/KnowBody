@@ -2,13 +2,13 @@
 
 # Know Your Body
 
-### A Continual Embodiment Harness for Direct VLM Control
+### A Harness for Direct and Self-Improving Robot Control with VLMs
 
 Zeyu Lou<sup>1,2</sup> · Yanhong Zeng<sup>2</sup> · Yong Wang<sup>2,3</sup> · Chenyang Si<sup>1,†</sup>
 
 <sup>1</sup>Nanjing University · <sup>2</sup>Ant Group · <sup>3</sup>Zhejiang University
 
-[Project Page](https://loule0-0.github.io/KnowBody/) · [Overview Video](https://loule0-0.github.io/KnowBody/assets/knowbody-demo-v3.mp4)
+[Project Page](https://loule0-0.github.io/KnowBody/) · [Overview Video](https://loule0-0.github.io/KnowBody/assets/knowbody-demo-v6.mp4)
 
 </div>
 
@@ -50,8 +50,8 @@ This repository is the public home of KnowBody. The project page and overview vi
 
 ```bibtex
 @article{lou2026knowbody,
-  title   = {Know Your Body: A Continual Embodiment
-             Harness for Direct VLM Control},
+  title   = {Know Your Body: A Harness for Direct and
+             Self-Improving Robot Control with VLMs},
   author  = {Lou, Zeyu and Zeng, Yanhong and
              Wang, Yong and Si, Chenyang},
   year    = {2026},
