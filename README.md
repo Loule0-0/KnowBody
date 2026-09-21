@@ -8,7 +8,7 @@ Zeyu Lou<sup>1,2</sup> · Yanhong Zeng<sup>2</sup> · Yong Wang<sup>2,3</sup> ·
 
 <sup>1</sup>Nanjing University · <sup>2</sup>Ant Group · <sup>3</sup>Zhejiang University
 
-[Project Page](https://loule0-0.github.io/KnowBody/) · [Overview Video](https://loule0-0.github.io/KnowBody/assets/knowbody-demo-v6.mp4)
+[Project Page](https://loule0-0.github.io/KnowBody/) · [Overview Video](https://loule0-0.github.io/KnowBody/assets/knowbody-demo-v7.mp4)
 
 </div>
 
