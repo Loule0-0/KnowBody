@@ -49,7 +49,7 @@ p, h1, h2, figure { margin-top: 0; }
 .skip-link:focus { top: 12px; }
 
 .paper-header {
-  padding: 86px 0 56px;
+  padding: 72px 0 32px;
   text-align: center;
 }
 h1 {
@@ -108,8 +108,8 @@ h1 {
 .resource-link svg { width: 18px; height: 18px; fill: currentColor; }
 
 .paper-section { padding: 58px 0; }
-.first-section { padding-top: 22px; }
-.compact-top { padding-top: 30px; }
+.first-section { padding: 0 0 30px; }
+.compact-top { padding-top: 18px; }
 .tinted-section { background: var(--soft); }
 .abstract-section { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .section-title {
@@ -248,15 +248,15 @@ pre {
     --reading: calc(100vw - 36px);
   }
   body { font-size: 16px; }
-  .paper-header { padding: 58px 0 40px; }
+  .paper-header { padding: 48px 0 26px; }
   .venue-line { font-size: 12px; }
   h1 { font-size: clamp(43px, 13vw, 58px); }
   .paper-subtitle { font-size: 20px; }
   .authors { gap: 2px 14px; font-size: 15px; }
   .affiliations { display: grid; gap: 0; font-size: 13px; }
   .paper-section { padding: 46px 0; }
-  .first-section { padding-top: 14px; }
-  .compact-top { padding-top: 20px; }
+  .first-section { padding: 0 0 24px; }
+  .compact-top { padding-top: 16px; }
   .section-title { margin-bottom: 17px; font-size: 31px; }
   .section-intro { margin-bottom: 25px; }
   .paper-figure figcaption { margin-top: 10px; font-size: 13px; }
