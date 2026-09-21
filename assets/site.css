@@ -27,7 +27,7 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 button, a { font: inherit; }
 a { color: inherit; }
 .shell { width: var(--shell); margin-inline: auto; }
@@ -321,8 +321,15 @@ h1 em { color: var(--green); font-style: normal; }
 .method-section { background: white; }
 .figure-card { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: white; box-shadow: var(--shadow); }
 .architecture-card { max-width: 1120px; margin-inline: auto; }
-.zoomable { position: relative; width: 100%; display: block; padding: 0; overflow: hidden; border: 0; background: white; cursor: zoom-in; }
-.zoomable img { width: 100%; }
+.zoomable { position: relative; width: 100%; display: block; padding: 0; overflow: hidden; border: 0; background: white; cursor: zoom-in; line-height: 0; }
+.zoomable img { width: 100%; height: auto; object-fit: contain; }
+.ratio-lock { aspect-ratio: var(--figure-ratio); }
+.ratio-lock img { width: 100%; height: 100%; object-fit: contain; }
+.ratio-fig2 { --figure-ratio: 2400 / 1543; }
+.ratio-fig3 { --figure-ratio: 2063 / 798; }
+.ratio-rel-a,
+.ratio-rel-b { --figure-ratio: 680 / 798; }
+.ratio-rel-c { --figure-ratio: 693 / 798; }
 .inspect-label {
   position: absolute;
   right: 16px;
@@ -512,14 +519,14 @@ pre { margin: 0; padding: 24px 26px 28px; overflow-x: auto; color: #d2dee6; font
   .one-traj-note { align-items: flex-start; }
   .architecture-card { border-radius: 14px; }
   .architecture-card .zoomable { overflow: hidden; }
-  .architecture-card .zoomable img { width: 100%; max-width: 100%; }
+  .architecture-card .zoomable img { width: 100%; max-width: 100%; height: 100%; object-fit: contain; }
   .architecture-card figcaption { display: none; }
   .mobile-figure-hint { display: block; margin: 0; padding: 10px 14px; color: var(--muted); background: #f7f9fa; border-top: 1px solid var(--line); font-size: 12px; font-weight: 700; text-align: center; }
   .method-pillars { grid-template-columns: 1fr; }
   .relations-card, .relation-labels, .results-section > .shell > .desktop-composite { display: none; }
   .mobile-relation-panels, .mobile-evaluation-panels { display: grid; gap: 18px; }
   .mobile-relation-panels { max-width: 500px; margin-inline: auto; }
-  .mobile-relation-panels .zoomable img { width: 100%; }
+  .mobile-relation-panels .zoomable img { width: 100%; height: 100%; object-fit: contain; }
   .mobile-evaluation-panels { gap: 20px; }
   .mobile-result-panel .zoomable img { width: 100%; }
   .scoreboard { grid-template-columns: 1fr 58px 1fr; }
