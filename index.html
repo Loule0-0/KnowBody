@@ -12,9 +12,9 @@
     <link
       rel="icon"
       type="image/svg+xml"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%231a2b3c'/%3E%3Cpath d='M17 16v32M17 32l18-16M17 32l20 16' stroke='%23fff' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='45' cy='32' r='7' fill='%232f8978'/%3E%3C/svg%3E"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23edf4f5'/%3E%3Cpath d='M14 17L31 45L50 20' fill='none' stroke='%23192a3a' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='14' cy='17' r='7' fill='%23356f9f'/%3E%3Ccircle cx='31' cy='45' r='6' fill='%23b47a2b'/%3E%3Ccircle cx='50' cy='20' r='7' fill='%232d7d6e'/%3E%3C/svg%3E"
     />
-    <link rel="stylesheet" href="assets/site.css?v=20260921-2" />
+    <link rel="stylesheet" href="assets/site.css?v=20260921-4" />
     <script src="assets/site.js" defer></script>
   </head>
   <body>
@@ -23,7 +23,9 @@
     <header class="site-header">
       <div class="shell nav-wrap">
         <a class="brand" href="#top" aria-label="KnowBody home">
-          <span class="brand-mark" aria-hidden="true">K</span>
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36"><path d="M7 9 18 27 29 11"/><circle class="command-node" cx="7" cy="9" r="4"/><circle class="joint-node" cx="18" cy="27" r="3.5"/><circle class="effect-node" cx="29" cy="11" r="4"/></svg>
+          </span>
           <span>KnowBody</span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -31,10 +33,9 @@
           <span class="sr-only">Toggle navigation</span>
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-          <a href="#idea">Idea</a>
+          <a href="#demos">Demo</a>
           <a href="#method">Method</a>
           <a href="#results">Results</a>
-          <a href="#demos">Demos</a>
           <a href="#citation">Citation</a>
         </nav>
       </div>
@@ -47,9 +48,9 @@
           <h1>Know Your<br /><em>Body</em></h1>
           <p class="subtitle">A Continual Embodiment Harness for Direct VLM Control</p>
           <p class="lead">
-            A general VLM may understand the task while remaining unaware of how a particular robot's
-            motion and functional parts produce the intended effect. <strong>KnowBody</strong> makes those
-            relations explicit, queryable, and revisable.
+            A frozen VLM may understand the task without knowing how this robot's commanded motion reaches
+            the functional point that acts on the world. <strong>KnowBody</strong> makes those body relations
+            explicit, queryable, and revisable.
           </p>
 
           <div class="authors" aria-label="Authors">
@@ -76,69 +77,43 @@
         </div>
 
         <div class="hero-visual">
-          <div class="photo-frame">
+          <figure class="figure-card hero-teaser">
+            <button class="zoomable ratio-lock ratio-teaser" type="button" data-zoom="assets/fig1-teaser-formal.png" data-alt="KnowBody teaser figure">
             <img
-              src="assets/writing-hero.png"
-              alt="Franka robot writing a letter with a held marker"
-              width="1200"
-              height="900"
+              src="assets/fig1-teaser-formal.png"
+              alt="Robot word-puzzle demonstration annotated with the grasp point, commanded pose, body relation, writing point, and trajectory"
+              width="918"
+              height="722"
             />
-            <div class="pose-pin"><span></span>Commanded pose</div>
-            <div class="effect-pin"><span></span>Writing acts here</div>
-            <div class="relation-line" aria-hidden="true"><span>body relation</span></div>
-          </div>
-          <div class="hero-statement">
-            <span>Knowing the task</span>
-            <svg viewBox="0 0 76 24" aria-hidden="true"><path d="M2 12h65M58 4l9 8-9 8"/></svg>
-            <strong>is not knowing the body.</strong>
-          </div>
+              <span class="inspect-label">Open figure</span>
+            </button>
+          </figure>
         </div>
       </section>
 
-      <section id="idea" class="section section-idea">
+      <section id="demos" class="section demos-section">
         <div class="shell">
-          <header class="section-heading centered">
-            <p class="kicker">The missing interface</p>
-            <h2>From task intent to physical effect</h2>
-            <p>
-              KnowBody gives a frozen VLM a shared reference for choosing concrete actions and learning from
-              what those actions actually do.
-            </p>
+          <header class="section-heading centered narrow">
+            <p class="kicker">Robot demo</p>
+            <h2>KnowBody in 66 seconds</h2>
+            <p>From task understanding to body-aware action and outcome interpretation.</p>
           </header>
-
-          <div class="idea-flow" aria-label="KnowBody connects task understanding to physical effects">
-            <article class="idea-card task-card">
-              <span class="card-index">01</span>
-              <div class="idea-icon" aria-hidden="true">
-                <svg viewBox="0 0 48 48"><path d="M10 8h28v32H10zM16 17h16M16 24h12M16 31h9"/></svg>
-              </div>
-              <h3>Task intent</h3>
-              <p>What outcome should be achieved?</p>
-            </article>
-            <div class="flow-link blue"><span>VLM reasoning</span></div>
-            <article class="idea-card command-card">
-              <span class="card-index">02</span>
-              <div class="idea-icon" aria-hidden="true">
-                <svg viewBox="0 0 48 48"><path d="M24 8v32M8 24h32M24 8l-4 6M24 8l4 6M40 24l-6-4M40 24l-6 4"/></svg>
-              </div>
-              <h3>Robot command</h3>
-              <p>Where should the end effector move?</p>
-            </article>
-            <div class="flow-link green"><span>body relation</span></div>
-            <article class="idea-card effect-card">
-              <span class="card-index">03</span>
-              <div class="idea-icon" aria-hidden="true">
-                <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="14"/><circle cx="24" cy="24" r="4"/><path d="M24 4v8M24 36v8M4 24h8M36 24h8"/></svg>
-              </div>
-              <h3>Physical effect</h3>
-              <p>Which functional part acts on the world?</p>
-            </article>
-          </div>
-
-          <div class="one-traj-note">
-            <span class="traj-glyph" aria-hidden="true"><i></i><i></i><i></i></span>
-            <p><strong>Initialize once.</strong> One off-task trajectory supplies the supported body relations that future decisions can query and test.</p>
-          </div>
+          <figure class="demo-frame">
+            <video
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/knowbody-demo-poster.jpg"
+              aria-label="KnowBody real-robot demonstration"
+            >
+              <source src="assets/knowbody-demo-v3.mp4" type="video/mp4" />
+              Your browser does not support embedded MP4 video.
+            </video>
+            <figcaption>
+              <strong>One harness, changing functional points.</strong>
+              <span>Writing, attachment-aware control, active observation, and outcome checking.</span>
+            </figcaption>
+          </figure>
         </div>
       </section>
 
@@ -156,12 +131,12 @@
           </header>
 
           <figure class="figure-card architecture-card">
-            <button class="zoomable ratio-lock ratio-fig2" type="button" data-zoom="assets/harness.png?v=20260921-2" data-alt="KnowBody harness architecture">
+            <button class="zoomable ratio-lock ratio-fig2" type="button" data-zoom="assets/fig2-harness-formal.png" data-alt="KnowBody harness architecture">
               <img
-                src="assets/harness.png?v=20260921-2"
+                src="assets/fig2-harness-formal.png"
                 alt="KnowBody architecture connecting decision context, a frozen VLM, a queryable body model, execution, and validated revision"
-                width="2400"
-                height="1543"
+                width="2240"
+                height="1440"
                 loading="lazy"
               />
               <span class="inspect-label">Open figure</span>
@@ -175,24 +150,6 @@
             </figcaption>
           </figure>
 
-          <div class="method-pillars">
-            <article>
-              <span class="pillar-mark evidence">E</span>
-              <div><h3>Original evidence</h3><p>Actions, observations, and execution receipts remain traceable.</p></div>
-            </article>
-            <article>
-              <span class="pillar-mark body">B</span>
-              <div><h3>Body model</h3><p>Partial relations expose support, source, and uncertainty.</p></div>
-            </article>
-            <article>
-              <span class="pillar-mark state">M</span>
-              <div><h3>Current state</h3><p>Scene, progress, and attachment update within the episode.</p></div>
-            </article>
-            <article>
-              <span class="pillar-mark rules">K</span>
-              <div><h3>Validated rules</h3><p>Conditional effects are rechecked when their body assumptions change.</p></div>
-            </article>
-          </div>
         </div>
       </section>
 
@@ -203,9 +160,9 @@
             <h2>Three relations that change the next action</h2>
           </header>
           <figure class="figure-card relations-card desktop-composite">
-            <button class="zoomable ratio-lock ratio-fig3" type="button" data-zoom="assets/body-relations.png?v=20260921-2" data-alt="Three body relations modeled by KnowBody">
+            <button class="zoomable ratio-lock ratio-fig3" type="button" data-zoom="assets/fig3-body-relations-formal.png" data-alt="Three body relations modeled by KnowBody">
               <img
-                src="assets/body-relations.png?v=20260921-2"
+                src="assets/fig3-body-relations-formal.png"
                 alt="Examples of body motion to image shift, command to active tip, and target to feasible full-arm path"
                 width="2063"
                 height="798"
@@ -216,28 +173,23 @@
           </figure>
           <div class="mobile-relation-panels" aria-label="Body relation examples">
             <figure class="mobile-panel">
-              <button class="zoomable ratio-lock ratio-rel-a" type="button" data-zoom="assets/relation-motion.png?v=20260921-2" data-alt="Body motion to image shift">
-                <img src="assets/relation-motion.png?v=20260921-2" alt="Wrist-camera observations before and after a body motion" width="680" height="798" loading="lazy" />
+              <button class="zoomable ratio-lock ratio-rel-a" type="button" data-zoom="assets/fig3-relation-motion-formal.png" data-alt="Body motion to image shift">
+                <img src="assets/fig3-relation-motion-formal.png" alt="Wrist-camera observations before and after a body motion" width="688" height="798" loading="lazy" />
               </button>
               <figcaption><b>Motion response</b><span>How does commanded movement appear in the current view?</span></figcaption>
             </figure>
             <figure class="mobile-panel">
-              <button class="zoomable ratio-lock ratio-rel-b" type="button" data-zoom="assets/relation-tip.png?v=20260921-2" data-alt="Command frame to active tip">
-                <img src="assets/relation-tip.png?v=20260921-2" alt="Mapping from a commanded frame to the marker's active tip" width="680" height="798" loading="lazy" />
+              <button class="zoomable ratio-lock ratio-rel-b" type="button" data-zoom="assets/fig3-relation-tip-formal.png" data-alt="Command frame to active tip">
+                <img src="assets/fig3-relation-tip-formal.png" alt="Mapping from a commanded frame to the marker's active tip" width="687" height="798" loading="lazy" />
               </button>
               <figcaption><b>Functional geometry</b><span>Which held part produces the task effect?</span></figcaption>
             </figure>
             <figure class="mobile-panel">
-              <button class="zoomable ratio-lock ratio-rel-c" type="button" data-zoom="assets/relation-path.png?v=20260921-2" data-alt="Far target to feasible full-arm path">
-                <img src="assets/relation-path.png?v=20260921-2" alt="A feasible full-arm path compared with invalid endpoint-only motion" width="693" height="798" loading="lazy" />
+              <button class="zoomable ratio-lock ratio-rel-c" type="button" data-zoom="assets/fig3-relation-path-formal.png" data-alt="Far target to feasible full-arm path">
+                <img src="assets/fig3-relation-path-formal.png" alt="A feasible full-arm path compared with invalid endpoint-only motion" width="688" height="798" loading="lazy" />
               </button>
               <figcaption><b>Whole-body feasibility</b><span>Can the full arm reach the target along a valid path?</span></figcaption>
             </figure>
-          </div>
-          <div class="relation-labels">
-            <p><b>Motion response</b><span>How does commanded movement appear in the current view?</span></p>
-            <p><b>Functional geometry</b><span>Which held part produces the task effect?</span></p>
-            <p><b>Whole-body feasibility</b><span>Can the full arm reach the target along a valid path?</span></p>
           </div>
         </div>
       </section>
@@ -247,11 +199,11 @@
           <div class="results-head">
             <div>
               <p class="kicker light">Real-robot evaluation</p>
-              <h2>Body knowledge improves completion under the same VLM setting.</h2>
+              <h2>75% completion with the same frozen VLM.</h2>
             </div>
             <p class="protocol-note">
-              Four tasks, four trials per method and task, fixed reasoning budgets. Cross-episode updates are
-              disabled for this matched comparison.
+              Four tasks and four trials per method and task, under fixed reasoning budgets. Cross-episode
+              updates are disabled for this matched comparison.
             </p>
           </div>
 
@@ -276,9 +228,9 @@
           </div>
 
           <figure class="result-figure desktop-composite">
-            <button class="zoomable" type="button" data-zoom="assets/evaluation.png" data-alt="KnowBody real-robot evaluation results">
+            <button class="zoomable" type="button" data-zoom="assets/fig10-evaluation-formal.png" data-alt="KnowBody real-robot evaluation results">
               <img
-                src="assets/evaluation.png"
+                src="assets/fig10-evaluation-formal.png"
                 alt="Task sequences, continual interaction trends, and all fixed-budget trial outcomes"
                 width="1680"
                 height="1020"
@@ -290,66 +242,26 @@
           <div class="mobile-evaluation-panels" aria-label="Real-robot evaluation details">
             <figure class="mobile-result-panel">
               <figcaption><span>01</span><div><b>Task sequences</b><small>Place · push · write · pour</small></div></figcaption>
-              <button class="zoomable" type="button" data-zoom="assets/evaluation-tasks.png" data-alt="Four real-robot task sequences">
-                <img src="assets/evaluation-tasks.png" alt="Illustrative sequences for the four real-robot tasks" width="830" height="1020" loading="lazy" />
+              <button class="zoomable" type="button" data-zoom="assets/fig10-evaluation-tasks-formal.png" data-alt="Four real-robot task sequences">
+                <img src="assets/fig10-evaluation-tasks-formal.png" alt="Illustrative sequences for the four real-robot tasks" width="830" height="1020" loading="lazy" />
               </button>
             </figure>
             <figure class="mobile-result-panel">
               <figcaption><span>02</span><div><b>Completion and reasoning</b><small>Continual interaction · fixed-budget trials</small></div></figcaption>
-              <button class="zoomable" type="button" data-zoom="assets/evaluation-results.png" data-alt="KnowBody completion and reasoning results">
-                <img src="assets/evaluation-results.png" alt="Reasoning trends and fixed-budget task outcomes" width="850" height="1020" loading="lazy" />
+              <button class="zoomable" type="button" data-zoom="assets/fig10-evaluation-results-formal.png" data-alt="KnowBody completion and reasoning results">
+                <img src="assets/fig10-evaluation-results-formal.png" alt="Reasoning trends and fixed-budget task outcomes" width="850" height="1020" loading="lazy" />
               </button>
             </figure>
-          </div>
-        </div>
-      </section>
-
-      <section id="demos" class="section demos-section">
-        <div class="shell">
-          <header class="section-heading split-heading">
-            <div>
-              <p class="kicker">Robot demonstrations</p>
-              <h2>Four tasks, one harness</h2>
-            </div>
-            <p>Video panels are reserved for the final release. Their proportions and labels are already ready for direct MP4 replacement.</p>
-          </header>
-
-          <div class="demo-grid">
-            <article class="demo-card demo-place">
-              <div class="demo-placeholder"><span class="play-mark" aria-hidden="true"></span><small>Video coming soon</small></div>
-              <div><span>01</span><h3>Place</h3><p>Duck into a paper box</p></div>
-            </article>
-            <article class="demo-card demo-push">
-              <div class="demo-placeholder"><span class="play-mark" aria-hidden="true"></span><small>Video coming soon</small></div>
-              <div><span>02</span><h3>Push</h3><p>Apple onto a paper region</p></div>
-            </article>
-            <article class="demo-card demo-write">
-              <div class="demo-placeholder"><span class="play-mark" aria-hidden="true"></span><small>Video coming soon</small></div>
-              <div><span>03</span><h3>Write</h3><p>A digit with a held marker</p></div>
-            </article>
-            <article class="demo-card demo-pour">
-              <div class="demo-placeholder"><span class="play-mark" aria-hidden="true"></span><small>Video coming soon</small></div>
-              <div><span>04</span><h3>Pour</h3><p>Between two bottles</p></div>
-            </article>
           </div>
         </div>
       </section>
 
       <section id="citation" class="section paper-section">
-        <div class="shell paper-grid">
-          <article>
-            <p class="kicker">Abstract</p>
-            <h2>Explicit body knowledge for direct VLM control</h2>
-            <p class="abstract-copy">
-              A general-purpose vision–language model can understand a task goal without knowing how a
-              particular robot's motion and functional parts produce the intended effect. We introduce
-              <strong>KnowBody</strong>, a harness that makes these action-relevant body relations explicit,
-              queryable, and revisable while keeping the model weights frozen. Initialized from one off-task
-              trajectory, a partial body model guides action selection and the interpretation of past
-              interactions. New evidence refines the model, and knowledge dependent on revised body estimates
-              is rechecked before reuse.
-            </p>
-          </article>
+        <div class="shell citation-shell">
+          <header class="section-heading centered narrow">
+            <p class="kicker">Citation</p>
+            <h2>Know Your Body</h2>
+          </header>
           <aside class="citation-card">
             <div class="citation-top">
               <div><p class="kicker">Citation</p><h3>BibTeX</h3></div>
@@ -370,9 +282,14 @@
 
     <footer class="site-footer">
       <div class="shell">
-        <a class="brand footer-brand" href="#top"><span class="brand-mark">K</span><span>KnowBody</span></a>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36"><path d="M7 9 18 27 29 11"/><circle class="command-node" cx="7" cy="9" r="4"/><circle class="joint-node" cx="18" cy="27" r="3.5"/><circle class="effect-node" cx="29" cy="11" r="4"/></svg>
+          </span>
+          <span>KnowBody</span>
+        </a>
         <p>Nanjing University · Ant Group · Zhejiang University</p>
-        <p class="footer-note">Project page preview · 2026</p>
+        <p class="footer-note">2026</p>
       </div>
     </footer>
 
