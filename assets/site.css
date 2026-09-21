@@ -84,6 +84,28 @@ h1 {
   font-size: 14px;
 }
 .corresponding { margin: 1px 0 0; color: #7c8891; font-size: 13px; }
+.resource-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.resource-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 0 15px;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid #bfcbd2;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+.resource-link:hover { color: var(--green); border-color: var(--green); }
+.resource-link:focus-visible { outline: 3px solid rgba(53,111,159,.35); outline-offset: 3px; }
+.resource-link svg { width: 18px; height: 18px; fill: currentColor; }
 
 .paper-section { padding: 58px 0; }
 .first-section { padding-top: 22px; }
