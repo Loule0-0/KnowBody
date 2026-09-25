@@ -8,7 +8,7 @@ Zeyu Lou<sup>1,2</sup> · Yanhong Zeng<sup>2</sup> · Yong Wang<sup>2,3</sup> ·
 
 <sup>1</sup>Nanjing University · <sup>2</sup>Ant Group · <sup>3</sup>Zhejiang University
 
-[Paper](https://loule0-0.github.io/KnowBody/paper.pdf) · [Project Page](https://loule0-0.github.io/KnowBody/) · [Overview Video](https://loule0-0.github.io/KnowBody/assets/knowbody-demo-v7.mp4)
+[Paper](https://loule0-0.github.io/KnowBody/paper.pdf) · [arXiv](https://arxiv.org/abs/2609.28530) · [Project Page](https://loule0-0.github.io/KnowBody/) · [Overview Video](https://loule0-0.github.io/KnowBody/assets/knowbody-demo-v9.mp4)
 
 </div>
 
@@ -44,7 +44,7 @@ We evaluate KnowBody on four manipulation tasks: duck placement, apple pushing, 
 
 ## Repository status
 
-This repository is the public home of KnowBody. The project page and overview video are available now. Source code, prompts, configuration files, and reproducibility materials will be added here with the arXiv release.
+This repository is the public home of KnowBody. The project page, paper, and overview video are available now. The public release of the source code, prompts, configuration files, and reproducibility materials is undergoing approval. We will make them available as soon as the approval process is complete.
 
 ## Citation
 
@@ -55,10 +55,10 @@ This repository is the public home of KnowBody. The project page and overview vi
   author  = {Lou, Zeyu and Zeng, Yanhong and
              Wang, Yong and Si, Chenyang},
   year    = {2026},
-  journal = {arXiv preprint}
+  journal = {arXiv preprint},
+  eprint  = {2609.28530},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  doi     = {10.48550/arXiv.2609.28530}
 }
 ```
-
-## Contact
-
-For questions, contact [Zeyu Lou](mailto:zeyu.lou.mail@gmail.com) or [Chenyang Si](mailto:chenyang.si@nju.edu.cn).
