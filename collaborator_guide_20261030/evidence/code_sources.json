@@ -1,0 +1,149 @@
+{
+  "runtime": {
+    "version": "v4",
+    "workspace": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030",
+    "manifest": "/home/lzy/KnowYourBody_RoboDojo/releases/v4/runtime37_20261030/HARNESS.json",
+    "source_version": "v4-runtime37-20261030",
+    "manifest_sha256": "37d6203870589e408620f7aec7ef7670c9177178ff338b71dc5aa06e30400b73",
+    "activated_at_utc": "2026-10-30T01:36:45.838676+00:00"
+  },
+  "sources": [
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/memory.py",
+      "relative_file": "research/kyb/memory.py",
+      "line_start": 32,
+      "line_end": 79,
+      "topic": "E证据、版本化C与来源坐标",
+      "sha256": "71ed919d7b631f11181955b2b071454d03bed162ec7d9d789995b5c75cdbf240"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/library.py",
+      "relative_file": "research/kyb/library.py",
+      "line_start": 10,
+      "line_end": 38,
+      "topic": "两域七族、K表和发布关系",
+      "sha256": "7c1e1360ac1d3662eefdbe41e95290e2518817d05fcc9c68fa4e32a0e765ea36"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/manager.py",
+      "relative_file": "research/kyb/manager.py",
+      "line_start": 16,
+      "line_end": 51,
+      "topic": "管理提示与E/C/K提炼职责",
+      "sha256": "403564a5677230b8501458ad0039dcca66e18cb21cb09ec705129948abcd03ab"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/session.py",
+      "relative_file": "research/kyb/session.py",
+      "line_start": 399,
+      "line_end": 445,
+      "topic": "主模型读取、管理、动作与假设检查",
+      "sha256": "077dbfbed3b407f07ca04d4b1eee9989379777251d8c2a419937ab1beffe3d9f"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/hybrid.py",
+      "relative_file": "research/kyb/hybrid.py",
+      "line_start": 11,
+      "line_end": 75,
+      "topic": "固定语义字段、双路top20与去重交错",
+      "sha256": "4687f28ca7b08e6e355d63e33070ee3072d4474db6d29ac4df19a9e477d611a4"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/body_index.py",
+      "relative_file": "research/kyb/body_index.py",
+      "line_start": 99,
+      "line_end": 136,
+      "topic": "同身体契约的数值端点检索",
+      "sha256": "efd6e0fc41f8cdc408813da91bb6a82a2c93bfc0a017fd64be1c0df1e4c8c8f2"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/preparation.py",
+      "relative_file": "research/kyb/preparation.py",
+      "line_start": 67,
+      "line_end": 136,
+      "topic": "8192B经验包与完整条目装包",
+      "sha256": "bdd91233140629c38cadd61cd65eb5424827391d2478b6fbeace0e090c134016"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/manager.py",
+      "relative_file": "research/kyb/manager.py",
+      "line_start": 880,
+      "line_end": 919,
+      "topic": "事务快照与初始相关陈述",
+      "sha256": "403564a5677230b8501458ad0039dcca66e18cb21cb09ec705129948abcd03ab"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/manager.py",
+      "relative_file": "research/kyb/manager.py",
+      "line_start": 111,
+      "line_end": 140,
+      "topic": "runtime37上一条配对PASS答复连续性",
+      "sha256": "403564a5677230b8501458ad0039dcca66e18cb21cb09ec705129948abcd03ab"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/terminal.py",
+      "relative_file": "research/kyb/terminal.py",
+      "line_start": 89,
+      "line_end": 110,
+      "topic": "终局恢复的状态与答复配对",
+      "sha256": "a98f328d989b3992b8f1b915743e3b05d6da013716c53029c753f5a6fbc7abef"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/manager.py",
+      "relative_file": "research/kyb/manager.py",
+      "line_start": 351,
+      "line_end": 488,
+      "topic": "runtime36完整原始证据读取与无损分页",
+      "sha256": "403564a5677230b8501458ad0039dcca66e18cb21cb09ec705129948abcd03ab"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/episode_index.py",
+      "relative_file": "research/kyb/episode_index.py",
+      "line_start": 213,
+      "line_end": 261,
+      "topic": "runtime33测量来源目录",
+      "sha256": "b8fe62d051cd6b46a34d112f122c04cf02d2726d4a5ebc446642c739a8a4994e"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/manager.py",
+      "relative_file": "research/kyb/manager.py",
+      "line_start": 759,
+      "line_end": 878,
+      "topic": "独立组、依赖和原子提交",
+      "sha256": "403564a5677230b8501458ad0039dcca66e18cb21cb09ec705129948abcd03ab"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/execution.py",
+      "relative_file": "research/kyb/execution.py",
+      "line_start": 9,
+      "line_end": 81,
+      "topic": "实际执行覆盖与回执",
+      "sha256": "d7b005eba80abac63a0c66400f45e48427063257b0720612a2a5713cb9fbdd14"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/motion_core.py",
+      "relative_file": "research/kyb/motion_core.py",
+      "line_start": 23,
+      "line_end": 83,
+      "topic": "预览、可选动作前缀与执行",
+      "sha256": "31d2ccf7caaadb600f8caeb8866b5b72fd94062ce582f623d4fde64fa188dca7"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/episodes.py",
+      "relative_file": "research/kyb/episodes.py",
+      "line_start": 97,
+      "line_end": 181,
+      "topic": "过程提纲、终局结果与独立调用成本",
+      "sha256": "449199b43e78b820ae1d2c751df1e8262279d5eddb3c89e83747e04217f907e9"
+    },
+    {
+      "file": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030/research/kyb/policy.py",
+      "relative_file": "research/kyb/policy.py",
+      "line_start": 96,
+      "line_end": 125,
+      "topic": "动作请求/检查分发",
+      "sha256": "4a62b127d8c67eca01d6cf3d51b1b2a0c720824b5c18a1700b38cea802c95361"
+    }
+  ],
+  "scope": "只读冻结代码和已存在的公开实验记录；未启动新动作、修改实验或经验库。"
+}

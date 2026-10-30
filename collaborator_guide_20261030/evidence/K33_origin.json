@@ -1,0 +1,955 @@
+{
+  "source": "/home/lzy/KnowYourBody_RoboDojo/experiments/v4_three_lines_20261026/routing_failure_recovery_20261029/e28_terminal_continuation/events/e000075.json",
+  "sha256": "c24623e6846ed9201b4fff6578bb540a03920fc66960860e5d7eb153b3d89e09",
+  "kind": "manager_group_publication",
+  "payload": {
+    "status": "PASS",
+    "version": 4,
+    "answer": "Fresh localization, held geometry and execution feedback distinguished different uncertainties, not an orientation-only effect. Early widthwise entry changed bar-to-jaw presentation. Free-space leveling restored agreeing face samples, but renewed entry still lacked visible passage: all 5 actions executed while the measured endpoint remained 18.93 mm from target, including +18.73 mm Z. Lift-away retained the bar.\nFresh recovery tip/aperture picks showed about 4.7 mm X and 2.8 mm Y mismatch; an earlier selected peg surface was not interchangeable with its tip. The shallow third capture put the face 3.8-4.4 mm BELOW the grasp point, versus about 5.2 mm ABOVE in the first/final captures. Historical hand height therefore did not specify object height.\nReviewed opposing-end captures retained through lift/transport and staged entry, opening and clearance. Unloaded checks agreed near 0.7882, 0.8012, 0.8141 and 0.8271 m; only the second bar's clearance/result was reviewed here. Useful recovery evidence includes retained withdrawal, tabletop releases/regrasps and the third pickup despite a +9.38 mm Z residual. Right planner failures executed zero actions; the rejected combined request did not release the left piece.\nGrasp, localization, pickup depth, attitude, layer and release setup changed together. Contact/interference mechanism, isolated contributions, repeatability, hidden seating and uninspected gaps remain unresolved.",
+    "publication": "e28_terminal_continuation:e000055",
+    "committed_groups": [
+      {
+        "group": 0,
+        "publication": null
+      },
+      {
+        "group": "default_and_answer",
+        "publication": null
+      }
+    ],
+    "issues": [],
+    "memory_updates": [
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k6a683795d6545106",
+        "revision": 227,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k347ffb0c8f8e77f7",
+        "revision": 228,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "ke227ce8acfdc3629",
+        "revision": 229,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k5938f3d04586ac98",
+        "revision": 230,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k2f463e4f0ee260a0",
+        "revision": 231,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k6ec5f1f0c0e6d62d",
+        "revision": 232,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k2c6ce62773c14697",
+        "revision": 233,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k9b24adac927de21f",
+        "revision": 234,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k98f9e0f6246b1d49",
+        "revision": 235,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k90ddb2234dcb3110",
+        "revision": 236,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k471a76163783bdbd",
+        "revision": 237,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k27e85ddd524fe18d",
+        "revision": 238,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k213b1763c0e9c220",
+        "revision": 239,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "kcf358037df505277",
+        "revision": 240,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k9bc3b506f5baac0a",
+        "revision": 241,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k3d7e34997bbd459e",
+        "revision": 242,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "ke04789a3f580fbdf",
+        "revision": 243,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k7752ef1d944b98b6",
+        "revision": 244,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k450ea966afa5bc0a",
+        "revision": 245,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k36f5316da8ced757",
+        "revision": 246,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "keb9ebef14f99f3b8",
+        "revision": 247,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k988e13e024f77681",
+        "revision": 248,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "kb21ec04a262536ca",
+        "revision": 249,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k83056be03b2fa381",
+        "revision": 250,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k8d42e4850f8a11e8",
+        "revision": 251,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "ka7f5ad77e52f1eef",
+        "revision": 252,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k890ccdc610703622",
+        "revision": 253,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k8c96110b74131026",
+        "revision": 254,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "kf79f3475509f00d0",
+        "revision": 255,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "k5ef0fdfba0a92530",
+        "revision": 256,
+        "status": "provisional"
+      },
+      {
+        "accepted": true,
+        "reason": "published_provisional_not_certified",
+        "claim_id": "ke96f86f38e0c1de7",
+        "revision": 257,
+        "status": "provisional"
+      }
+    ],
+    "knowledge_updates": [
+      {
+        "id": "n2c1aeaca492943b",
+        "revision": 33,
+        "status": "active",
+        "decision_bytes": 3386
+      }
+    ],
+    "case_dispositions": {
+      "k347ffb0c8f8e77f7": {
+        "revision": 228,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "ke227ce8acfdc3629": {
+        "revision": 229,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k5938f3d04586ac98": {
+        "revision": 230,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k2f463e4f0ee260a0": {
+        "revision": 231,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k6ec5f1f0c0e6d62d": {
+        "revision": 232,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k2c6ce62773c14697": {
+        "revision": 233,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k9b24adac927de21f": {
+        "revision": 234,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k98f9e0f6246b1d49": {
+        "revision": 235,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k90ddb2234dcb3110": {
+        "revision": 236,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k471a76163783bdbd": {
+        "revision": 237,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k27e85ddd524fe18d": {
+        "revision": 238,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k213b1763c0e9c220": {
+        "revision": 239,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "kcf358037df505277": {
+        "revision": 240,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k9bc3b506f5baac0a": {
+        "revision": 241,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k3d7e34997bbd459e": {
+        "revision": 242,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "ke04789a3f580fbdf": {
+        "revision": 243,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k7752ef1d944b98b6": {
+        "revision": 244,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k450ea966afa5bc0a": {
+        "revision": 245,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k36f5316da8ced757": {
+        "revision": 246,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "keb9ebef14f99f3b8": {
+        "revision": 247,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k988e13e024f77681": {
+        "revision": 248,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "kb21ec04a262536ca": {
+        "revision": 249,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k83056be03b2fa381": {
+        "revision": 250,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k8d42e4850f8a11e8": {
+        "revision": 251,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "ka7f5ad77e52f1eef": {
+        "revision": 252,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k890ccdc610703622": {
+        "revision": 253,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k8c96110b74131026": {
+        "revision": 254,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "kf79f3475509f00d0": {
+        "revision": 255,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "k5ef0fdfba0a92530": {
+        "revision": 256,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      },
+      "ke96f86f38e0c1de7": {
+        "revision": 257,
+        "action": "linked",
+        "knowledge_revisions": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "status": "active",
+            "decision_bytes": 3386
+          }
+        ],
+        "reason": "Referenced by committed knowledge; relation and qualification are in exact knowledge refs."
+      }
+    },
+    "retry_instruction": "Resubmit only rejected groups at the returned version; committed groups must not be repeated.",
+    "delivery_manifest": {
+      "version": 4,
+      "packet_sha256": "98d6b882d4878319aac8d86fe3a6944c8c548d848792025a6bbf0928dece6c37",
+      "default_pool": [
+        {
+          "id": "n2c1aeaca492943b",
+          "revision": 33,
+          "delivery": "complete",
+          "reason": null
+        },
+        {
+          "id": "na3b42232973b415",
+          "revision": 28,
+          "delivery": "navigation",
+          "reason": null
+        },
+        {
+          "id": "n032628c262d84c5",
+          "revision": 32,
+          "delivery": "navigation",
+          "reason": null
+        }
+      ],
+      "history_refs": [],
+      "episode_candidates": [
+        {
+          "id": "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303",
+          "delivery": "navigation"
+        }
+      ],
+      "scope": "Rendered material at this version/scope; not an actual model input or adoption until matched to archived CLI input.",
+      "render_scope": {
+        "version": 4,
+        "case_revision": 257,
+        "knowledge_revision": 33,
+        "source_frontier_sha256": "cbcb79603bca9afa2a5881abe1296c904231d40df2b1063141d7744d30f4abf1",
+        "dependencies_sha256": "c8f495a187486e4a0535cd19bbab462330e2e56dc44df63be39c2e2279fd2a6a",
+        "context_sha256": "59568f0f69c596fd26dbb46cecc64457264d365783b3b891e2c8109ca714f7ba",
+        "observation_id": "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004421"
+      }
+    },
+    "purpose": "learn",
+    "question": "Compare early left blue entry difficulties, including the large endpoint residual, with later opposing-end placements. What did fresh aperture/peg localization and face-to-grasp height measurements distinguish? Retain useful recovery evidence without attributing success to grasp orientation alone; include failures and separate planner rejection from physical response.",
+    "provided_sources": [
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e001963",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e001966",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e001985",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e001986",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002005",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002006",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002009",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002040",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002041",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002044",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002066",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002067",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002070",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002098",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002099",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002102",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002148",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002149",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002151",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002152",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002222",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002223",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002346",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002351",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002353",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002359",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002361",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002417",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002418",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002464",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002465",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002520",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002521",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002524",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002546",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002547",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002566",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002567",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002658",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002659",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002695",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002696",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e002699",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003002",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003038",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003039",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003042",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003103",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003143",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003144",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003217",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003218",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003221",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003273",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003274",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003310",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003311",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003347",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003348",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003351",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003370",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003371",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003384",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003385",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003488",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003489",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003583",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003584",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003587",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003775",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003809",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003810",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003895",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003896",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e003899",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004018",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004019",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004055",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004056",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004096",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004097",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004100",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004122",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004123",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004142",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004143",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004173",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004174",
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303:e004177"
+    ],
+    "source_frontier": {
+      "single_e12_history_index": 33,
+      "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114": 3582,
+      "stacktoy_v3_repeat50_01_20261026_e02_20261025T180147": 3127,
+      "stacktoy_v3_repeat50_01_20261026_e03_20261025T185652": 3577,
+      "stacktoy_v3_repeat50_01_20261026_e04_20261025T195227": 2894,
+      "stacktoy_v3_repeat50_01_20261026_e05_20261025T204931": 3446,
+      "stacktoy_v3_repeat50_01_20261026_e06_20261025T215322": 4711,
+      "stacktoy_v3_repeat50_01_20261026_e07_20261025T232344": 3340,
+      "stacktoy_v3_repeat50_01_20261026_e08_20261026T002430": 2654,
+      "stacktoy_v3_repeat50_01_20261026_e09_20261026T010710": 3237,
+      "stacktoy_v3_repeat50_01_20261026_e10_20261026T042635": 3607,
+      "stacktoy_v3_repeat50_01_20261026_e11_20261026T054356": 3060,
+      "stacktoy_v3_repeat50_01_e09_terminal_recovery_20261026T035436": 69,
+      "stacktoy_v3_repeat50_01_e11_astra_high_20261026T115443": 52,
+      "stacktoy_v3_repeat50_01_e11_terminal_recovery_20261026T104820": 1,
+      "stacktoy_v4_e12_zero_restore_20261026T143918": 3362,
+      "stacktoy_v4_repeat50_01_20261026_e12_20261026T124803": 42,
+      "stacktoy_v4_repeat50_runtime08_20261027_e13_20261026T174843": 3167,
+      "stacktoy_v4_repeat50_runtime12_20261027_e14_20261026T192845": 3551,
+      "stacktoy_v4_repeat50_runtime14_20261027_e15_20261026T205247": 3967,
+      "stacktoy_v4_repeat50_runtime17_20261027_e16_20261026T222340": 4689,
+      "stacktoy_v4_repeat50_runtime17_20261027_e17_20261026T233945": 3711,
+      "stacktoy_v4_repeat50_runtime18_20261027_e18_20261027T004845": 3788,
+      "stacktoy_v4_repeat50_runtime18_20261027_e19_20261027T020206": 3234,
+      "stacktoy_v4_repeat50_runtime18_20261027_e20_20261027T034122": 4397,
+      "stacktoy_v4_repeat50_runtime19_20261027_e21_20261027T054321": 3999,
+      "stacktoy_v4_repeat50_runtime20_20261027_e22_20261027T152149": 2718,
+      "stacktoy_v4_repeat50_runtime20_20261027_e23_20261028T021436": 3414,
+      "stacktoy_v4_repeat50_runtime21_20261028_e24_20261028T041817": 3648,
+      "stacktoy_v4_repeat50_runtime21_20261028_e25_20261028T061113": 3203,
+      "stacktoy_v4_repeat50_runtime22_20261028_e26_20261028T083223": 3625,
+      "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303": 3063,
+      "stacktoy_v4_repeat50_runtime28_20261029_e28_20261028T182303": 4430
+    },
+    "case_revision_at_request": 226,
+    "knowledge_revision_at_request": 32,
+    "default_ids": [
+      "n2c1aeaca492943b",
+      "na3b42232973b415",
+      "n032628c262d84c5"
+    ],
+    "default_versions": {
+      "n2c1aeaca492943b": 33,
+      "na3b42232973b415": 28,
+      "n032628c262d84c5": 32
+    },
+    "history_ids": [],
+    "history_versions": {},
+    "local_handles": {
+      "c14": [
+        "k6a683795d6545106",
+        227
+      ],
+      "c1": [
+        "k347ffb0c8f8e77f7",
+        228
+      ],
+      "c2": [
+        "ke227ce8acfdc3629",
+        229
+      ],
+      "c3": [
+        "k5938f3d04586ac98",
+        230
+      ],
+      "c4": [
+        "k2f463e4f0ee260a0",
+        231
+      ],
+      "c5": [
+        "k6ec5f1f0c0e6d62d",
+        232
+      ],
+      "c6": [
+        "k2c6ce62773c14697",
+        233
+      ],
+      "c7": [
+        "k9b24adac927de21f",
+        234
+      ],
+      "c8": [
+        "k98f9e0f6246b1d49",
+        235
+      ],
+      "c9": [
+        "k90ddb2234dcb3110",
+        236
+      ],
+      "c10": [
+        "k471a76163783bdbd",
+        237
+      ],
+      "c11": [
+        "k27e85ddd524fe18d",
+        238
+      ],
+      "c12": [
+        "k213b1763c0e9c220",
+        239
+      ],
+      "c13": [
+        "kcf358037df505277",
+        240
+      ],
+      "c15": [
+        "k9bc3b506f5baac0a",
+        241
+      ],
+      "c16": [
+        "k3d7e34997bbd459e",
+        242
+      ],
+      "c17": [
+        "ke04789a3f580fbdf",
+        243
+      ],
+      "c18": [
+        "k7752ef1d944b98b6",
+        244
+      ],
+      "c19": [
+        "k450ea966afa5bc0a",
+        245
+      ],
+      "c20": [
+        "k36f5316da8ced757",
+        246
+      ],
+      "c21": [
+        "keb9ebef14f99f3b8",
+        247
+      ],
+      "c22": [
+        "k988e13e024f77681",
+        248
+      ],
+      "c23": [
+        "kb21ec04a262536ca",
+        249
+      ],
+      "c24": [
+        "k83056be03b2fa381",
+        250
+      ],
+      "c25": [
+        "k8d42e4850f8a11e8",
+        251
+      ],
+      "c26": [
+        "ka7f5ad77e52f1eef",
+        252
+      ],
+      "c27": [
+        "k890ccdc610703622",
+        253
+      ],
+      "c28": [
+        "k8c96110b74131026",
+        254
+      ],
+      "c29": [
+        "kf79f3475509f00d0",
+        255
+      ],
+      "c30": [
+        "k5ef0fdfba0a92530",
+        256
+      ],
+      "c31": [
+        "ke96f86f38e0c1de7",
+        257
+      ],
+      "k1": [
+        "n2c1aeaca492943b",
+        33
+      ]
+    }
+  }
+}

@@ -1,0 +1,3972 @@
+{
+  "A": {
+    "run": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143",
+    "events": [
+      {
+        "event": 1808,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e001808.json",
+        "sha256": "1204d5d23c4a370680b64fd49bf044e7879604b36b2ad69ef36d68b8ec2f4448",
+        "tool": "query_experience",
+        "arguments": {
+          "level": "knowledge",
+          "ids": [
+            "n2c1aeaca492943b"
+          ]
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e001806"
+      },
+      {
+        "event": 1809,
+        "kind": "experience_query",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e001809.json",
+        "sha256": "8fcd18ee64d74449bb26fa060fd27bfd181cb56cf0e6b4192ceeb2d4feb1e152",
+        "question": "Read selected immutable records",
+        "records": [
+          {
+            "id": "n2c1aeaca492943b",
+            "revision": 33,
+            "domain": "external",
+            "family": "contact_response",
+            "question": "In E28 blue recovery, what did opposing-end grasps enable, and what did fresh localization, face-to-grasp height and endpoint feedback distinguish from orientation alone?",
+            "text": "IF a left opposing-end grasp exposes the aperture and retains blue after lift/transport, E28 supplies a combined candidate: inspect current aperture/peg relation and noncollinear face height, correct the measured relation, use staged entry, then open and withdraw vertically. The first recovery, shallow third pickup and final left regrasp supported this chain; clear-hand peg/aperture persistence and layer-consistent face heights supported the results.\nThis is not an orientation-only success rule. Early widthwise entry changed bar-to-jaw presentation. Free-space leveling restored agreeing face samples, but renewed entry still lacked visible passage and had a large measured endpoint residual despite complete execution. Lift-away retained blue. A later opposing-end pickup also missed its descent endpoint yet retained on lift.\nFresh tip/aperture picks distinguished XY registration from face level; earlier selected peg surfaces were not interchangeable with tip localization. The shallow third capture put the face below the grasp point, unlike the above-grasp face in the first/final captures. Historical hand height therefore did not specify object height. Fresh tabletop aperture picks also differed from the prior hand target, without establishing object displacement.\nPlanner rejections executed no actions, unlike witnessed entry nonarrival and actual releases. Grasp, localization, pickup depth, attitude, piece/layer and release setup changed together.",
+            "conditions": {
+              "candidate": "Retention checked after lift/transport; first recovery, shallow third capture and final regrasp have distinct held geometry.",
+              "feedback": "Viewed RGB, exact receipts, source-time EEF and RGB-selected simulator optical-Z surfaces; proxies, not certified axes or realistic-noise tolerances.",
+              "grasp": "E28 early left widthwise capture versus later left opposing outer-end captures with exposed aperture; equivalence is not assumed.",
+              "scope": "One sequential changed-condition trace, not controlled replication; useful sequence steps are not thereby proved necessary."
+            },
+            "params": [],
+            "depends_on": [
+              "body",
+              "cameras",
+              "depth",
+              "execution"
+            ],
+            "strength": "observation",
+            "use": "Keep the complete tried combination as a conditional candidate, not a preferred recipe. Reassess object-to-hand geometry after capture changes. Tilt/drift, loss of peg-aperture persistence after opening/clearance, or inconsistent unloaded height disconfirms the corresponding positive response. Distinguish level, XY registration, signed face height, measured tracking and released outcome; neither command completion nor aperture color substitutes for these checks. Separate zero-action planner rejection from executed physical response.",
+            "unknowns": [
+              "True bore/peg axes, contact forces, exact interference/slip and endpoint-residual mechanisms.",
+              "Isolated effects of grasp, localization, attitude, pickup depth and release setup; repeatability and realistic sensor-noise tolerance.",
+              "Second-blue acquisition/entry and intervening right work were not continuously reviewed; gaps do not inherit success.",
+              "Hidden support, seating tolerance, independent assignment correctness and longer-term stability."
+            ],
+            "status": "active",
+            "applicability": {
+              "changed_dependencies": [],
+              "unknown_conditions": [
+                "candidate",
+                "feedback",
+                "grasp",
+                "scope"
+              ],
+              "unknown_dependencies": []
+            },
+            "support_cases": 30,
+            "support_episodes": 1,
+            "source_lineages": 1,
+            "counter_cases": 0,
+            "related_cases": 0,
+            "source_contested": false,
+            "default_eligible": true,
+            "drill_down": {
+              "qualification": "Secondary evidence; IF premises are not established current state or verified physics",
+              "source_refs": [
+                {
+                  "type": "knowledge",
+                  "id": "na3b42232973b415",
+                  "revision": 28,
+                  "relation": "related"
+                },
+                {
+                  "type": "knowledge",
+                  "id": "n032628c262d84c5",
+                  "revision": 32,
+                  "relation": "related"
+                },
+                {
+                  "type": "knowledge",
+                  "id": "n663481d0057e437",
+                  "revision": 23,
+                  "relation": "related"
+                }
+              ],
+              "support_source_refs_omitted": 30
+            },
+            "view": "statement",
+            "complete_record": false,
+            "statement_complete": true,
+            "continuation": "08cf339cb843b53f065aa08725c43ee7"
+          }
+        ]
+      },
+      {
+        "event": 1815,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e001815.json",
+        "sha256": "b82c76e933c5407958ec3db245b389ac1294815a9e8e6975a8bfb12488174458",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_x": -0.269,
+            "left_y": -0.2072,
+            "left_z": 0.86,
+            "left_yaw_deg": 121.3,
+            "right_x": 0.3,
+            "right_y": -0.2,
+            "right_z": 0.92
+          },
+          "note": "The fourth orange layer is level at z≈0.8270, completing the observed four-disk stack. Approach the nearer blue bar with jaw closure aligned along its measured long axis for an opposing-end grasp, while clearing the right hand from peg two."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e001806"
+      },
+      {
+        "event": 1931,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e001931.json",
+        "sha256": "efdc0ea3726283f0f300de6980ae44eb4e55301dd4cb9462efa21cd41ef999fa",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_z": 0.87
+          },
+          "note": "The jaws bracket the blue bar's opposing ends and its aperture is unobstructed. Lift vertically to check retention and held-face attitude before transporting it to peg two."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e001929"
+      },
+      {
+        "event": 1966,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e001966.json",
+        "sha256": "dfa959b44dc319809389a850a8bbef029b80e2b3305ea4774de977445401b1b6",
+        "tool": "inspect_surface",
+        "arguments": {
+          "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e001964",
+          "samples": [
+            {
+              "label": "blue_aperture_left_rim",
+              "camera": "cam_left_wrist",
+              "pixel_uv": [
+                285,
+                316
+              ]
+            },
+            {
+              "label": "blue_aperture_right_rim",
+              "camera": "cam_left_wrist",
+              "pixel_uv": [
+                355,
+                316
+              ]
+            },
+            {
+              "label": "blue_far_face",
+              "camera": "cam_left_wrist",
+              "pixel_uv": [
+                320,
+                267
+              ]
+            }
+          ],
+          "attachment_updates": [
+            {
+              "arm": "left",
+              "tool": "first blue bar",
+              "state": "visually_supported",
+              "grip_region": "opposing outer ends with exposed aperture",
+              "binding_event": "regrasp"
+            }
+          ]
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e001964"
+      },
+      {
+        "event": 1971,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e001971.json",
+        "sha256": "7ee7615522baa704cd77bbf95f5cb52a826a60f86b71bc6c8048dc21a3e51e6a",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_x": -0.0344,
+            "left_y": -0.2229,
+            "left_z": 0.84
+          },
+          "note": "The lifted blue bar remains retained with a nearly level face and an exposed aperture. Translate its measured aperture offset above peg two, provisionally matching the three blue pieces to the second-tallest peg, and stop above entry."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e001964"
+      },
+      {
+        "event": 2024,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e002024.json",
+        "sha256": "78790ed06826f6028907173487f5095edf80c96df06c03df46632411273bfa8a",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_x": -0.0344,
+            "left_y": -0.2229,
+            "left_z": 0.813
+          },
+          "note": "The blue bar retained its presentation through transport and the peg is visible at the aperture edge. Correct the small arrival residual while lowering to shallow entry, then inspect passage before seating."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e002022"
+      },
+      {
+        "event": 2041,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e002041.json",
+        "sha256": "332bc2af7074fd5527719b7817eac88c9a1c9c757c77960acb7286e2c6529ee3",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_z": 0.784,
+            "left_gripper": 1
+          },
+          "note": "The peg is visibly inside the blue aperture, with the bar retaining its level presentation. Lower to the first-layer support region and open, then check unloaded seating after withdrawing the hand."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e002039"
+      },
+      {
+        "event": 2067,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e002067.json",
+        "sha256": "9d5d71417d74b5f7f028a53f7d8427d809736fdb7674199d0f48ba4db3c74eed",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_z": 0.89
+          },
+          "note": "The pads have separated and the first blue bar remains threaded on peg two. Withdraw vertically to inspect its unloaded seating and clear the hand for the next pickup.",
+          "attachment_updates": [
+            {
+              "arm": "left",
+              "tool": "first blue bar",
+              "state": "released"
+            }
+          ]
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e002065"
+      },
+      {
+        "event": 2104,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e002104.json",
+        "sha256": "87c5b6cb4cf4b8faa0d8bd13da046eecb75a2f3077ab7f5367f6006c8879814d",
+        "tool": "inspect_surface",
+        "arguments": {
+          "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e002102",
+          "samples": [
+            {
+              "label": "blue_layer_left_face",
+              "camera": "cam_left_wrist",
+              "pixel_uv": [
+                270,
+                145
+              ]
+            },
+            {
+              "label": "blue_layer_right_face",
+              "camera": "cam_left_wrist",
+              "pixel_uv": [
+                365,
+                145
+              ]
+            },
+            {
+              "label": "blue_layer_far_face",
+              "camera": "cam_left_wrist",
+              "pixel_uv": [
+                319,
+                123
+              ]
+            },
+            {
+              "label": "right_blue_end_a",
+              "camera": "cam_head",
+              "pixel_uv": [
+                421,
+                224
+              ]
+            },
+            {
+              "label": "right_blue_end_b",
+              "camera": "cam_head",
+              "pixel_uv": [
+                425,
+                240
+              ]
+            },
+            {
+              "label": "peg_two_tip",
+              "camera": "cam_left_wrist",
+              "pixel_uv": [
+                317,
+                178
+              ],
+              "radius": 0
+            }
+          ]
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143:e002102"
+      },
+      {
+        "event": 2105,
+        "kind": "surface_inspection",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e35_20261029T195143/events/e002105.json",
+        "sha256": "52c71f2536007e459a77fe3259771424515e7ee45eb001655760b0d5e3f919ba",
+        "samples": [
+          {
+            "label": "blue_layer_left_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              270.0,
+              145.0
+            ],
+            "sampled_pixel_uv": [
+              270,
+              145
+            ],
+            "radius": 1,
+            "depth_sha256": "704b97ffdcbf50336c3946cba5b3b072b4f930e4025ee5647ccae090ecdbf920",
+            "rgb_sha256": "822696bd584576262cce1d1b51b1f987d4097868afa30af45e0a856c3e76ab55",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.00043508410453796387,
+            "patch_depth_m": [
+              [
+                0.16742655634880066,
+                0.1674281358718872,
+                0.16742968559265137
+              ],
+              [
+                0.1676422357559204,
+                0.16764381527900696,
+                0.1676453948020935
+              ],
+              [
+                0.16785848140716553,
+                0.16786006093025208,
+                0.16786164045333862
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.16764381527900696,
+            "world_xyz_m": [
+              -0.02485670995780745,
+              -0.24043416770052836,
+              0.788229105024837
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.24997490875377348,
+                  0.020899128979264537,
+                  0.001667432519399114
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.09987490875377347,
+                  0.020899128979264537,
+                  0.001667432519399114
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.025232208319104516,
+                      -0.09240490642919236,
+                      -0.014192142793841343,
+                      0.1074049070252388
+                    ],
+                    "minimum_projected_edge_margin_m": -0.09240490642919236,
+                    "inward_distance_from_face_plane_m": 0.02347521444791671
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.025232144175427018,
+                      -0.09240490642919236,
+                      -0.014192198535476366,
+                      0.10740490702523882
+                    ],
+                    "minimum_projected_edge_margin_m": -0.09240490642919236,
+                    "inward_distance_from_face_plane_m": 0.06527552780490999
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.28288687557579983,
+                  0.04381414969346297,
+                  0.3224948290331552
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13278687557579982,
+                  0.04381414969346297,
+                  0.3224948290331552
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.2649511733851266,
+                      -0.1253168732512187,
+                      -0.3354998960090136,
+                      0.14031687384726516
+                    ],
+                    "minimum_projected_edge_margin_m": -0.3354998960090136,
+                    "inward_distance_from_face_plane_m": 0.000587202088382123
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.26495124910039786,
+                      -0.1253168732512187,
+                      -0.33549995258435084,
+                      0.14031687384726516
+                    ],
+                    "minimum_projected_edge_margin_m": -0.33549995258435084,
+                    "inward_distance_from_face_plane_m": 0.08821948657414687
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "blue_layer_right_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              365.0,
+              145.0
+            ],
+            "sampled_pixel_uv": [
+              365,
+              145
+            ],
+            "radius": 1,
+            "depth_sha256": "704b97ffdcbf50336c3946cba5b3b072b4f930e4025ee5647ccae090ecdbf920",
+            "rgb_sha256": "822696bd584576262cce1d1b51b1f987d4097868afa30af45e0a856c3e76ab55",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.0004400312900543213,
+            "patch_depth_m": [
+              [
+                0.1676512062549591,
+                0.16765433549880981,
+                0.1676579713821411
+              ],
+              [
+                0.16786745190620422,
+                0.16787061095237732,
+                0.1678743064403534
+              ],
+              [
+                0.1680842936038971,
+                0.1680874526500702,
+                0.16809123754501343
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.16787061095237732,
+            "world_xyz_m": [
+              -0.04553531065429231,
+              -0.20603189433931957,
+              0.7882100228295374
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.250198017931473,
+                  -0.019238971151549423,
+                  0.001600772953255676
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.100098017931473,
+                  -0.019238971151549423,
+                  0.001600772953255676
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.02537120770895894,
+                      -0.09262801560689188,
+                      -0.014168503724410518,
+                      0.10762801620293833
+                    ],
+                    "minimum_projected_edge_margin_m": -0.09262801560689188,
+                    "inward_distance_from_face_plane_m": 0.06361331457873066
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.025371143549921184,
+                      -0.09262801560689188,
+                      -0.014168559459107017,
+                      0.10762801620293831
+                    ],
+                    "minimum_projected_edge_margin_m": -0.09262801560689188,
+                    "inward_distance_from_face_plane_m": 0.025137427674096022
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.2832145675453741,
+                  0.009518926298322395,
+                  0.3433479240927538
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.1331145675453741,
+                  0.009518926298322395,
+                  0.3433479240927538
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.2844325220262657,
+                      -0.12564456522079298,
+                      -0.35604451341604004,
+                      0.14064456581683943
+                    ],
+                    "minimum_projected_edge_margin_m": -0.35604451341604004,
+                    "inward_distance_from_face_plane_m": 0.0348824254835227
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.2844325983537176,
+                      -0.12564456522079298,
+                      -0.3560445700988629,
+                      0.14064456581683943
+                    ],
+                    "minimum_projected_edge_margin_m": -0.3560445700988629,
+                    "inward_distance_from_face_plane_m": 0.053924263179006296
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "blue_layer_far_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              319.0,
+              123.0
+            ],
+            "sampled_pixel_uv": [
+              319,
+              123
+            ],
+            "radius": 1,
+            "depth_sha256": "704b97ffdcbf50336c3946cba5b3b072b4f930e4025ee5647ccae090ecdbf920",
+            "rgb_sha256": "822696bd584576262cce1d1b51b1f987d4097868afa30af45e0a856c3e76ab55",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.00039336085319519043,
+            "patch_depth_m": [
+              [
+                0.16295382380485535,
+                0.16295671463012695,
+                0.16295957565307617
+              ],
+              [
+                0.1631462275981903,
+                0.16314882040023804,
+                0.16315129399299622
+              ],
+              [
+                0.16334205865859985,
+                0.1633445918560028,
+                0.16334718465805054
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.16314882040023804,
+            "world_xyz_m": [
+              -0.04338226177396641,
+              -0.2274411828840418,
+              0.7881982272957456
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2500673896472203,
+                  0.00020406407271402263,
+                  0.01081731851687491
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.0999673896472203,
+                  0.00020406407271402263,
+                  0.01081731851687491
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.016666654737484327,
+                      -0.09249738732263918,
+                      -0.02319705497708245,
+                      0.10749738791868563
+                    ],
+                    "minimum_projected_edge_margin_m": -0.09249738732263918,
+                    "inward_distance_from_face_plane_m": 0.044170279354467226
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.016666590329158674,
+                      -0.09249738732263918,
+                      -0.023197110767389232,
+                      0.10749738791868564
+                    ],
+                    "minimum_projected_edge_margin_m": -0.09249738732263918,
+                    "inward_distance_from_face_plane_m": 0.04458046289835947
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.28308395802379993,
+                  0.030916581850516794,
+                  0.34108591776442865
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13298395802379992,
+                  0.030916581850516794,
+                  0.34108591776442865
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.2823518522820491,
+                      -0.1255139556992188,
+                      -0.3537981421418421,
+                      0.14051395629526525
+                    ],
+                    "minimum_projected_edge_margin_m": -0.3537981421418421,
+                    "inward_distance_from_face_plane_m": 0.0134847699313283
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.2823519285357516,
+                      -0.1255139556992188,
+                      -0.3537981988158025,
+                      0.14051395629526525
+                    ],
+                    "minimum_projected_edge_margin_m": -0.3537981988158025,
+                    "inward_distance_from_face_plane_m": 0.0753219187312007
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "right_blue_end_a",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              421.0,
+              224.0
+            ],
+            "sampled_pixel_uv": [
+              421,
+              224
+            ],
+            "radius": 1,
+            "depth_sha256": "1c8089b244538a8fc71b582d1dcd4c40467895b6e8c8c8c11c29be732b9d114b",
+            "rgb_sha256": "32e521e55a9ef3d01652933c7679b3de6eec247cb1fd984e3df1e84aacefda08",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.0026110410690307617,
+            "patch_depth_m": [
+              [
+                0.6329865455627441,
+                0.6329858303070068,
+                0.6329854130744934
+              ],
+              [
+                0.6316744089126587,
+                0.6316754817962646,
+                0.6316761374473572
+              ],
+              [
+                0.6303755044937134,
+                0.6303772926330566,
+                0.6303791999816895
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.6316754817962646,
+            "world_xyz_m": [
+              0.22251933008783886,
+              -0.06473397008419468,
+              0.7779434005900017
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.26181141016899634,
+                  -0.0016850281293684655,
+                  -0.30085713413386417
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.11171141016899633,
+                  -0.0016850281293684655,
+                  -0.30085713413386417
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.3135348930850691,
+                      -0.10424140784441521,
+                      0.2807461249906908,
+                      0.11924140844046166
+                    ],
+                    "minimum_projected_edge_margin_m": -0.3135348930850691,
+                    "inward_distance_from_face_plane_m": 0.04605937155654971
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.31353483654085884,
+                      -0.10424140784441521,
+                      0.28074607129650403,
+                      0.11924140844046166
+                    ],
+                    "minimum_projected_edge_margin_m": -0.31353483654085884,
+                    "inward_distance_from_face_plane_m": 0.04269137069627698
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.29311288342912856,
+                  -0.13308305109641508,
+                  0.07597085562915959
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.14301288342912855,
+                  -0.13308305109641508,
+                  0.07597085562915959
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.02981773734200399,
+                      -0.13554288110454743,
+                      -0.09526678514309699,
+                      0.15054288170059388
+                    ],
+                    "minimum_projected_edge_margin_m": -0.13554288110454743,
+                    "inward_distance_from_face_plane_m": 0.17748440287826017
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.029817806909404245,
+                      -0.13554288110454743,
+                      -0.09526684003291,
+                      0.15054288170059388
+                    ],
+                    "minimum_projected_edge_margin_m": -0.13554288110454743,
+                    "inward_distance_from_face_plane_m": -0.08867771421573117
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "right_blue_end_b",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              425.0,
+              240.0
+            ],
+            "sampled_pixel_uv": [
+              425,
+              240
+            ],
+            "radius": 1,
+            "depth_sha256": "1c8089b244538a8fc71b582d1dcd4c40467895b6e8c8c8c11c29be732b9d114b",
+            "rgb_sha256": "32e521e55a9ef3d01652933c7679b3de6eec247cb1fd984e3df1e84aacefda08",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.002364814281463623,
+            "patch_depth_m": [
+              [
+                0.6126845479011536,
+                0.6126845479011536,
+                0.6126853823661804
+              ],
+              [
+                0.6114797592163086,
+                0.6114813685417175,
+                0.6114837527275085
+              ],
+              [
+                0.6103205680847168,
+                0.6103276014328003,
+                0.6103355288505554
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.6114813685417175,
+            "world_xyz_m": [
+              0.22389447143351246,
+              -0.10517819874649437,
+              0.7779110621617773
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2615708135997765,
+                  0.03365398499065088,
+                  -0.28114105043103704
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.11147081359977651,
+                  0.03365398499065088,
+                  -0.28114105043103704
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.2949273623348371,
+                      -0.10400081127519539,
+                      0.26142491557505565,
+                      0.11900081187124184
+                    ],
+                    "minimum_projected_edge_margin_m": -0.2949273623348371,
+                    "inward_distance_from_face_plane_m": 0.010720358436530367
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.29492730525434796,
+                      -0.10400081127519538,
+                      0.2614248617630499,
+                      0.11900081187124183
+                    ],
+                    "minimum_projected_edge_margin_m": -0.29492730525434796,
+                    "inward_distance_from_face_plane_m": 0.07803038381629632
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.2928886785309892,
+                  -0.09264695832883497,
+                  0.07438977200132407
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.1427886785309892,
+                  -0.09264695832883497,
+                  0.07438977200132407
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.02840889673135676,
+                      -0.13531867620640808,
+                      -0.09367170598468649,
+                      0.15031867680245453
+                    ],
+                    "minimum_projected_edge_margin_m": -0.13531867620640808,
+                    "inward_distance_from_face_plane_m": 0.13704831011068008
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.028408966236939958,
+                      -0.13531867620640808,
+                      -0.09367176087221529,
+                      0.15031867680245453
+                    ],
+                    "minimum_projected_edge_margin_m": -0.13531867620640808,
+                    "inward_distance_from_face_plane_m": -0.04824162144815108
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "peg_two_tip",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              317.0,
+              178.0
+            ],
+            "sampled_pixel_uv": [
+              317,
+              178
+            ],
+            "radius": 0,
+            "depth_sha256": "704b97ffdcbf50336c3946cba5b3b072b4f930e4025ee5647ccae090ecdbf920",
+            "rgb_sha256": "822696bd584576262cce1d1b51b1f987d4097868afa30af45e0a856c3e76ab55",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.14143109321594238
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.14143109321594238,
+            "world_xyz_m": [
+              -0.033120010727220255,
+              -0.22223827314985,
+              0.8200397149414105
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2182768360966928,
+                  0.0008893698003042162,
+                  -0.0008083196483354704
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.06817683609669278,
+                  0.0008893698003042162,
+                  -0.0008083196483354704
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.01670874059083508,
+                      -0.06070683377211167,
+                      -0.005816209765834036,
+                      0.07570683436815812
+                    ],
+                    "minimum_projected_edge_margin_m": -0.06070683377211167,
+                    "inward_distance_from_face_plane_m": 0.04348497362687703
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.01670867896566011,
+                      -0.06070683377211166,
+                      -0.005816266426155016,
+                      0.07570683436815812
+                    ],
+                    "minimum_projected_edge_margin_m": -0.06070683377211166,
+                    "inward_distance_from_face_plane_m": 0.045265768625949665
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.251228055047119,
+                  0.025465116621697023,
+                  0.3309989274235551
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.10112805504711897,
+                  0.025465116621697023,
+                  0.3309989274235551
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.28377784368872544,
+                      -0.09365805272253785,
+                      -0.33791639514984245,
+                      0.10865805331858432
+                    ],
+                    "minimum_projected_edge_margin_m": -0.33791639514984245,
+                    "inward_distance_from_face_plane_m": 0.01893623516014807
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.28377791719753054,
+                      -0.09365805272253785,
+                      -0.3379164527043819,
+                      0.1086580533185843
+                    ],
+                    "minimum_projected_edge_margin_m": -0.3379164527043819,
+                    "inward_distance_from_face_plane_m": 0.06987045350238091
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "B": {
+    "run": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943",
+    "events": [
+      {
+        "event": 424,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/events/e000424.json",
+        "sha256": "2e6c90c60f85ccab538ceb8c4655fc466d868f82448922c8ece2dd60a01cc1f5",
+        "tool": "query_body_history",
+        "arguments": {
+          "arm": "left",
+          "point": "grasp",
+          "target": {
+            "x": 0.0,
+            "y": 0.1,
+            "z": 1.05
+          },
+          "tolerance_m": 0.18,
+          "limit": 3
+        },
+        "observation_id": "main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943:e000414"
+      },
+      {
+        "event": 425,
+        "kind": "body_history_query",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/events/e000425.json",
+        "sha256": "9a1a80335a190cc914f26996e4b939822af81c2cf7cb51040a864e09fe1e541e",
+        "records": [
+          {
+            "id": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001954/left",
+            "arm": "left",
+            "run": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953",
+            "before": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001934",
+            "receipt": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001953",
+            "post": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001954",
+            "execution": "complete",
+            "executed_actions": 4,
+            "duration_s": 0.16,
+            "requested": {
+              "left_pitch_deg": 85.0,
+              "left_z": 1.06
+            },
+            "measured": {
+              "grasp_world_m_wxyz": [
+                0.07959075778572278,
+                0.05578567241800457,
+                1.053771555004592,
+                0.9752551913261414,
+                -0.011402572505176067,
+                0.04838450998067856,
+                0.21542072296142578
+              ],
+              "flange_world_m_wxyz": [
+                -0.055875346064567566,
+                -0.0071177855134010315,
+                1.0686745643615723,
+                0.9752551913261414,
+                -0.011402572505176067,
+                0.04838450998067856,
+                0.21542072296142578
+              ],
+              "finger_displacements_m": [
+                0.024238228797912598,
+                0.024375535547733307
+              ]
+            },
+            "position_error_m": 0.006300437769482648,
+            "orientation_error_deg": 0.7148707987133581
+          },
+          {
+            "id": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001271/left",
+            "arm": "left",
+            "run": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953",
+            "before": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001160",
+            "receipt": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001270",
+            "post": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001271",
+            "execution": "complete",
+            "executed_actions": 33,
+            "duration_s": 1.32,
+            "requested": {
+              "left_pitch_deg": 60.0,
+              "left_x": -0.08,
+              "left_y": 0.04,
+              "left_yaw_deg": 0.0,
+              "left_z": 1.04
+            },
+            "measured": {
+              "grasp_world_m_wxyz": [
+                -0.08063282438961147,
+                0.03950979246011582,
+                1.0381958719502984,
+                0.682560920715332,
+                -0.18370772898197174,
+                0.1863984316587448,
+                0.6823617815971375
+              ],
+              "flange_world_m_wxyz": [
+                -0.08052414655685425,
+                -0.09002971649169922,
+                1.1140214204788208,
+                0.682560920715332,
+                -0.18370772898197174,
+                0.1863984316587448,
+                0.6823617815971375
+              ],
+              "finger_displacements_m": [
+                0.024664971977472305,
+                0.024798007681965828
+              ]
+            },
+            "position_error_m": 0.001973846167892196,
+            "orientation_error_deg": 0.4011085339205701
+          },
+          {
+            "id": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e002004/left",
+            "arm": "left",
+            "run": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953",
+            "before": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e001954",
+            "receipt": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e002003",
+            "post": "main42_rgb_v4_runtime24_20261028_r01_t03_pack_objects_into_box_20261028T115953:e002004",
+            "execution": "complete",
+            "executed_actions": 13,
+            "duration_s": 0.52,
+            "requested": {
+              "left_pitch_deg": 85.0,
+              "left_roll_deg": 0.0,
+              "left_x": 0.135,
+              "left_y": 0.115,
+              "left_yaw_deg": -40.0,
+              "left_z": 1.0
+            },
+            "measured": {
+              "grasp_world_m_wxyz": [
+                0.13407853861721408,
+                0.11494303385847333,
+                1.0011348761129888,
+                0.9062978625297546,
+                -0.018101422116160393,
+                0.03940773010253906,
+                0.42040878534317017
+              ],
+              "flange_world_m_wxyz": [
+                0.03750315308570862,
+                0.0007762983441352844,
+                1.0141410827636719,
+                0.9062978625297546,
+                -0.018101422116160393,
+                0.03940773010253906,
+                0.42040878534317017
+              ],
+              "finger_displacements_m": [
+                0.02449868991971016,
+                0.024061396718025208
+              ]
+            },
+            "position_error_m": 0.0014632323620787082,
+            "orientation_error_deg": 0.2325870491090405
+          }
+        ],
+        "qualification": "Endpoints are observations, not a calibrated workspace envelope or current collision/retention guarantee. Failed plans are separate computational evidence; ask manager to interpret needed sources. matching_observations counts recorded endpoints, not independent trials; replay belongs to the source lineage.",
+        "target": {
+          "x": 0.0,
+          "y": 0.1,
+          "z": 1.05
+        }
+      },
+      {
+        "event": 428,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/events/e000428.json",
+        "sha256": "0c7d4eb95bb05920102b9d6fb70e0b6398329df4e3ea4805a242e70205e3cdbf",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_x": -0.06,
+            "left_y": 0.04,
+            "left_z": 1.03,
+            "left_pitch_deg": 55,
+            "left_yaw_deg": -60
+          },
+          "note": "The downward rack approach was rejected without motion; historical endpoints suggest a tilted wrist can reach this region. Use a nearer staging pose with the handle turned toward the rack, then check retained mug geometry before peg contact.",
+          "max_joint_travel_deg": 120
+        },
+        "observation_id": "main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943:e000414"
+      },
+      {
+        "event": 499,
+        "kind": "receipt",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/events/e000499.json",
+        "sha256": "a72141b9f0499999cc60054ff5869bab4482982b64d509dde4e3c8ce5449e6f9",
+        "executed_actions": 22,
+        "planned_actions": 22,
+        "before_observation": "main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943:e000414",
+        "env_start": 115,
+        "env_end": 137,
+        "failure_type": null
+      },
+      {
+        "event": 500,
+        "kind": "observation",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/events/e000500.json",
+        "sha256": "9c29e32d540b3acc5f9be1387e78e5ee806abaa181a1136f4449b789f50e5beb",
+        "images": {
+          "cam_head": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/observations/000145_cam_head.jpg",
+            "sha256": "c9712c753957a5e97c46fb91a49ead9955a9b157dfd1ebfb086889a4f231dde3"
+          },
+          "cam_left_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/observations/000145_cam_left_wrist.jpg",
+            "sha256": "b758da7f3133aefef538b841e33462906308804ee27906363d79ad323ab2da11"
+          },
+          "cam_right_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/observations/000145_cam_right_wrist.jpg",
+            "sha256": "606dab3acd4eaf566594a0e8be926459157dd61256a86e41b322ac099280e82d"
+          }
+        },
+        "env_step": 137,
+        "after_receipt": "main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943:e000499"
+      },
+      {
+        "event": 502,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943/events/e000502.json",
+        "sha256": "82e3d07785e5bcfa6074af486135669e929000ef69b1e6fb449ff11128c35479",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_x": 0.075,
+            "left_y": 0.055,
+            "left_z": 1.015,
+            "left_pitch_deg": 70,
+            "left_yaw_deg": -90
+          },
+          "note": "The mug remained fixed in the jaws during transport. Bring its exposed handle above the lower left peg with a more horizontal handle opening, leaving a separate observation before lowering onto the peg."
+        },
+        "observation_id": "main42_rgb_v4_runtime29_20261029_r01_t05_hang_mugs_20261029T032943:e000500"
+      }
+    ]
+  },
+  "C": {
+    "run": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709",
+    "events": [
+      {
+        "event": 1955,
+        "kind": "management_request",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e001955.json",
+        "sha256": "34b7d365b5920b479ed708f75b4190294b34d4cb2e42ec02ebfd4dafc60051ed"
+      },
+      {
+        "event": 1983,
+        "kind": "manager_group_publication",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e001983.json",
+        "sha256": "ebd2eae43cca84906dbf381b853524bf1c1124c7e5351122380782e05deabaa1",
+        "status": "PASS",
+        "answer": "The failures do not establish one common cause.\n• Largest-left: retained at staging, but one finger displaced about 2 mm during carry without a new opening request. Arrival was 4.3 mm above its measured closing height. Shift/tilt or incomplete support remain plausible; side-lying was confirmed only after the following withdrawal/exchange (e000660), not isolated to opening.\n• Second-smallest-right: sampled jaw seating persisted through lift/carry; arrival was 1.7 mm above closure. It became side-lying during the 0.16 s opening-only interval with essentially stationary EEF (e001932→e001951). Withdrawal was therefore not required for this failure; opening impulse versus unsupported settling remains unresolved.\n• Middle/smallest-left: arrival heights were within about 0.2/0.5 mm of closure, and both stood after opening and clearance. This is a positive placement contrast, not proof of a height threshold or that diagonal transport inevitably fails.\nRecovery: the fallen largest's right head grasp retained a vertical lift and subsequent reorientation to an approximately upright configuration, but it was side-lying again by e001784. Retained reorientation is demonstrated; durable upright placement is not.\nFor the next recovery, distinguish doll-to-pad attitude and base support from EEF height, then assess persistence after opening and clearance. Neither simply lowering farther nor slowing opening is a demonstrated cure. A visible/measured base-to-table gap and doll attitude immediately before opening, plus settling observed before withdrawal, could distinguish the remaining explanations.",
+        "memory_updates": [
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k2b8e6776f1ea22e9",
+            "revision": 739,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "kd96bdbf270a19c9f",
+            "revision": 740,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "ke07e59a5a8f2c361",
+            "revision": 741,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k99050f1172a93bc3",
+            "revision": 742,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k02499b1f511db5e9",
+            "revision": 743,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "kb0d3f8e7878e1c5e",
+            "revision": 744,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k281e29b31a55e8b0",
+            "revision": 745,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k203b3205d191bd22",
+            "revision": 746,
+            "status": "provisional"
+          }
+        ],
+        "knowledge_updates": [
+          {
+            "id": "na1d485ba365c45b",
+            "revision": 228,
+            "status": "active",
+            "decision_bytes": 2193
+          }
+        ]
+      },
+      {
+        "event": 2499,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e002499.json",
+        "sha256": "f3f84403ebc778f0bea1f6750d8925befc6f9c329d5cf9e5eade28f6674c461e",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "right_gripper": 1,
+            "left_x": -0.14,
+            "left_y": -0.22,
+            "left_z": 0.94
+          },
+          "note": "The largest has remained seated in the closed grip through the preceding execution; open it now and check persistence before withdrawing. Lift the newly enclosed second-smallest into the left workspace for its upright recovery."
+        },
+        "observation_id": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e002497"
+      },
+      {
+        "event": 2549,
+        "kind": "receipt",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e002549.json",
+        "sha256": "4cf7962751666f8417212837a77d701290f9d333b9552aca743c1d87c86a2da2",
+        "executed_actions": 15,
+        "planned_actions": 15,
+        "before_observation": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e002497",
+        "env_start": 693,
+        "env_end": 708,
+        "failure_type": null
+      },
+      {
+        "event": 2550,
+        "kind": "observation",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e002550.json",
+        "sha256": "9800402ee9e8be7fe6dc12d65a9ef9958f24e9438959c5bc50b55fd4de2b8fa5",
+        "images": {
+          "cam_head": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000740_cam_head.jpg",
+            "sha256": "60be09e33dfa10900ae66edb554d069615ac540b87771ad61c40b57e3b644475"
+          },
+          "cam_left_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000740_cam_left_wrist.jpg",
+            "sha256": "5668a02cd36e86de5a7f9336d3bca4db369578cb939091d9cbb7ac0afd4c6510"
+          },
+          "cam_right_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000740_cam_right_wrist.jpg",
+            "sha256": "6fccc0d23ec7197d6004854ddb0ab5ba567265f701a78a14ff874d36d58fcbea"
+          }
+        },
+        "env_step": 708,
+        "after_receipt": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e002549"
+      },
+      {
+        "event": 2721,
+        "kind": "receipt",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e002721.json",
+        "sha256": "b8852c5c581e0fb2e05fae5e3a1401cf58570c6f133f634515f76a86ee19fcb7",
+        "executed_actions": 49,
+        "planned_actions": 49,
+        "before_observation": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e002550",
+        "env_start": 708,
+        "env_end": 757,
+        "failure_type": null
+      },
+      {
+        "event": 2722,
+        "kind": "observation",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e002722.json",
+        "sha256": "dc8bbeadd9224deac2068ebf9d93f5ff9f68d71b3544ed97ec1c0285b67a89e0",
+        "images": {
+          "cam_head": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000790_cam_head.jpg",
+            "sha256": "d2442295456864b748b18bfc296ccdc705db00f61e8c8ad99ea2405b0bb494b2"
+          },
+          "cam_left_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000790_cam_left_wrist.jpg",
+            "sha256": "3ba2135db43280944f744f8f505f70033f789f86ac26159bc450b3fe295feac8"
+          },
+          "cam_right_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000790_cam_right_wrist.jpg",
+            "sha256": "86332fc2793f911a4ea442c4aef2b489cb55b0dd165baa8cbfc8f1f5c6b7792f"
+          }
+        },
+        "env_step": 757,
+        "after_receipt": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e002721"
+      },
+      {
+        "event": 3067,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e003067.json",
+        "sha256": "a2128a19b0cab873d32c08053b470d3eb5e2a8e12dd53240f492fbf210844628",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_gripper": 1
+          },
+          "note": "The second-smallest now appears seated at the row, and its jaw seating changed during the final lowering rather than remaining suspended at the earlier height. Open in place and inspect whether it stands before withdrawing."
+        },
+        "observation_id": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e003065"
+      },
+      {
+        "event": 3089,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e003089.json",
+        "sha256": "d80e625c78a9b6d4363a2b9a6da0c3247aa65027eae42a0a4603a20b33040527",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_z": 0.94
+          },
+          "note": "The second-smallest stands after opening. Withdraw vertically without changing wrist orientation, then verify all five dolls and the row before returning the left arm home.",
+          "attachment_updates": [
+            {
+              "arm": "left",
+              "tool": "second-smallest doll",
+              "state": "released"
+            }
+          ]
+        },
+        "observation_id": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e003087"
+      },
+      {
+        "event": 3132,
+        "kind": "receipt",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e003132.json",
+        "sha256": "c7189f5781750a7527a51c49279891dee117ac8c4dfdaad2ce28262bda44517c",
+        "executed_actions": 12,
+        "planned_actions": 12,
+        "before_observation": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e003087",
+        "env_start": 860,
+        "env_end": 872,
+        "failure_type": null
+      },
+      {
+        "event": 3133,
+        "kind": "observation",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/events/e003133.json",
+        "sha256": "3a2fb2be22230ae5931cdbad4acf28b404d9f6b5ed625fa2b451807564eff2a0",
+        "images": {
+          "cam_head": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000911_cam_head.jpg",
+            "sha256": "de39c9afe791f342a64dc5024dc8469817debf090ffcdb09196ead0028a23460"
+          },
+          "cam_left_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000911_cam_left_wrist.jpg",
+            "sha256": "b0ec143c32fd1346c0dd4417275b7b428407168fbe21eb47f02edad5f42b379f"
+          },
+          "cam_right_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/observations/000911_cam_right_wrist.jpg",
+            "sha256": "29138018908bb204a1145575e487e90a5e89bf84c19ec9bc4f4a8d051e1d2f7d"
+          }
+        },
+        "env_step": 872,
+        "after_receipt": "main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709:e003132"
+      }
+    ]
+  },
+  "D": {
+    "run": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340",
+    "events": [
+      {
+        "event": 2533,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e002533.json",
+        "sha256": "e8b9274199523c9d2d702307689d0f4775f752f289105de49a9c9a957e6e9257",
+        "tool": "query_experience",
+        "arguments": {
+          "level": "case",
+          "domain": "external",
+          "family": "contact_response",
+          "question": "For an unloaded blue rectangle tilted around a peg, what observed response followed a shallow downward closed-pad press on its raised face, versus regrasp and lift recovery?"
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340:e002528"
+      },
+      {
+        "event": 2534,
+        "kind": "experience_query",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e002534.json",
+        "sha256": "4dda1a0d0c33ef82a1b1c08de2f45f5a131d9f89dff31a16fcb56092bfc0cb17",
+        "question": "For an unloaded blue rectangle tilted around a peg, what observed response followed a shallow downward closed-pad press on its raised face, versus regrasp and lift recovery?",
+        "records": [
+          {
+            "id": "kbcb70afd44fc04f9",
+            "revision": 2,
+            "layer": "case",
+            "domain": "external",
+            "family": "contact_response",
+            "roles": {
+              "entity": "scene_object",
+              "observable": "interaction_effect",
+              "arm": "left"
+            },
+            "status": "provisional",
+            "source_episodes": [
+              "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114"
+            ],
+            "text": "Correction of the same first yellow square, starting from e000682. Regrasp/closing receipt e000734 executed all 14 selected actions; e000735 shows the square between the pads. Lift request e000753 executed all 3 actions; e000754 shows the hole clear of the peg while the square remains between the pads. Combined lateral/downward request e000773 executed all 4 actions; e000774 shows a tilted square with peg visible inside the hole. Opening receipt e000789 executed all 3 actions; e000790 shows the square visibly lower with substantial peg protrusion. Withdrawal receipt e000826 executed all 9 actions; e000827 shows the square still down around the protruding peg after the pads clear. This is a visual response contrast, not evidence that a particular offset, release or hypothesized pad constraint caused success. The read sources do not establish a numerical corrected post-withdrawal top height, descent magnitude, contact state or repeatability.",
+            "conditions": {
+              "feedback": "Wrist RGB e000790 and e000827 shows protruding peg and a visibly lower square.",
+              "history": "Regrasp, lift, combined lateral/downward request, opening and withdrawal all executed with full selected coverage.",
+              "measurement_boundary": "Visual correction confirmation only; corrected numerical top-height verification remains unavailable in the read sources.",
+              "piece": "Same first yellow square and peg as the initial elevated result."
+            },
+            "strength": "visually_inferred",
+            "applicability": {
+              "category": "source_interpretation_revised",
+              "metric_qualification": "incomparable_revised_source_interpretation",
+              "unknown_conditions": [
+                "feedback",
+                "history",
+                "measurement_boundary",
+                "piece"
+              ],
+              "different_conditions": [
+                "attachment:left"
+              ],
+              "different_descriptions": {},
+              "changed_derivation_contracts": [
+                "execution"
+              ],
+              "body_and_binding_comparison": {
+                "attachment:left": "differ"
+              },
+              "geometry_equivalence": "unknown_not_proved_by_binding_identity",
+              "current_fact": false,
+              "source_interpretation_revised": [
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000735",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000754",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000774"
+              ],
+              "changed_dependencies": [
+                "attachment:left",
+                "execution"
+              ],
+              "unknown_dependencies": []
+            },
+            "review": null,
+            "counterexamples": [],
+            "drill_down": {
+              "evidence": [
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000682",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000734",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000735",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000753",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000754",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000773",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000774",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000789",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000790",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000826",
+                "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114:e000827"
+              ],
+              "qualification": "Historical source references, not newly read pixels"
+            },
+            "source_episode_results": [
+              {
+                "id": "stacktoy_v3_repeat50_01_20261026_e01_20261025T170114",
+                "official_success": true,
+                "result_ref": "single_e12_history_index:e000002"
+              }
+            ],
+            "episode_result_scope": "Whole-trace labels only; not validation of this case, a stage or a rule. Read level=episode with exact source IDs for history; no raw-read permission.",
+            "view": "statement",
+            "complete_record": false,
+            "statement_complete": true,
+            "depends_on": [
+              "attachment:left",
+              "cameras",
+              "execution"
+            ],
+            "continuation": "f0fa0f7714069bfb3e3cdf087ef7ba3a"
+          }
+        ]
+      },
+      {
+        "event": 2537,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e002537.json",
+        "sha256": "76d9c3a0f924011f790b6e05a3b3e36b45b9c7f9e49754376a065f3bd4f4694b",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "right_x": -0.035,
+            "right_y": -0.181,
+            "right_z": 0.865,
+            "right_pitch_deg": 0,
+            "right_roll_deg": 0,
+            "right_gripper": 0
+          },
+          "note": "The unloaded blue remains tilted, with its raised far-left face measured near z=0.839. Position closed pads above that raised region for a shallow downward settling test; this is not a grasp or a certified historical recovery."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340:e002528"
+      },
+      {
+        "event": 2659,
+        "kind": "receipt",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e002659.json",
+        "sha256": "07937b029e7043c3db7524cba1db26b9d42892a60c96e27d9b215e8c4003561d",
+        "executed_actions": 16,
+        "planned_actions": 16,
+        "before_observation": "stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340:e002604",
+        "env_start": 647,
+        "env_end": 663,
+        "failure_type": null
+      },
+      {
+        "event": 2660,
+        "kind": "observation",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e002660.json",
+        "sha256": "c955135b32a5cd13b3f9056c4b2111282f1bf3e8ada34811b19841eb5f3a872f",
+        "images": {
+          "cam_head": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/observations/000728_cam_head.jpg",
+            "sha256": "2746f6976c34b4ab2a5680f08e8952f4d4d01cf3fd6021adb3a8e611aa65049c"
+          },
+          "cam_left_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/observations/000728_cam_left_wrist.jpg",
+            "sha256": "9aa6f3f1628e5f174ddbf4da8a60ec42bff772f8c4164fd0f3367559ec421562"
+          },
+          "cam_right_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/observations/000728_cam_right_wrist.jpg",
+            "sha256": "3d6e252debde0468bf9d501902ebd5aa2ada31ab51b4083420e4543360bf2f22"
+          }
+        },
+        "env_step": 663,
+        "after_receipt": "stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340:e002659"
+      },
+      {
+        "event": 2663,
+        "kind": "surface_inspection",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e002663.json",
+        "sha256": "8e00c98ce60307a89ff24493bd922582955ad0bf2123f1227600c5a8d30b8071",
+        "samples": [
+          {
+            "label": "blue3_far_left",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_right_wrist",
+            "requested_pixel_uv": [
+              302.0,
+              139.0
+            ],
+            "sampled_pixel_uv": [
+              302,
+              139
+            ],
+            "radius": 0,
+            "depth_sha256": "987439b31838553f2bb4d3ee4ed522bb9b5ec5fa038612876972e5242ee23dbf",
+            "rgb_sha256": "3d6e252debde0468bf9d501902ebd5aa2ada31ab51b4083420e4543360bf2f22",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.16246724128723145
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.16246724128723145,
+            "world_xyz_m": [
+              -0.04272348353299797,
+              -0.17517455919105832,
+              0.8140216515866161
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2873802402136444,
+                  -0.2543142782832489,
+                  0.03729267209055219
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13728024021364438,
+                  -0.2543142782832489,
+                  0.03729267209055219
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.0045619990029176355,
+                      -0.12981023788906326,
+                      -0.0561997409937303,
+                      0.1448102384851097
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12981023788906326,
+                    "inward_distance_from_face_plane_m": 0.29871555928457827
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.00456193096690458,
+                      -0.12981023788906326,
+                      -0.056199795834958086,
+                      0.1448102384851097
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12981023788906326,
+                    "inward_distance_from_face_plane_m": -0.20990900845779034
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.24610329040717505,
+                  0.007159550041486558,
+                  0.0053150973443740175
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.09600329040717503,
+                  0.007159550041486558,
+                  0.0053150973443740175
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.020479687287205107,
+                      -0.08853328808259392,
+                      -0.017049083891807676,
+                      0.10353328867864037
+                    ],
+                    "minimum_projected_edge_margin_m": -0.08853328808259392,
+                    "inward_distance_from_face_plane_m": 0.033166572572420304
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.0204796233399731,
+                      -0.08853328808259392,
+                      -0.017049139767837937,
+                      0.10353328867864037
+                    ],
+                    "minimum_projected_edge_margin_m": -0.08853328808259392,
+                    "inward_distance_from_face_plane_m": 0.04749014949255162
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "blue3_far_right",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_right_wrist",
+            "requested_pixel_uv": [
+              344.0,
+              134.0
+            ],
+            "sampled_pixel_uv": [
+              344,
+              134
+            ],
+            "radius": 0,
+            "depth_sha256": "987439b31838553f2bb4d3ee4ed522bb9b5ec5fa038612876972e5242ee23dbf",
+            "rgb_sha256": "3d6e252debde0468bf9d501902ebd5aa2ada31ab51b4083420e4543360bf2f22",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.16135960817337036
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.16135960817337036,
+            "world_xyz_m": [
+              -0.025513846969233606,
+              -0.1741062630013938,
+              0.8140725412618881
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2874219491090233,
+                  -0.27144458129156446,
+                  0.039258992607684916
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.1373219491090233,
+                  -0.27144458129156446,
+                  0.039258992607684916
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.0027287257679968115,
+                      -0.12985194678444217,
+                      -0.058139000966343536,
+                      0.14485194738048862
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12985194678444217,
+                    "inward_distance_from_face_plane_m": 0.3158458622928939
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.002728657673423746,
+                      -0.12985194678444217,
+                      -0.05813905581738855,
+                      0.14485194738048862
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12985194678444217,
+                    "inward_distance_from_face_plane_m": -0.22703931146610593
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.24601982857078897,
+                  -0.009958284451223823,
+                  0.007385897568151802
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.09591982857078896,
+                  -0.009958284451223823,
+                  0.007385897568151802
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.018505401521922864,
+                      -0.08844982624620784,
+                      -0.019067497813439634,
+                      0.10344982684225429
+                    ],
+                    "minimum_projected_edge_margin_m": -0.08844982624620784,
+                    "inward_distance_from_face_plane_m": 0.05028440706513068
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.018505337522860536,
+                      -0.08844982624620784,
+                      -0.019067553703556606,
+                      0.10344982684225429
+                    ],
+                    "minimum_projected_edge_margin_m": -0.08844982624620784,
+                    "inward_distance_from_face_plane_m": 0.03037231499984124
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "blue3_near_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_right_wrist",
+            "requested_pixel_uv": [
+              339.0,
+              228.0
+            ],
+            "sampled_pixel_uv": [
+              339,
+              228
+            ],
+            "radius": 0,
+            "depth_sha256": "987439b31838553f2bb4d3ee4ed522bb9b5ec5fa038612876972e5242ee23dbf",
+            "rgb_sha256": "3d6e252debde0468bf9d501902ebd5aa2ada31ab51b4083420e4543360bf2f22",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.18284446001052856
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.18284446001052856,
+            "world_xyz_m": [
+              -0.029014646277704552,
+              -0.21726321722886954,
+              0.8141963639421685
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2871249098010066,
+                  -0.27020522191768975,
+                  -0.004021134264109938
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13702490980100657,
+                  -0.27020522191768975,
+                  -0.004021134264109938
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.043292944658610964,
+                      -0.12955490747642545,
+                      -0.015570948194716121,
+                      0.1445549080724719
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12955490747642545,
+                    "inward_distance_from_face_plane_m": 0.31460650291901915
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.043292877805010316,
+                      -0.12955490747642545,
+                      -0.015571002811406595,
+                      0.1445549080724719
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12955490747642545,
+                    "inward_distance_from_face_plane_m": -0.22579995209223122
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.24583489744051157,
+                  -0.008981448240537288,
+                  -0.03590157426309891
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.09573489744051156,
+                  -0.008981448240537288,
+                  -0.03590157426309891
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.05911489432099523,
+                      -0.08826489511593044,
+                      0.023486746821424945,
+                      0.10326489571197689
+                    ],
+                    "minimum_projected_edge_margin_m": -0.08826489511593044,
+                    "inward_distance_from_face_plane_m": 0.04930757085444415
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.059114831554451124,
+                      -0.08826489511593044,
+                      0.0234866911690021,
+                      0.10326489571197689
+                    ],
+                    "minimum_projected_edge_margin_m": -0.08826489511593044,
+                    "inward_distance_from_face_plane_m": 0.031349151210527774
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "left_star_left_lip",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              156.0,
+              137.0
+            ],
+            "sampled_pixel_uv": [
+              156,
+              137
+            ],
+            "radius": 0,
+            "depth_sha256": "a3dc0133afa2a1c8880a2e2fd16f66b4e667c1207462c7ee4032ab8beef827ab",
+            "rgb_sha256": "9aa6f3f1628e5f174ddbf4da8a60ec42bff772f8c4164fd0f3367559ec421562",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.2379394918680191
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.2379394918680191,
+            "world_xyz_m": [
+              -0.3970800999847921,
+              -0.20869804227435312,
+              0.7778376573516097
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.32161543840219065,
+                  0.09798062799857521,
+                  -0.014841454859753238
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.17151543840219063,
+                  0.09798062799857521,
+                  -0.014841454859753238
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.0652651736070718,
+                      -0.16404543607760952,
+                      -0.011410324697065452,
+                      0.17904543667365597
+                    ],
+                    "minimum_projected_edge_margin_m": -0.16404543607760952,
+                    "inward_distance_from_face_plane_m": -0.053579346997245786
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.06526510439342699,
+                      -0.16404543607760952,
+                      -0.011410378238232145,
+                      0.17904543667365597
+                    ],
+                    "minimum_projected_edge_margin_m": -0.16404543607760952,
+                    "inward_distance_from_face_plane_m": 0.14238589782403374
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.28293966883708677,
+                  0.35888026084171704,
+                  -0.048882133196935185
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13283966883708676,
+                  0.35888026084171704,
+                  -0.048882133196935185
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.08401168545830284,
+                      -0.12536966651250564,
+                      0.02927905753213894,
+                      0.1403696671085521
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12536966651250564,
+                    "inward_distance_from_face_plane_m": -0.3185541382278102
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.084011620190547,
+                      -0.12536966651250564,
+                      0.029279003044287263,
+                      0.1403696671085521
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12536966651250564,
+                    "inward_distance_from_face_plane_m": 0.3992108602927821
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "left_star_right_lip",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              187.0,
+              137.0
+            ],
+            "sampled_pixel_uv": [
+              187,
+              137
+            ],
+            "radius": 0,
+            "depth_sha256": "a3dc0133afa2a1c8880a2e2fd16f66b4e667c1207462c7ee4032ab8beef827ab",
+            "rgb_sha256": "9aa6f3f1628e5f174ddbf4da8a60ec42bff772f8c4164fd0f3367559ec421562",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.23793603479862213
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.23793603479862213,
+            "world_xyz_m": [
+              -0.37852681959070006,
+              -0.20966829556641087,
+              0.7779334304914456
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.321611865117189,
+                  0.07940174849408838,
+                  -0.014840497646561823
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.17151186511718897,
+                  0.07940174849408838,
+                  -0.014840497646561823
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.06526305114122942,
+                      -0.16404186279260785,
+                      -0.011410594858479697,
+                      0.1790418633886543
+                    ],
+                    "minimum_projected_edge_margin_m": -0.16404186279260785,
+                    "inward_distance_from_face_plane_m": -0.03500046749275895
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.06526298192783371,
+                      -0.16404186279260785,
+                      -0.011410648399756895,
+                      0.1790418633886543
+                    ],
+                    "minimum_projected_edge_margin_m": -0.16404186279260785,
+                    "inward_distance_from_face_plane_m": 0.12380701831954691
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.28280543333265684,
+                  0.34030221689989615,
+                  -0.04876793402011632
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13270543333265683,
+                  0.34030221689989615,
+                  -0.04876793402011632
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.0838584378321072,
+                      -0.12523543100807571,
+                      0.029192056381528903,
+                      0.14023543160412216
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12523543100807571,
+                    "inward_distance_from_face_plane_m": -0.29997609428598926
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.0838583725715078,
+                      -0.12523543100807571,
+                      0.029192001889086442,
+                      0.14023543160412216
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12523543100807571,
+                    "inward_distance_from_face_plane_m": 0.3806328163509612
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "left_star_near_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              172.0,
+              157.0
+            ],
+            "sampled_pixel_uv": [
+              172,
+              157
+            ],
+            "radius": 0,
+            "depth_sha256": "a3dc0133afa2a1c8880a2e2fd16f66b4e667c1207462c7ee4032ab8beef827ab",
+            "rgb_sha256": "9aa6f3f1628e5f174ddbf4da8a60ec42bff772f8c4164fd0f3367559ec421562",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.24400751292705536
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.24400751292705536,
+            "world_xyz_m": [
+              -0.3904004139266558,
+              -0.22138682912874708,
+              0.7779342884915778
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.321507638306327,
+                  0.09064638107852585,
+                  -0.027163388819314627
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.171407638306327,
+                  0.09064638107852585,
+                  -0.027163388819314627
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.07680593138313294,
+                      -0.16393763598174588,
+                      0.0007132370241290531,
+                      0.17893763657779233
+                    ],
+                    "minimum_projected_edge_margin_m": -0.16393763598174588,
+                    "inward_distance_from_face_plane_m": -0.04624510007719643
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.07680586252459012,
+                      -0.16393763598174588,
+                      0.0007131835490000118,
+                      0.17893763657779233
+                    ],
+                    "minimum_projected_edge_margin_m": -0.16393763598174588,
+                    "inward_distance_from_face_plane_m": 0.13505165090398438
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.28280972561709905,
+                  0.3514717690471756,
+                  -0.06115935679750972
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13270972561709904,
+                  0.3514717690471756,
+                  -0.06115935679750972
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.09550285431060232,
+                      -0.12523972329251792,
+                      0.04136285437449849,
+                      0.14023972388856437
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12523972329251792,
+                    "inward_distance_from_face_plane_m": -0.3111456464332687
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.09550278939840087,
+                      -0.12523972329251792,
+                      0.04136279995178186,
+                      0.14023972388856437
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12523972329251792,
+                    "inward_distance_from_face_plane_m": 0.3918023684982406
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "event": 3062,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e003062.json",
+        "sha256": "8f52fbf3ad8fdbc3d3a053df51ed8d15325faa2d4f17e7624026aeb49cfcca04",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_x": 0.034,
+            "left_y": -0.172,
+            "left_z": 0.85,
+            "left_pitch_deg": 0,
+            "left_roll_deg": 0,
+            "left_gripper": 0
+          },
+          "note": "The released star remains elevated and tilted, with its far side highest. Position closed pads above that raised face for a shallow seating test, analogous to the observed blue recovery but not assuming the same result."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340:e003055"
+      },
+      {
+        "event": 3199,
+        "kind": "receipt",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e003199.json",
+        "sha256": "2cc430c45997cf80406262e228520644752de7c2ff3dfac2879e7429d775327e",
+        "executed_actions": 19,
+        "planned_actions": 19,
+        "before_observation": "stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340:e003135",
+        "env_start": 777,
+        "env_end": 796,
+        "failure_type": null
+      },
+      {
+        "event": 3200,
+        "kind": "observation",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e003200.json",
+        "sha256": "1fd5f216a7a7a0b8a357bfd38692a06acea0e3aefe4dcc3806755b911a154018",
+        "images": {
+          "cam_head": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/observations/000876_cam_head.jpg",
+            "sha256": "d61609a93760cf50f60dba89f3a1a0559f53a7f60e22c25c0961f0bb6895e673"
+          },
+          "cam_left_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/observations/000876_cam_left_wrist.jpg",
+            "sha256": "d897bcd184ccb6035f13ba58e481b48f77bea2435fd4f50b2df7f46b8881e4d1"
+          },
+          "cam_right_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/observations/000876_cam_right_wrist.jpg",
+            "sha256": "08640d0a2261cbed5b98fcc4afcdd30c4acc6cd7f33679ffac3dfe8353cbd837"
+          }
+        },
+        "env_step": 796,
+        "after_receipt": "stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340:e003199"
+      },
+      {
+        "event": 3203,
+        "kind": "surface_inspection",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e003203.json",
+        "sha256": "d7a8d217c54d814454978dc3dd96c72611ea9015dd69c279360e7339314c55f3",
+        "samples": [
+          {
+            "label": "star1_far_left",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              284.0,
+              144.0
+            ],
+            "sampled_pixel_uv": [
+              284,
+              144
+            ],
+            "radius": 0,
+            "depth_sha256": "741d84d9451c9eee87bc7a075483425c3e30dd9fbcd59ff97ba5a8c564fb3fa9",
+            "rgb_sha256": "d897bcd184ccb6035f13ba58e481b48f77bea2435fd4f50b2df7f46b8881e4d1",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.1894804686307907
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.1894804686307907,
+            "world_xyz_m": [
+              0.018381553204369808,
+              -0.17078947229424882,
+              0.78819918238493
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.27172288715663706,
+                  0.0169401821476085,
+                  -0.004337347705080673
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.12162288715663705,
+                  0.0169401821476085,
+                  -0.004337347705080673
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.0383182237799664,
+                      -0.11415288483205593,
+                      -0.012372119419080358,
+                      0.12915288542810238
+                    ],
+                    "minimum_projected_edge_margin_m": -0.11415288483205593,
+                    "inward_distance_from_face_plane_m": 0.023395939145459434
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.038318158125144886,
+                      -0.11415288483205593,
+                      -0.012372174487138933,
+                      0.12915288542810238
+                    ],
+                    "minimum_projected_edge_margin_m": -0.11415288483205593,
+                    "inward_distance_from_face_plane_m": 0.057280318341837624
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.3021605974590411,
+                  0.21638875638929292,
+                  -0.05446426506012492
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.1520605974590411,
+                  0.21638875638929292,
+                  -0.05446426506012492
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.09583561816426739,
+                      -0.14459059513446,
+                      0.031157808732394862,
+                      0.15959059573050643
+                    ],
+                    "minimum_projected_edge_margin_m": -0.14459059513446,
+                    "inward_distance_from_face_plane_m": -0.1719874679373829
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.09583555156869969,
+                      -0.14459059513446,
+                      0.03115775484139717,
+                      0.15959059573050643
+                    ],
+                    "minimum_projected_edge_margin_m": -0.14459059513446,
+                    "inward_distance_from_face_plane_m": 0.26079404484120294
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "star1_far_right",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              329.0,
+              143.0
+            ],
+            "sampled_pixel_uv": [
+              329,
+              143
+            ],
+            "radius": 0,
+            "depth_sha256": "741d84d9451c9eee87bc7a075483425c3e30dd9fbcd59ff97ba5a8c564fb3fa9",
+            "rgb_sha256": "d897bcd184ccb6035f13ba58e481b48f77bea2435fd4f50b2df7f46b8881e4d1",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.18942539393901825
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.18942539393901825,
+            "world_xyz_m": [
+              0.039852591850083274,
+              -0.17138021030646053,
+              0.7882023342850132
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.27190697599583025,
+                  -0.004533903421942355,
+                  -0.003908113374954225
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.12180697599583024,
+                  -0.004533903421942355,
+                  -0.003908113374954225
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.03797792664979414,
+                      -0.11433697367124912,
+                      -0.012828260057418599,
+                      0.12933697426729557
+                    ],
+                    "minimum_projected_edge_margin_m": -0.11433697367124912,
+                    "inward_distance_from_face_plane_m": 0.04487002471501029
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.03797786096867101,
+                      -0.1143369736712491,
+                      -0.012828315122471984,
+                      0.12933697426729557
+                    ],
+                    "minimum_projected_edge_margin_m": -0.1143369736712491,
+                    "inward_distance_from_face_plane_m": 0.03580623277228677
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.3021189071695002,
+                  0.19492044507373896,
+                  -0.05378283051632546
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.15201890716950017,
+                  0.19492044507373896,
+                  -0.05378283051632546
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.09518107427792913,
+                      -0.14454890484491906,
+                      0.030496280484690965,
+                      0.1595489054409655
+                    ],
+                    "minimum_projected_edge_margin_m": -0.14454890484491906,
+                    "inward_distance_from_face_plane_m": -0.15051915662182894
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.09518100766640472,
+                      -0.14454890484491906,
+                      0.030496226588639257,
+                      0.1595489054409655
+                    ],
+                    "minimum_projected_edge_margin_m": -0.14454890484491906,
+                    "inward_distance_from_face_plane_m": 0.23932573352564898
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "star1_near_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_left_wrist",
+            "requested_pixel_uv": [
+              318.0,
+              196.0
+            ],
+            "sampled_pixel_uv": [
+              318,
+              196
+            ],
+            "radius": 0,
+            "depth_sha256": "741d84d9451c9eee87bc7a075483425c3e30dd9fbcd59ff97ba5a8c564fb3fa9",
+            "rgb_sha256": "d897bcd184ccb6035f13ba58e481b48f77bea2435fd4f50b2df7f46b8881e4d1",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.20277856290340424
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.20277856290340424,
+            "world_xyz_m": [
+              0.03326086726850102,
+              -0.19840726246799784,
+              0.788209428484629
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.27155880341021055,
+                  0.0007645616253078441,
+                  -0.031215941480156113
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.12145880341021054,
+                  0.0007645616253078441,
+                  -0.031215941480156113
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.06351711484733864,
+                      -0.11398880108562941,
+                      0.01406042606639365,
+                      0.12898880168167587
+                    ],
+                    "minimum_projected_edge_margin_m": -0.11398880108562941,
+                    "inward_distance_from_face_plane_m": 0.03957155966776009
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.06351704996163272,
+                      -0.11398880108562942,
+                      0.01406037114447796,
+                      0.12898880168167587
+                    ],
+                    "minimum_projected_edge_margin_m": -0.11398880108562942,
+                    "inward_distance_from_face_plane_m": 0.04110469781953697
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.30209697228243315,
+                  0.1999005936402293,
+                  -0.08115270576167459
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.15199697228243314,
+                  0.1999005936402293,
+                  -0.08115270576167459
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.1208902270724068,
+                      -0.14452696995785203,
+                      0.05738473616308587,
+                      0.15952697055389847
+                    ],
+                    "minimum_projected_edge_margin_m": -0.14452696995785203,
+                    "inward_distance_from_face_plane_m": -0.15549930518831928
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.12089016123284237,
+                      -0.14452696995785203,
+                      0.05738468242011864,
+                      0.15952697055389847
+                    ],
+                    "minimum_projected_edge_margin_m": -0.14452696995785203,
+                    "inward_distance_from_face_plane_m": 0.24430588209213933
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "star2_left_lip",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              348.0,
+              223.0
+            ],
+            "sampled_pixel_uv": [
+              348,
+              223
+            ],
+            "radius": 0,
+            "depth_sha256": "c8f42c5578cb0c2a45faf354719cfd0a4670e8cd5f029c2e929c426754c985aa",
+            "rgb_sha256": "d61609a93760cf50f60dba89f3a1a0559f53a7f60e22c25c0961f0bb6895e673",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.6329931020736694
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.6329931020736694,
+            "world_xyz_m": [
+              0.06261112664284031,
+              -0.06211121990348112,
+              0.7779361896295536
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.28351605974202243,
+                  -0.021981363171707742,
+                  0.10620034324187687
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13341605974202242,
+                  -0.021981363171707742,
+                  0.10620034324187687
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.06150610151149865,
+                      -0.1259460574174413,
+                      -0.12316039150503356,
+                      0.14094605801348775
+                    ],
+                    "minimum_projected_edge_margin_m": -0.1259460574174413,
+                    "inward_distance_from_face_plane_m": 0.062317484464775676
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.061506171188241254,
+                      -0.1259460574174413,
+                      -0.12316044684698706,
+                      0.14094605801348775
+                    ],
+                    "minimum_projected_edge_margin_m": -0.1259460574174413,
+                    "inward_distance_from_face_plane_m": 0.018358773022521382
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.3124519108968562,
+                  0.17865193653468914,
+                  0.05663284572383375
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.1623519108968562,
+                  0.17865193653468914,
+                  0.05663284572383375
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.005028395752922229,
+                      -0.15488190857227507,
+                      -0.07989832697001302,
+                      0.16988190916832152
+                    ],
+                    "minimum_projected_edge_margin_m": -0.15488190857227507,
+                    "inward_distance_from_face_plane_m": -0.13425064808277912
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.005028466270128858,
+                      -0.15488190857227507,
+                      -0.07989838118223405,
+                      0.16988190916832152
+                    ],
+                    "minimum_projected_edge_margin_m": -0.15488190857227507,
+                    "inward_distance_from_face_plane_m": 0.22305722498659916
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "star2_right_lip",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              357.0,
+              223.0
+            ],
+            "sampled_pixel_uv": [
+              357,
+              223
+            ],
+            "radius": 0,
+            "depth_sha256": "c8f42c5578cb0c2a45faf354719cfd0a4670e8cd5f029c2e929c426754c985aa",
+            "rgb_sha256": "d61609a93760cf50f60dba89f3a1a0559f53a7f60e22c25c0961f0bb6895e673",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.6329909563064575
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.6329909563064575,
+            "world_xyz_m": [
+              0.08238278210391456,
+              -0.06211239920283973,
+              0.7779379864792998
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.28369234153041756,
+                  -0.04172999739951616,
+                  0.10713775198845296
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13359234153041755,
+                  -0.04172999739951616,
+                  0.10713775198845296
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.06232655016059123,
+                      -0.12612233920583643,
+                      -0.12411422771066975,
+                      0.14112233980188288
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12612233920583643,
+                    "inward_distance_from_face_plane_m": 0.0820661186925841
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.06232661987733378,
+                      -0.12612233920583643,
+                      -0.12411428305270206,
+                      0.14112233980188288
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12612233920583643,
+                    "inward_distance_from_face_plane_m": -0.0013898612052870365
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.3124151579857978,
+                  0.15891492478136104,
+                  0.05780219621165152
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.16231515798579776,
+                  0.15891492478136104,
+                  0.05780219621165152
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.006139694164346357,
+                      -0.15484515566121665,
+                      -0.08104004155788731,
+                      0.1698451562572631
+                    ],
+                    "minimum_projected_edge_margin_m": -0.15484515566121665,
+                    "inward_distance_from_face_plane_m": -0.11451363632945102
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.00613976471162247,
+                      -0.15484515566121665,
+                      -0.08104009577775763,
+                      0.1698451562572631
+                    ],
+                    "minimum_projected_edge_margin_m": -0.15484515566121665,
+                    "inward_distance_from_face_plane_m": 0.20332021323327107
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "orange_near_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              224.0,
+              313.0
+            ],
+            "sampled_pixel_uv": [
+              224,
+              313
+            ],
+            "radius": 0,
+            "depth_sha256": "c8f42c5578cb0c2a45faf354719cfd0a4670e8cd5f029c2e929c426754c985aa",
+            "rgb_sha256": "d61609a93760cf50f60dba89f3a1a0559f53a7f60e22c25c0961f0bb6895e673",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.5334922671318054
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.5334922671318054,
+            "world_xyz_m": [
+              -0.17682317387610483,
+              -0.2611103664727282,
+              0.7779376190735348
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.27928377294094964,
+                  0.2077081848763091,
+                  -0.10392876913491815
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.12918377294094963,
+                  0.2077081848763091,
+                  -0.10392876913491815
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.1344820084790072,
+                      -0.12171377061636851,
+                      0.08403474623642758,
+                      0.13671377121241496
+                    ],
+                    "minimum_projected_edge_margin_m": -0.1344820084790072,
+                    "inward_distance_from_face_plane_m": -0.16737206358324117
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.13448194504285424,
+                      -0.12171377061636852,
+                      0.0840346919501988,
+                      0.13671377121241496
+                    ],
+                    "minimum_projected_edge_margin_m": -0.13448194504285424,
+                    "inward_distance_from_face_plane_m": 0.24804832107053823
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.3126787072777264,
+                  0.40588503708741697,
+                  -0.15619222605795596
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.1625787072777264,
+                  0.40588503708741697,
+                  -0.15619222605795596
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.19501909403525855,
+                      -0.15510870495314527,
+                      0.12910876656073403,
+                      0.17010870554919172
+                    ],
+                    "minimum_projected_edge_margin_m": -0.19501909403525855,
+                    "inward_distance_from_face_plane_m": -0.3614837486355069
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.19501902949002797,
+                      -0.15510870495314527,
+                      0.12910871355057132,
+                      0.17010870554919172
+                    ],
+                    "minimum_projected_edge_margin_m": -0.19501902949002797,
+                    "inward_distance_from_face_plane_m": 0.45029032553932696
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "event": 4318,
+        "kind": "manager_group_publication",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/events/e004318.json",
+        "sha256": "842c1f5ebf66e5c52dadf1712893accca448876790898052139028f65bc09394",
+        "status": "PASS",
+        "answer": "Both recoveries provide positive but scoped evidence for empty closed-pad face pressing followed by unloaded review. Third blue changed from sampled unloaded heights of 0.815032–0.839387 m to 0.814022–0.814196 m after two downward increments and clearance. First star changed from 0.810119–0.823950 m to 0.788199–0.788209 m. Clear-hand RGB showed peg passage and substantially flatter, lower faces in both cases.\nTracking differed: blue's two presses ended about 1.84 and 1.67 mm above their requested heights; star's first ended 1.55 mm above, while its second ended 4.69 mm above with 3.08 mm lateral residual, despite complete execution. These are measured EEF responses, not force measurements or object displacements.\nPrior held star correction reduced sampled face-height spread from about 12.0 to 0.63 mm, yet entry, opening and clearance still left it tilted. The later recovery therefore cannot be credited to held leveling alone. The two press sequences are changed-condition observations, not replication, a universal pressing rule or a demonstrated preference over regrasp. Contact mechanism, individual contributions, repeatability, safe force limits and hidden seating remain unknown; simulator depth precision is not a real-world tolerance.",
+        "memory_updates": [
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "kcc0ece24e22a5149",
+            "revision": 372,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k5f91c32463a3c73b",
+            "revision": 373,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k1bfb329d51dd771f",
+            "revision": 374,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k121d53c90026d1f0",
+            "revision": 375,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "kb94b7b4c4f9b4b9a",
+            "revision": 376,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "ked8a220816f4a8f2",
+            "revision": 377,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "kd27e6f920bf6e653",
+            "revision": 378,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k0be7cdb32865875e",
+            "revision": 379,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "kd419ce140bf3cd92",
+            "revision": 380,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k8e5d4669dea16e15",
+            "revision": 381,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k245d68825cef1173",
+            "revision": 382,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k5270c0951780cc59",
+            "revision": 383,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k652e5f521ee703cb",
+            "revision": 384,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k188b4bc12e7fd397",
+            "revision": 385,
+            "status": "provisional"
+          },
+          {
+            "accepted": true,
+            "reason": "published_provisional_not_certified",
+            "claim_id": "k74034662641a9d47",
+            "revision": 386,
+            "status": "provisional"
+          }
+        ],
+        "knowledge_updates": [
+          {
+            "id": "n0085138dc77a42b",
+            "revision": 46,
+            "status": "active",
+            "decision_bytes": 3368
+          }
+        ]
+      }
+    ]
+  },
+  "E": {
+    "run": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime36_20261029_r01_t08_make_toast_20261029T223938",
+    "events": [
+      {
+        "event": 2821,
+        "kind": "manager_tool_result",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime36_20261029_r01_t08_make_toast_20261029T223938/events/e002821.json",
+        "sha256": "3e57359d302d5d1dbc85d83cd2e3efe5f50cf3cda68d9805d74ce14426733b99",
+        "tool": "read_evidence",
+        "result_summary": {
+          "remaining_selectors": {
+            "receipts": [
+              "main42_rgb_v4_runtime36_20261029_r01_t08_make_toast_20261029T223938:e002453"
+            ],
+            "cameras": [
+              "cam_head",
+              "cam_right_wrist"
+            ],
+            "body": "ee"
+          }
+        }
+      },
+      {
+        "event": 2822,
+        "kind": "manager_tool_result",
+        "source": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime36_20261029_r01_t08_make_toast_20261029T223938/events/e002822.json",
+        "sha256": "e25b3ebf0712437cdad106e76a1178ab067f2604241afebddb2cadfe368a58d6",
+        "tool": "read_evidence",
+        "result_summary": {}
+      }
+    ]
+  },
+  "F": {
+    "run": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235",
+    "events": [
+      {
+        "event": 1356,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/events/e001356.json",
+        "sha256": "b313c03ca889c29c2e1b6e1ee1e2fc5da46fd043ab53b3842e7c8f95825e727a",
+        "tool": "query_experience",
+        "arguments": {
+          "level": "case",
+          "domain": "external",
+          "family": "contact_response",
+          "question": "For a released first yellow square tilted high on the short peg, what reversible recovery distinguished rim perching from insertion, and what did regrasp versus pressing accomplish? Current unloaded face samples span 0.792–0.808 m rather than the 0.788 m first-layer height."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235:e001349"
+      },
+      {
+        "event": 1357,
+        "kind": "experience_query",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/events/e001357.json",
+        "sha256": "e12fbc5565d5cd77ad476ad800ace1ef80dc53bc5fe3517c653a4010a95e1c8b",
+        "question": "For a released first yellow square tilted high on the short peg, what reversible recovery distinguished rim perching from insertion, and what did regrasp versus pressing accomplish? Current unloaded face samples span 0.792–0.808 m rather than the 0.788 m first-layer height.",
+        "records": [
+          {
+            "id": "kc8be74b29b7bd616",
+            "revision": 219,
+            "layer": "case",
+            "domain": "external",
+            "family": "contact_response",
+            "roles": {
+              "entity": "scene_object",
+              "observable": "interaction_effect",
+              "object": "yellow square",
+              "part": "face and aperture",
+              "operation": "empty-hand recovery approach",
+              "arm": "right"
+            },
+            "status": "provisional",
+            "source_episodes": [
+              "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303"
+            ],
+            "text": "E27 final-yellow later response during empty-hand recovery approach, e002292/e002383/e002384. Before RGB and inspection e002295 show an ungrasped tilted square, with face/rim heights spanning 0.815719–0.838990 m. The recovery-approach request changed hand position and pitch/roll but requested no closure; 27/27 actions executed. Measured grasp Z rose 40.64 mm, wrist orientation changed 49.97 degrees and the fingers remained open. At the post endpoint the jaws are empty, the peg is visible in the square's opening and the square appears level. Same-post inspection e002387 gives left/right/far/near heights 0.814098/0.814083/0.814078/0.814110 m. The level unloaded state was observed before any new closure, not after a verified regrasp or press. Endpoint evidence bounds the change to this interval but cannot separate elapsed dynamics, clearance or incidental contact, nor certify a contact-free path, hidden seating contacts or a corrective mechanism.",
+            "conditions": {
+              "feedback": "Viewed right-wrist endpoints, exact receipt/body digest and before/post noncollinear optical-Z samples.",
+              "object_state": "Released final yellow remained tilted after initial withdrawal.",
+              "scope": "One empty open-hand repositioning interval; no controlled waiting/contact comparison."
+            },
+            "strength": "visually_inferred",
+            "applicability": {
+              "category": "analogy",
+              "metric_qualification": "historical_contract_only",
+              "unknown_conditions": [
+                "feedback",
+                "object_state",
+                "scope"
+              ],
+              "different_conditions": [
+                "attachment:right"
+              ],
+              "different_descriptions": {},
+              "changed_derivation_contracts": [],
+              "body_and_binding_comparison": {
+                "attachment:right": "differ",
+                "body": "match"
+              },
+              "geometry_equivalence": "unknown_not_proved_by_binding_identity",
+              "current_fact": false,
+              "source_interpretation_revised": [],
+              "changed_dependencies": [
+                "attachment:right"
+              ],
+              "unknown_dependencies": []
+            },
+            "review": null,
+            "counterexamples": [],
+            "drill_down": {
+              "evidence": [
+                "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303:e002292",
+                "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303:e002295",
+                "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303:e002383",
+                "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303:e002384",
+                "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303:e002387"
+              ],
+              "qualification": "Historical source references, not newly read pixels"
+            },
+            "source_episode_results": [
+              {
+                "id": "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303",
+                "official_success": true,
+                "result_ref": "stacktoy_v4_repeat50_runtime24_20261028_e27_20261028T122303:e003025"
+              }
+            ],
+            "episode_result_scope": "Whole-trace labels only; not validation of this case, a stage or a rule. Read level=episode with exact source IDs for history; no raw-read permission.",
+            "view": "statement",
+            "complete_record": false,
+            "statement_complete": true,
+            "depends_on": [
+              "attachment:right",
+              "body",
+              "cameras",
+              "depth",
+              "execution"
+            ],
+            "continuation": "59514248e128b115d9aa664ce5518b74"
+          }
+        ]
+      },
+      {
+        "event": 1360,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/events/e001360.json",
+        "sha256": "45a2f189a67a5a56609905f07f19f84d7ff4f44f9fdffb1f37a8403823b3d542",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "right_x": 0.3,
+            "right_y": -0.15,
+            "right_z": 0.91,
+            "right_pitch_deg": 0,
+            "right_roll_deg": 0
+          },
+          "note": "Yellow remains tilted and elevated, so it is not yet seated. Clear the open right hand fully while preparing the remaining pieces; the historical recovery interval suggests unloaded settling is possible, but the next observation must determine whether that occurs here."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235:e001349"
+      },
+      {
+        "event": 1407,
+        "kind": "receipt",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/events/e001407.json",
+        "sha256": "a58a507500c34b5284c58cf0cb9232797181d3e90c4591aaa4f62db712fadbda",
+        "executed_actions": 14,
+        "planned_actions": 14,
+        "before_observation": "stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235:e001349",
+        "env_start": 331,
+        "env_end": 345,
+        "failure_type": null
+      },
+      {
+        "event": 1408,
+        "kind": "observation",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/events/e001408.json",
+        "sha256": "d5ead552f32b97067f04eaa2b48de69323deb211631319734844083815f02394",
+        "images": {
+          "cam_head": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/observations/000379_cam_head.jpg",
+            "sha256": "bd683cadac4820d9753634a5f14534288d93a7c65abe0180b3c155d01d58bbee"
+          },
+          "cam_left_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/observations/000379_cam_left_wrist.jpg",
+            "sha256": "5aaf63e2a1fd32ad989c78c8aa2607f6295979a783e80eb2261389932228cb78"
+          },
+          "cam_right_wrist": {
+            "path": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/observations/000379_cam_right_wrist.jpg",
+            "sha256": "ef553c676942780a96942103ec86ebfc94bc9dbf613b3e1fa746aacc23c073ef"
+          }
+        },
+        "env_step": 345,
+        "after_receipt": "stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235:e001407"
+      },
+      {
+        "event": 1411,
+        "kind": "surface_inspection",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/events/e001411.json",
+        "sha256": "9cbe446538165666a92571b45b0a7050a7597d1d463ebec14f85776cdfe42b11",
+        "samples": [
+          {
+            "label": "blue_far_end",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              281.0,
+              220.0
+            ],
+            "sampled_pixel_uv": [
+              281,
+              220
+            ],
+            "radius": 1,
+            "depth_sha256": "de532f349d772a3acb464fa4e9aecc82fb8564d7bf41777554e576caeb2d9556",
+            "rgb_sha256": "bd683cadac4820d9753634a5f14534288d93a7c65abe0180b3c155d01d58bbee",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.0026547908782958984,
+            "patch_depth_m": [
+              [
+                0.6382726430892944,
+                0.6382706165313721,
+                0.6382731795310974
+              ],
+              [
+                0.6369394659996033,
+                0.6369438171386719,
+                0.6369474530220032
+              ],
+              [
+                0.6356183886528015,
+                0.635625958442688,
+                0.6356382966041565
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.6369438171386719,
+            "world_xyz_m": [
+              -0.08510783384033493,
+              -0.05419664435819366,
+              0.7779437802287138
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2919780211752061,
+                  0.1521726350375954,
+                  0.22198247109251326
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.1418780211752061,
+                  0.1521726350375954,
+                  0.22198247109251326
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.1673982989364759,
+                      -0.13440801885062498,
+                      -0.23847538901610474,
+                      0.14940801944667143
+                    ],
+                    "minimum_projected_edge_margin_m": -0.23847538901610474,
+                    "inward_distance_from_face_plane_m": -0.10777135031097568
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.16739837252538078,
+                      -0.13440801885062498,
+                      -0.23847544475941768,
+                      0.14940801944667143
+                    ],
+                    "minimum_projected_edge_margin_m": -0.23847544475941768,
+                    "inward_distance_from_face_plane_m": 0.19657791231363453
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.28198566489259347,
+                  0.36301196030940036,
+                  0.15531973103216795
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13188566489259346,
+                  0.36301196030940036,
+                  0.15531973103216795
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.10818237186491601,
+                      -0.12441566256801234,
+                      -0.17112143365902488,
+                      0.1394156631640588
+                    ],
+                    "minimum_projected_edge_margin_m": -0.17112143365902488,
+                    "inward_distance_from_face_plane_m": -0.318666547486677
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.10818244280578625,
+                      -0.12441566256801234,
+                      -0.1711214893218957,
+                      0.1394156631640588
+                    ],
+                    "minimum_projected_edge_margin_m": -0.1711214893218957,
+                    "inward_distance_from_face_plane_m": 0.4073798542972944
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "blue_near_end",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              290.0,
+              233.0
+            ],
+            "sampled_pixel_uv": [
+              290,
+              233
+            ],
+            "radius": 1,
+            "depth_sha256": "de532f349d772a3acb464fa4e9aecc82fb8564d7bf41777554e576caeb2d9556",
+            "rgb_sha256": "bd683cadac4820d9753634a5f14534288d93a7c65abe0180b3c155d01d58bbee",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.00250166654586792,
+            "patch_depth_m": [
+              [
+                0.6214063167572021,
+                0.6214170455932617,
+                0.6214285492897034
+              ],
+              [
+                0.6201591491699219,
+                0.6201766729354858,
+                0.6202040910720825
+              ],
+              [
+                0.6189268827438354,
+                0.6189674139022827,
+                0.6190861463546753
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.6201766729354858,
+            "world_xyz_m": [
+              -0.06349581823663437,
+              -0.08779537867047538,
+              0.7779065677394591
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2919639604181409,
+                  0.11745737601234343,
+                  0.24175128855122896
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.14186396041814087,
+                  0.11745737601234343,
+                  0.24175128855122896
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.18597783906403897,
+                      -0.13439395809355975,
+                      -0.25789087725577053,
+                      0.1493939586896062
+                    ],
+                    "minimum_projected_edge_margin_m": -0.25789087725577053,
+                    "inward_distance_from_face_plane_m": -0.07305609128572371
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.1859779132082078,
+                      -0.13439395809355975,
+                      -0.2578909331105337,
+                      0.1493939586896062
+                    ],
+                    "minimum_projected_edge_margin_m": -0.2578909331105337,
+                    "inward_distance_from_face_plane_m": 0.16186265328838256
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.2820790235343783,
+                  0.34697274631295516,
+                  0.1187316120705229
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.1319790235343783,
+                  0.34697274631295516,
+                  0.1187316120705229
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.07377231932911385,
+                      -0.12450902120979716,
+                      -0.1351998830892252,
+                      0.13950902180584362
+                    ],
+                    "minimum_projected_edge_margin_m": -0.1351998830892252,
+                    "inward_distance_from_face_plane_m": -0.30262733349023174
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.07377238924750373,
+                      -0.12450902120979719,
+                      -0.13519993854384288,
+                      0.13950902180584362
+                    ],
+                    "minimum_projected_edge_margin_m": -0.13519993854384288,
+                    "inward_distance_from_face_plane_m": 0.3913406403008492
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "purple_near_left_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_right_wrist",
+            "requested_pixel_uv": [
+              82.0,
+              165.0
+            ],
+            "sampled_pixel_uv": [
+              82,
+              165
+            ],
+            "radius": 1,
+            "depth_sha256": "471685192839acd74259fbd3be2d32232f401a418115efd3ba8ede9e90df557a",
+            "rgb_sha256": "ef553c676942780a96942103ec86ebfc94bc9dbf613b3e1fa746aacc23c073ef",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.0005400180816650391,
+            "patch_depth_m": [
+              [
+                0.20516115427017212,
+                0.20516180992126465,
+                0.20516246557235718
+              ],
+              [
+                0.20543044805526733,
+                0.20543116331100464,
+                0.2054314911365509
+              ],
+              [
+                0.20570045709609985,
+                0.20570117235183716,
+                0.20570099353790283
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.20543116331100464,
+            "world_xyz_m": [
+              0.17942735408423238,
+              -0.1878458925882262,
+              0.7779352516237311
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2920137772067525,
+                  0.004453298155888449,
+                  0.4789260125723704
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.14191377720675247,
+                  0.004453298155888449,
+                  0.4789260125723704
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.40880951650754016,
+                      -0.13444377488217135,
+                      -0.4908675391438145,
+                      0.1494437754782178
+                    ],
+                    "minimum_projected_edge_margin_m": -0.4908675391438145,
+                    "inward_distance_from_face_plane_m": 0.03994798657073127
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.4088095973303225,
+                      -0.13444377488217135,
+                      -0.49086759632926363,
+                      0.1494437754782178
+                    ],
+                    "minimum_projected_edge_margin_m": -0.49086759632926363,
+                    "inward_distance_from_face_plane_m": 0.04885857543192757
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.28202243729122156,
+                  0.12288207319909705,
+                  -0.0184002253334142
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13192243729122155,
+                  0.12288207319909705,
+                  -0.0184002253334142
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.055057015530292,
+                      -0.12445243496664042,
+                      -0.0004901095184902608,
+                      0.13945243556268688
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12445243496664042,
+                    "inward_distance_from_face_plane_m": -0.07853666037637366
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.05505694947554992,
+                      -0.12445243496664042,
+                      -0.000490164204537211,
+                      0.13945243556268688
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12445243496664042,
+                    "inward_distance_from_face_plane_m": 0.16724996718699112
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "purple_near_right_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_right_wrist",
+            "requested_pixel_uv": [
+              124.0,
+              168.0
+            ],
+            "sampled_pixel_uv": [
+              124,
+              168
+            ],
+            "radius": 1,
+            "depth_sha256": "471685192839acd74259fbd3be2d32232f401a418115efd3ba8ede9e90df557a",
+            "rgb_sha256": "ef553c676942780a96942103ec86ebfc94bc9dbf613b3e1fa746aacc23c073ef",
+            "valid_patch_values": 9,
+            "patch_size": 9,
+            "patch_depth_range_m": 0.000558018684387207,
+            "patch_depth_m": [
+              [
+                0.2059590220451355,
+                0.20596575736999512,
+                0.20598146319389343
+              ],
+              [
+                0.2062300145626068,
+                0.2062368094921112,
+                0.20624810457229614
+              ],
+              [
+                0.20650240778923035,
+                0.20650851726531982,
+                0.2065170407295227
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.2062368094921112,
+            "world_xyz_m": [
+              0.20075021859437384,
+              -0.18608033619809766,
+              0.7779138289684675
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2920669701057841,
+                  0.005066411581419546,
+                  0.5003130053871085
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.14196697010578407,
+                  0.005066411581419546,
+                  0.5003130053871085
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.4288864701085965,
+                      -0.13449696778120296,
+                      -0.511885108394862,
+                      0.1494969683772494
+                    ],
+                    "minimum_projected_edge_margin_m": -0.511885108394862,
+                    "inward_distance_from_face_plane_m": 0.03933487314520018
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.4288865515373785,
+                      -0.13449696778120296,
+                      -0.5118851656988717,
+                      0.1494969683772494
+                    ],
+                    "minimum_projected_edge_margin_m": -0.5118851656988717,
+                    "inward_distance_from_face_plane_m": 0.049471688857458666
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.28201637214694775,
+                  0.10154775560365528,
+                  -0.020021661476338742
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.13191637214694774,
+                  0.10154775560365528,
+                  -0.020021661476338742
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.05657843655279245,
+                      -0.12444636982236662,
+                      0.0011037002154657071,
+                      0.13944637041841307
+                    ],
+                    "minimum_projected_edge_margin_m": -0.12444636982236662,
+                    "inward_distance_from_face_plane_m": -0.05720234278093189
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.056578370544150706,
+                      -0.1244463698223666,
+                      0.0011036455383475197,
+                      0.13944637041841307
+                    ],
+                    "minimum_projected_edge_margin_m": -0.1244463698223666,
+                    "inward_distance_from_face_plane_m": 0.14591564959154935
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "peg3_tip",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              336.0,
+              274.0
+            ],
+            "sampled_pixel_uv": [
+              336,
+              274
+            ],
+            "radius": 0,
+            "depth_sha256": "de532f349d772a3acb464fa4e9aecc82fb8564d7bf41777554e576caeb2d9556",
+            "rgb_sha256": "bd683cadac4820d9753634a5f14534288d93a7c65abe0180b3c155d01d58bbee",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.5467139482498169
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.5467139482498169,
+            "world_xyz_m": [
+              0.03130774440640369,
+              -0.19333441306775573,
+              0.8018010131113784
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.26794339227649633,
+                  0.007014570861158654,
+                  0.33075997850588695
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.11784339227649632,
+                  0.007014570861158654,
+                  0.33075997850588695
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.27783196989792597,
+                      -0.11037338995191522,
+                      -0.3408161859247443,
+                      0.12537339054796165
+                    ],
+                    "minimum_projected_edge_margin_m": -0.3408161859247443,
+                    "inward_distance_from_face_plane_m": 0.037386713865461066
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.27783204469134626,
+                      -0.1103733899519152,
+                      -0.34081624298615837,
+                      0.12537339054796165
+                    ],
+                    "minimum_projected_edge_margin_m": -0.34081624298615837,
+                    "inward_distance_from_face_plane_m": 0.05141984813719778
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.2583316160585154,
+                  0.2700464376153548,
+                  -0.0004973754253508496
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.10823161605851539,
+                  0.2700464376153548,
+                  -0.0004973754253508496
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.030126605983605757,
+                      -0.10076161373393426,
+                      -0.013632807991367155,
+                      0.11576161432998071
+                    ],
+                    "minimum_projected_edge_margin_m": -0.10076161373393426,
+                    "inward_distance_from_face_plane_m": -0.2257010247926314
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.030126541255256406,
+                      -0.10076161373393427,
+                      -0.013632863474979605,
+                      0.11576161432998074
+                    ],
+                    "minimum_projected_edge_margin_m": -0.10076161373393427,
+                    "inward_distance_from_face_plane_m": 0.31441433160324883
+                  }
+                }
+              }
+            }
+          },
+          {
+            "label": "yellow_unloaded_face",
+            "semantic_assignment": "model_selected_RGB_pixel_not_host_object_identity",
+            "camera": "cam_head",
+            "requested_pixel_uv": [
+              368.0,
+              278.0
+            ],
+            "sampled_pixel_uv": [
+              368,
+              278
+            ],
+            "radius": 0,
+            "depth_sha256": "de532f349d772a3acb464fa4e9aecc82fb8564d7bf41777554e576caeb2d9556",
+            "rgb_sha256": "bd683cadac4820d9753634a5f14534288d93a7c65abe0180b3c155d01d58bbee",
+            "valid_patch_values": 1,
+            "patch_size": 1,
+            "patch_depth_range_m": 0.0,
+            "patch_depth_m": [
+              [
+                0.5326927304267883
+              ]
+            ],
+            "boundary_or_mixed_surface_warning": false,
+            "qualification": "A valid centre pixel is a sensor surface sample, not an object centre, hidden point, contact or retention certificate. Patch variation above 5mm is a warning, not a universal surface classifier or calibrated uncertainty.",
+            "status": "PASS_sensor_sample_not_semantic_geometry_truth",
+            "optical_z_m": 0.5326927304267883,
+            "world_xyz_m": [
+              0.08966566834446775,
+              -0.20529544477338107,
+              0.8110856151645452
+            ],
+            "body_coordinates": {
+              "left": {
+                "flange_xyz_m": [
+                  0.2587061632241502,
+                  -0.008054716162920084,
+                  0.38840117548452313
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.10860616322415018,
+                  -0.008054716162920084,
+                  0.38840117548452313
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      0.335153219255279,
+                      -0.10113616089956906,
+                      -0.39570265874132293,
+                      0.11613616149561552
+                    ],
+                    "minimum_projected_edge_margin_m": -0.39570265874132293,
+                    "inward_distance_from_face_plane_m": 0.052456000889539806
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      0.3351532949572648,
+                      -0.10113616089956906,
+                      -0.3957027163982626,
+                      0.11613616149561551
+                    ],
+                    "minimum_projected_edge_margin_m": -0.3957027163982626,
+                    "inward_distance_from_face_plane_m": 0.03635056111311904
+                  }
+                }
+              },
+              "right": {
+                "flange_xyz_m": [
+                  0.24901167991789508,
+                  0.21432078480296332,
+                  -0.02153799827918012
+                ],
+                "relative_to_named_grasp_in_flange_axes_m": [
+                  0.09891167991789507,
+                  0.21432078480296332,
+                  -0.02153799827918012
+                ],
+                "distal_pad_relation": {
+                  "finger7": {
+                    "projected_edge_margins_m": [
+                      -0.04670627246375307,
+                      -0.09144167759331395,
+                      0.008782258090602362,
+                      0.1064416781893604
+                    ],
+                    "minimum_projected_edge_margin_m": -0.09144167759331395,
+                    "inward_distance_from_face_plane_m": -0.16997537198023993
+                  },
+                  "finger8": {
+                    "projected_edge_margins_m": [
+                      -0.04670620904755582,
+                      -0.09144167759331395,
+                      0.00878220245096726,
+                      0.1064416781893604
+                    ],
+                    "minimum_projected_edge_margin_m": -0.09144167759331395,
+                    "inward_distance_from_face_plane_m": 0.2586886787908574
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "event": 1413,
+        "kind": "policy_decision",
+        "source": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235/events/e001413.json",
+        "sha256": "46c6918448025540d636a55ff4fc95c4262cc0c3841b618300495fab13db367c",
+        "tool": "move_eef",
+        "arguments": {
+          "targets": {
+            "left_x": -0.0743,
+            "left_y": -0.071,
+            "left_z": 0.85,
+            "left_pitch_deg": 0,
+            "left_roll_deg": 0,
+            "left_yaw_deg": -57.3,
+            "right_x": 0.1901,
+            "right_y": -0.187,
+            "right_z": 0.85,
+            "right_pitch_deg": 0,
+            "right_roll_deg": 0,
+            "right_yaw_deg": 4.7
+          },
+          "note": "Yellow remains elevated and needs later recovery rather than more waiting. Approach the next blue at its opposing ends and the purple at its sampled near-side region, using an aperture-exposing grasp candidate with separate lift verification."
+        },
+        "observation_id": "stacktoy_v4_repeat50_runtime34_20261029_e34_20261029T162235:e001408"
+      }
+    ]
+  }
+}

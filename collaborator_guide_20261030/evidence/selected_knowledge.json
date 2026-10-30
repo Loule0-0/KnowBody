@@ -1,0 +1,544 @@
+[
+  {
+    "id": "n2c1aeaca492943b",
+    "revision": 33,
+    "domain": "external",
+    "family": "contact_response",
+    "question": "In E28 blue recovery, what did opposing-end grasps enable, and what did fresh localization, face-to-grasp height and endpoint feedback distinguish from orientation alone?",
+    "text": "IF a left opposing-end grasp exposes the aperture and retains blue after lift/transport, E28 supplies a combined candidate: inspect current aperture/peg relation and noncollinear face height, correct the measured relation, use staged entry, then open and withdraw vertically. The first recovery, shallow third pickup and final left regrasp supported this chain; clear-hand peg/aperture persistence and layer-consistent face heights supported the results.\nThis is not an orientation-only success rule. Early widthwise entry changed bar-to-jaw presentation. Free-space leveling restored agreeing face samples, but renewed entry still lacked visible passage and had a large measured endpoint residual despite complete execution. Lift-away retained blue. A later opposing-end pickup also missed its descent endpoint yet retained on lift.\nFresh tip/aperture picks distinguished XY registration from face level; earlier selected peg surfaces were not interchangeable with tip localization. The shallow third capture put the face below the grasp point, unlike the above-grasp face in the first/final captures. Historical hand height therefore did not specify object height. Fresh tabletop aperture picks also differed from the prior hand target, without establishing object displacement.\nPlanner rejections executed no actions, unlike witnessed entry nonarrival and actual releases. Grasp, localization, pickup depth, attitude, piece/layer and release setup changed together.",
+    "conditions": {
+      "candidate": "Retention checked after lift/transport; first recovery, shallow third capture and final regrasp have distinct held geometry.",
+      "feedback": "Viewed RGB, exact receipts, source-time EEF and RGB-selected simulator optical-Z surfaces; proxies, not certified axes or realistic-noise tolerances.",
+      "grasp": "E28 early left widthwise capture versus later left opposing outer-end captures with exposed aperture; equivalence is not assumed.",
+      "scope": "One sequential changed-condition trace, not controlled replication; useful sequence steps are not thereby proved necessary."
+    },
+    "params": [],
+    "depends_on": [
+      "body",
+      "cameras",
+      "depth",
+      "execution"
+    ],
+    "strength": "observation",
+    "use": "Keep the complete tried combination as a conditional candidate, not a preferred recipe. Reassess object-to-hand geometry after capture changes. Tilt/drift, loss of peg-aperture persistence after opening/clearance, or inconsistent unloaded height disconfirms the corresponding positive response. Distinguish level, XY registration, signed face height, measured tracking and released outcome; neither command completion nor aperture color substitutes for these checks. Separate zero-action planner rejection from executed physical response.",
+    "unknowns": [
+      "True bore/peg axes, contact forces, exact interference/slip and endpoint-residual mechanisms.",
+      "Isolated effects of grasp, localization, attitude, pickup depth and release setup; repeatability and realistic sensor-noise tolerance.",
+      "Second-blue acquisition/entry and intervening right work were not continuously reviewed; gaps do not inherit success.",
+      "Hidden support, seating tolerance, independent assignment correctness and longer-term stability."
+    ],
+    "status": "active",
+    "applicability": {
+      "changed_dependencies": [],
+      "unknown_conditions": [
+        "candidate",
+        "feedback",
+        "grasp",
+        "scope"
+      ],
+      "unknown_dependencies": []
+    },
+    "support_cases": 30,
+    "support_episodes": 1,
+    "source_lineages": 1,
+    "counter_cases": 0,
+    "related_cases": 0,
+    "source_contested": false,
+    "default_eligible": true,
+    "drill_down": {
+      "qualification": "Secondary evidence; IF premises are not established current state or verified physics",
+      "source_refs": [
+        {
+          "type": "knowledge",
+          "id": "na3b42232973b415",
+          "revision": 28,
+          "relation": "related"
+        },
+        {
+          "type": "knowledge",
+          "id": "n032628c262d84c5",
+          "revision": 32,
+          "relation": "related"
+        },
+        {
+          "type": "knowledge",
+          "id": "n663481d0057e437",
+          "revision": 23,
+          "relation": "related"
+        }
+      ],
+      "support_source_refs_omitted": 30
+    },
+    "view": "statement",
+    "complete_record": false,
+    "statement_complete": true,
+    "continuation": "08cf339cb843b53f065aa08725c43ee7"
+  },
+  {
+    "case": "C",
+    "source_snapshot": "/data/KnowYourBody_RoboDojo/runs/main42_round04_v4_runtime34_20261029_r04_t10_sort_nesting_dolls_by_size_20261029T202709/final_memory.sqlite",
+    "revision": 229,
+    "id": "n3e8fe0483d8843f",
+    "domain": "external",
+    "family": "retention_release",
+    "question": "What largest-doll recovery candidate and persistence boundary were observed for an axial-side head grasp, compared with its earlier top grasp?",
+    "text": "For the recorded side-lying largest, a right axial-side head enclosure was followed by a retained upward/outward lift, rotation toward downward jaws, closed-jaw lowering and a small final descent, then opening at effectively fixed right EEF pose. The doll stood after opening, vertical clearance, outward repositioning and right-arm return endpoints. This is one observed conditional recovery candidate, not an established remedy. Earlier top-head recovery also had retained lift, upright reorientation and standing opening/vertical-clearance endpoints, yet the doll was side-lying after the following combined empty-arm translation/reorientation. An initially standing release was therefore not the persistence boundary. Grasp seating, object attitude, wrist pose, placement and clearance histories differed and were not controlled; neither sequence establishes a preferred grasp or the cause of the contrast.",
+    "conditions": {
+      "candidate_grasp": "Recorded right axial-side head enclosure; the earlier top-head enclosure is a distinct comparison scope",
+      "comparison": "Single episode with changed grasp, seating, wrist and clearance histories; not a matched causal trial",
+      "object_scene": "This episode's largest nesting doll, side-lying on the wooden tabletop before each recovery",
+      "sampling": "Receipt-linked head/wrist endpoints and EEF telemetry, not continuous contact monitoring"
+    },
+    "params": [],
+    "dependencies": {
+      "body": "7aaa308a1a5b6a213d914db86ba09ddd6252f25cb498ac9a148bfa6c7166a423",
+      "cameras": "a084dca1cb8297e1ef060f3bdf0cbccf274ef106f0a1a48420e8d2c06460b339",
+      "execution": "b02284e422327150dcef97b0f55da0856128f7c6b38ebcc203d65de7aa3f425f"
+    },
+    "strength": "observation",
+    "use_hint": "Recognize a positive grasp-to-transformation-to-release candidate without treating its steps as necessary. Assess standing persistence after hand clearance and subsequent reorientation, not merely closure, EEF arrival or opening. Following the pads or becoming side-lying at those feedback endpoints disconfirms stable release for that interval.",
+    "unknowns": [
+      "Exact contacts, support forces, friction and continuous tilt/slip history",
+      "Whether the earlier fall involved contact during the combined motion or residual instability",
+      "Individual contributions and necessity of grasp region, rotation, seating descent and clearance path",
+      "Repeatability, untested alternatives and generalization beyond these grasps"
+    ],
+    "refs": [
+      {
+        "id": "k0d3826cfd30ed61b",
+        "reason": "Earlier top-head enclosure retained a lift, so the contrast is not simply pickup success versus failure.",
+        "relation": "support",
+        "revision": 747,
+        "type": "case"
+      },
+      {
+        "id": "kecc42e73115a95ff",
+        "reason": "Earlier top-head grasp also permitted a retained upright transformation endpoint.",
+        "relation": "support",
+        "revision": 748,
+        "type": "case"
+      },
+      {
+        "id": "k9ad7025cc1a824cf",
+        "reason": "Earlier opening had a standing-looking endpoint before the later fall.",
+        "relation": "support",
+        "revision": 749,
+        "type": "case"
+      },
+      {
+        "id": "ka9cb6d3a9d045b60",
+        "reason": "Earlier vertical clearance initially preserved standing appearance.",
+        "relation": "support",
+        "revision": 750,
+        "type": "case"
+      },
+      {
+        "id": "k5de11bd66665b195",
+        "reason": "Bounds the subsequent fall to a combined translation/reorientation interval without identifying mechanism.",
+        "relation": "support",
+        "revision": 751,
+        "type": "case"
+      },
+      {
+        "id": "ka85b70e4e07966be",
+        "reason": "Identifies the later axial-side head enclosure and distinguishes its scope from the top grasp.",
+        "relation": "support",
+        "revision": 752,
+        "type": "case"
+      },
+      {
+        "id": "k03b9722cdb4a7fef",
+        "reason": "Shows retained upward/outward lift for the axial-side enclosure.",
+        "relation": "support",
+        "revision": 753,
+        "type": "case"
+      },
+      {
+        "id": "k99dbd48a993591b3",
+        "reason": "Shows the retained transformation toward an upright doll and downward wrist.",
+        "relation": "support",
+        "revision": 754,
+        "type": "case"
+      },
+      {
+        "id": "k2a9fd6eefd9618da",
+        "reason": "Shows closed-jaw lowering with apparent tabletop seating, without certifying support forces.",
+        "relation": "support",
+        "revision": 755,
+        "type": "case"
+      },
+      {
+        "id": "k3b99ae0b7912bfd7",
+        "reason": "Preserves the tried small final descent without declaring it necessary or causal.",
+        "relation": "support",
+        "revision": 756,
+        "type": "case"
+      },
+      {
+        "id": "k15efca67b7ace96e",
+        "reason": "Shows standing at the later in-place right-opening endpoint.",
+        "relation": "support",
+        "revision": 757,
+        "type": "case"
+      },
+      {
+        "id": "k8f458b86ac3700fc",
+        "reason": "Shows standing persistence after vertical hand clearance.",
+        "relation": "support",
+        "revision": 758,
+        "type": "case"
+      },
+      {
+        "id": "k2da0b2dacd8fac85",
+        "reason": "Shows persistence during outward repositioning beyond the first clearance endpoint.",
+        "relation": "support",
+        "revision": 759,
+        "type": "case"
+      },
+      {
+        "id": "k62e149262e338331",
+        "reason": "Shows persistence during a later right-arm reorientation/return under changed clearance conditions.",
+        "relation": "support",
+        "revision": 760,
+        "type": "case"
+      },
+      {
+        "id": "na1d485ba365c45b",
+        "reason": "Navigation to the earlier staging-release diagnostic boundary; it does not support the later recovery candidate.",
+        "relation": "related",
+        "revision": 228,
+        "type": "knowledge"
+      },
+      {
+        "id": "n02f94a60002443b",
+        "reason": "Navigation to historical pickup, retained-transport and cleared-release distinctions, not support for this recovery contrast.",
+        "relation": "related",
+        "revision": 18,
+        "type": "knowledge"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "case": "D",
+    "source_snapshot": "/data/KnowYourBody_RoboDojo/runs/stacktoy_v4_repeat50_runtime36_20261029_e36_20261030T000340/final_memory.sqlite",
+    "revision": 46,
+    "id": "n0085138dc77a42b",
+    "domain": "external",
+    "family": "contact_response",
+    "question": "After E36's third blue and first star were released tilted around pegs, what did closed-pad face pressing establish, and how do unloaded measurements differ from tracking feedback?",
+    "text": "IF this toy's third blue or first star remains elevated and tilted around its peg after opening and hand clearance, E36 supplies two scoped recovery candidates: present empty closed pads over the raised exterior face, make two downward increments with endpoint review, then open and withdraw for unloaded inspection. Both sequences showed face-presentation changes under the pads and then a lower, level-consistent unloaded face with visible peg passage. These are positive observed responses, not merely absence of failure.\nTracking distinguished the sequences. Blue's two increments and the first star increment had smaller vertical endpoint residuals; the second star increment showed a larger vertical and lateral departure despite complete execution. The subsequent unloaded star result was still positive. Thus command completion, tracking residual and object outcome are separate assessments; a residual is not a force measurement or a contact diagnosis.\nPrior retained star counterrotation substantially improved measured held-face level, yet renewed entry, opening and clearance still left a tilted unloaded star. Blue also changed attitude after opening following a held adjustment. Later recovery cannot be attributed to prior leveling alone. The observations do not establish that leveling was necessary or useless, that each press contributed independently, or that pressing is preferable to regrasp.",
+    "conditions": {
+      "feedback": "Viewed wrist endpoints, exact receipts, measured EEF and noncollinear same-capture simulator optical-Z face samples.",
+      "scope": "One sequence per piece in one episode; arm, shape, layer, starting tilt, increments and contact history differ. Not controlled replication.",
+      "setup": "Empty closed right pads for blue and left pads for star, presented over the raised exterior face with near-neutral pitch/roll; no retained grasp during pressing.",
+      "state": "E36 third blue and first purple star remained around their pegs with unloaded face gradients after opening and clearance."
+    },
+    "params": [],
+    "dependencies": {
+      "body": "7aaa308a1a5b6a213d914db86ba09ddd6252f25cb498ac9a148bfa6c7166a423",
+      "cameras": "a084dca1cb8297e1ef060f3bdf0cbccf274ef106f0a1a48420e8d2c06460b339",
+      "depth": "2fa71d0f77c22d30d5e1781538e1cc724ea7aed793b784e8ed702eb8ca36ac1a",
+      "execution": "b02284e422327150dcef97b0f55da0856128f7c6b38ebcc203d65de7aa3f425f"
+    },
+    "strength": "observation",
+    "use_hint": "Recognize the complete tried combinations as conditional recovery candidates while keeping local response, tracking and unloaded acceptance separate. Persistent unloaded tilt/excess height, lost peg engagement or loss after clearance disconfirms the corresponding positive response. Occluded loaded views cannot certify seating, and larger tracking residuals do not by themselves establish success or a force threshold. Do not turn these cases into a universal press rule or an untested recovery preference.",
+    "unknowns": [
+      "Exact contact patches, forces, bore/peg axes, interference and mechanisms behind tipping or tracking departure.",
+      "Separate contributions of prior held adjustment, each increment, opening, withdrawal and elapsed settling; necessity and repeatability.",
+      "Safe force limits, realistic-noise tolerance, hidden support, independent peg assignment and longer-term stability.",
+      "The historically retrieved yellow regrasp case is a different recovery, not a controlled pressing comparator or proof of adoption."
+    ],
+    "refs": [
+      {
+        "id": "kcc0ece24e22a5149",
+        "reason": "Retained blue adjustment context, without a post-adjustment level certificate.",
+        "relation": "support",
+        "revision": 372,
+        "type": "case"
+      },
+      {
+        "id": "k5f91c32463a3c73b",
+        "reason": "Blue's changed tilted presentation on opening prevents carrying held-state acceptance into release.",
+        "relation": "support",
+        "revision": 373,
+        "type": "case"
+      },
+      {
+        "id": "k1bfb329d51dd771f",
+        "reason": "Clear-hand blue face gradients establish the unloaded pre-press state.",
+        "relation": "support",
+        "revision": 374,
+        "type": "case"
+      },
+      {
+        "id": "k121d53c90026d1f0",
+        "reason": "Witnesses the empty closed-pad exterior-face setup for blue.",
+        "relation": "support",
+        "revision": 375,
+        "type": "case"
+      },
+      {
+        "id": "kb94b7b4c4f9b4b9a",
+        "reason": "First blue increment separates executed coverage, measured tracking and occluded local response.",
+        "relation": "support",
+        "revision": 376,
+        "type": "case"
+      },
+      {
+        "id": "ked8a220816f4a8f2",
+        "reason": "Second blue increment retains its positive local response and nonzero tracking residual.",
+        "relation": "support",
+        "revision": 377,
+        "type": "case"
+      },
+      {
+        "id": "kd27e6f920bf6e653",
+        "reason": "Clear-hand blue persistence, peg visibility and noncollinear unloaded heights support the positive recovery endpoint.",
+        "relation": "support",
+        "revision": 378,
+        "type": "case"
+      },
+      {
+        "id": "k0be7cdb32865875e",
+        "reason": "Measured held-star leveling is a distinct positive checkpoint, not unloaded acceptance.",
+        "relation": "support",
+        "revision": 379,
+        "type": "case"
+      },
+      {
+        "id": "kd419ce140bf3cd92",
+        "reason": "Witnesses renewed entry between held leveling and opening, with no post-entry numerical level certificate.",
+        "relation": "support",
+        "revision": 380,
+        "type": "case"
+      },
+      {
+        "id": "k8e5d4669dea16e15",
+        "reason": "Witnesses star release and object-to-pad presentation change before clearance.",
+        "relation": "support",
+        "revision": 381,
+        "type": "case"
+      },
+      {
+        "id": "k245d68825cef1173",
+        "reason": "Unloaded star gradients after prior held correction establish that leveling did not guarantee release success.",
+        "relation": "support",
+        "revision": 382,
+        "type": "case"
+      },
+      {
+        "id": "k5270c0951780cc59",
+        "reason": "Witnesses the distinct empty left-pad raised-face press setup.",
+        "relation": "support",
+        "revision": 383,
+        "type": "case"
+      },
+      {
+        "id": "k652e5f521ee703cb",
+        "reason": "First star increment has local visual response and a smaller measured endpoint departure.",
+        "relation": "support",
+        "revision": 384,
+        "type": "case"
+      },
+      {
+        "id": "k188b4bc12e7fd397",
+        "reason": "Second star increment establishes the larger vertical/lateral tracking departure despite complete execution.",
+        "relation": "support",
+        "revision": 385,
+        "type": "case"
+      },
+      {
+        "id": "k74034662641a9d47",
+        "reason": "Unloaded star persistence, protruding peg and agreeing face heights establish the positive endpoint after the tracking departure.",
+        "relation": "support",
+        "revision": 386,
+        "type": "case"
+      },
+      {
+        "id": "nc4cb271c33324fe",
+        "reason": "E15 orange external-contact recovery shares the loaded-versus-unloaded assessment boundary, but its object, setup and staged responses are not E36 support.",
+        "relation": "related",
+        "revision": 19,
+        "type": "knowledge"
+      },
+      {
+        "id": "n5b71fcb4c99844d",
+        "reason": "E23 retained-star leveling and release is a different recovery candidate; navigate to it without attributing E36 press results to retained leveling.",
+        "relation": "related",
+        "revision": 27,
+        "type": "knowledge"
+      },
+      {
+        "id": "kbcb70afd44fc04f9",
+        "reason": "Previously delivered historical first-yellow regrasp/lift/release recovery has visual confirmation but no corrected numerical top height; it neither tests pressing nor establishes preference or adoption.",
+        "relation": "related",
+        "revision": 2,
+        "type": "case"
+      }
+    ],
+    "status": "active"
+  },
+  {
+    "case": "E",
+    "source_snapshot": "/data/KnowYourBody_RoboDojo/runs/main42_rgb_v4_runtime36_20261029_r01_t08_make_toast_20261029T223938/final_memory.sqlite",
+    "revision": 13,
+    "id": "ne9782563c5f042d",
+    "domain": "external",
+    "family": "contact_response",
+    "question": "What contact-registration candidate and observation boundary distinguish partial toaster-lever presses from observed completion after release and withdrawal?",
+    "text": "Under these conditions, approaching from open inclined jaws with closure across the tab sides, then translating downward, is an observed candidate for completing the remaining lever travel. The EEF tracked closely; the tab exposed a long track above and none visibly below. Opening in place and the subsequent actually executed withdrawal left it down and separate from the jaws. The withdrawal was partial, not a completed home return. Earlier inclined and near-vertical presses ended substantially above their full goals, often with the tab occluded. Command completion therefore did not certify arrival, contact registration or lever completion. The deliberately observation-limited descent prefix was not evidence of selected-endpoint tracking failure. A 0.6 s nominal dwell added only small EEF lowering while lever motion remained occluded. After a further changed request and withdrawal, track still showed below the tab: the earlier series had a partial visible result, not necessarily no effect. Tracked recoveries/reapproaches also prevent calling all these entries untrackable. Separate EEF tracking, visible jaw/tab registration and lever persistence after separation. The later response is a changed-condition contrast, not proof that pinching alone removed a collision or is preferable to pressing.",
+    "conditions": {
+      "contrast": "Earlier inclined narrow-jaw and near-vertical closed-jaw presses used different contact lines, angles and lever states",
+      "feedback": "Exact before/receipt/post EEF measurements and RGB resolve track exposure, opening and actual withdrawal",
+      "object": "This toaster's protruding front tab on a vertical track, with bread visible in both slots; tab already partway down before side capture",
+      "registration": "Initially open inclined right jaws approach with closure visibly bracketing the tab sides before downward translation",
+      "scope": "One uncontrolled trace; components were not isolated and some earlier intervening intervals were not inspected"
+    },
+    "params": [],
+    "dependencies": {
+      "body": "7aaa308a1a5b6a213d914db86ba09ddd6252f25cb498ac9a148bfa6c7166a423",
+      "cameras": "a084dca1cb8297e1ef060f3bdf0cbccf274ef106f0a1a48420e8d2c06460b339",
+      "execution": "b02284e422327150dcef97b0f55da0856128f7c6b38ebcc203d65de7aa3f425f",
+      "planner": "c0bab16bd6b42dfe1f1be9143864e43eab4fd12d466c2570d7b141ccad22a0d4"
+    },
+    "strength": "observation",
+    "use_hint": "Distinguish execution coverage from measured EEF arrival, then judge visible tab travel and persistence after opening/separation independently. A large residual, unresolved occlusion or track still visible below the tab defeats a completed-travel interpretation at that boundary. Use the observed side-capture/descent/release result as a scoped candidate, not a preferred grasp, fixed dwell, collision diagnosis or future EEF target.",
+    "unknowns": [
+      "Which surfaces, forces or controller effects caused earlier endpoint misses; no collision mechanism was established.",
+      "Exact lever motion during occluded presses and dwell, and contributions of the subsequent active request and withdrawals, remain unresolved.",
+      "Grip, angle, contact line and initial lever state changed together; necessity, comparative advantage and repeatability are untested.",
+      "Visible persistence is limited to inspected opening/withdrawal endpoints; mechanical latching, heating activation and longer-term behavior were not verified.",
+      "The deliberate prefix lacked a selected-endpoint EEF comparison; the terminal return stopped after 9/19 actions and did not reach its full target. Unread gaps do not inherit success."
+    ],
+    "refs": [
+      {
+        "id": "kf847b9d1666ea18b",
+        "reason": "Full front approach execution coexisted with a large measured miss and unresolved lever registration.",
+        "relation": "support",
+        "revision": 76,
+        "type": "case"
+      },
+      {
+        "id": "kd48d6fd29c9a62c0",
+        "reason": "Closely tracked lifting recovery limits a universal toaster-near tracking-failure interpretation.",
+        "relation": "support",
+        "revision": 77,
+        "type": "case"
+      },
+      {
+        "id": "kf6c8906813936536",
+        "reason": "Inclined press had limited measured descent despite full execution and apparent local tab alignment.",
+        "relation": "support",
+        "revision": 78,
+        "type": "case"
+      },
+      {
+        "id": "k86fb563d15fb01f1",
+        "reason": "Changed wrist/outward reconfiguration tracked closely without certifying lever contact.",
+        "relation": "support",
+        "revision": 79,
+        "type": "case"
+      },
+      {
+        "id": "k1e8d16c588fd9973",
+        "reason": "Near-vertical full press retained a large height residual and an occluded lever result.",
+        "relation": "support",
+        "revision": 80,
+        "type": "case"
+      },
+      {
+        "id": "k0a7b78de2144ed34",
+        "reason": "Separate withdrawal inspection exposed remaining track below the tab after an occluded press.",
+        "relation": "support",
+        "revision": 81,
+        "type": "case"
+      },
+      {
+        "id": "k11e8c5abab142c40",
+        "reason": "Deliberate observation-limited prefix separates full-goal difference from unassessed selected-endpoint tracking.",
+        "relation": "support",
+        "revision": 82,
+        "type": "case"
+      },
+      {
+        "id": "k7ad051eb305c8dae",
+        "reason": "Changed outward entry tracked relatively closely but did not itself establish contact or predict descent.",
+        "relation": "support",
+        "revision": 83,
+        "type": "case"
+      },
+      {
+        "id": "ka20b1eae282240ac",
+        "reason": "Full outward-line descent retained a substantial endpoint residual while lever motion was occluded.",
+        "relation": "support",
+        "revision": 84,
+        "type": "case"
+      },
+      {
+        "id": "kf6d5b6d858a320cd",
+        "reason": "Executed 0.6 s dwell added only small EEF lowering and supplied no resolved lever-travel witness.",
+        "relation": "support",
+        "revision": 85,
+        "type": "case"
+      },
+      {
+        "id": "k77175ec045af77d6",
+        "reason": "A further active changed request intervened before withdrawal, preventing attribution of the later state to dwell alone.",
+        "relation": "support",
+        "revision": 86,
+        "type": "case"
+      },
+      {
+        "id": "k58339d3c41149c98",
+        "reason": "Post-series withdrawal exposed a partway-down tab with remaining track below, rather than certified completion or zero effect.",
+        "relation": "support",
+        "revision": 87,
+        "type": "case"
+      },
+      {
+        "id": "kac05b60a8ec5ee6f",
+        "reason": "Observed inclined approach with closure established the changed side-bracketing entry, without proving necessity or preference.",
+        "relation": "support",
+        "revision": 88,
+        "type": "case"
+      },
+      {
+        "id": "k608f0e60b8f60c6d",
+        "reason": "Closely tracked downward translation accompanied further visible tab lowering and increased track exposure above.",
+        "relation": "support",
+        "revision": 89,
+        "type": "case"
+      },
+      {
+        "id": "k628d8bc77a2b34c2",
+        "reason": "Opening in place separately exposed persistent low lever position with jaws separated.",
+        "relation": "support",
+        "revision": 90,
+        "type": "case"
+      },
+      {
+        "id": "kfa5531b11b693c51",
+        "reason": "Actual partial withdrawal preserved the visible low lever result but did not complete the requested return.",
+        "relation": "support",
+        "revision": 91,
+        "type": "case"
+      },
+      {
+        "id": "n01bdd629eb3e45c",
+        "reason": "Different-object post-push registration boundary is an observation-boundary analogue, not toaster evidence or a transferable contact mechanism.",
+        "relation": "related",
+        "revision": 2,
+        "type": "knowledge"
+      },
+      {
+        "id": "n510ceae8f8ec40e",
+        "reason": "Existing different-task endpoint-tracking distinction provides navigation only; its grasp/task scope is not merged with toaster contact results.",
+        "relation": "related",
+        "revision": 12,
+        "type": "knowledge"
+      }
+    ],
+    "status": "active"
+  }
+]

@@ -1,0 +1,8 @@
+# Preserve binary assets and the exported CSV bytes.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

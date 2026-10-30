@@ -1,64 +1,51 @@
-<div align="center">
+# KnowBody 合作者文档与绘图素材
 
-# Know Your Body
+本分支收录 2026-10-30 整理的 **v4-runtime37** 架构指南、经验案例与真实素材。
 
-### A Harness for Direct and Self-Improving Robot Control with VLMs
+| 内容 | 入口 |
+| --- | --- |
+| 详细中文 Word（24页） | [下载 Word](collaborator_guide_20261030/KnowBody_Collaborator_Guide.docx?raw=true) |
+| 固定排版预览 | [PDF](collaborator_guide_20261030/KnowBody_Collaborator_Guide.pdf) |
+| 架构与案例图文指南 | [guide.html](collaborator_guide_20261030/guide.html) |
+| 可筛选素材库 | [index.html](collaborator_guide_20261030/index.html) |
+| 逐图任务、阶段、标注建议与出处 | [CSV](collaborator_guide_20261030/catalog/assets.csv) · [JSON](collaborator_guide_20261030/catalog/assets.json) |
+| 33张精选总览 | [PDF](collaborator_guide_20261030/catalog/精选总览.pdf) |
+| 完整包使用说明 | [先读我](collaborator_guide_20261030/README_先读我.txt) |
 
-Zeyu Lou<sup>1,2</sup> · Yanhong Zeng<sup>2</sup> · Yong Wang<sup>2,3</sup> · Chenyang Si<sup>1,†</sup>
+## 下载与打开
 
-<sup>1</sup>Nanjing University · <sup>2</sup>Ant Group · <sup>3</sup>Zhejiang University
+[下载整个 assets 分支](https://github.com/Loule0-0/KnowBody/archive/refs/heads/assets.zip)，解压后进入 `collaborator_guide_20261030/`：
 
-[arXiv](https://arxiv.org/abs/2609.28530) · [Project Page](https://loule0-0.github.io/KnowBody/) · [Overview Video](https://loule0-0.github.io/KnowBody/assets/knowbody-demo-v9.mp4)
+1. 用 Word 打开 `KnowBody_Collaborator_Guide.docx`；PDF提供固定版式预览。
+2. 用浏览器打开 `index.html`，按任务、相机、案例、分辨率和关键词选图。
+3. 打开 `guide.html`，从整体分工读到经验组织、检索、更新和具体案例。
 
-</div>
+HTML离线可用；请保留解压后的目录结构。
 
-![KnowBody relates the commanded end-effector pose to the functional point that acts on the world.](https://loule0-0.github.io/KnowBody/assets/fig1-teaser-formal.png)
+## 素材内容
 
-## Overview
+- **152张原分辨率图片**：真机73张、仿真及用户示范79张，默认精选33张。
+- **21个任务组**，逐图附任务、阶段、标注建议、来源和hash。
+- **三条实验线的3个主要案例与3个辅助案例**，区分提炼、送达、实际使用和观察反馈。
+- **5张机制图**：PNG与可编辑SVG；**7组时序图**附原图ID和裁切记录。
+- 实际知识记录、48个公开事件摘要、冻结代码来源索引，以及参考PPT/PDF。
 
-A general-purpose vision–language model can understand a task goal without knowing how a particular robot's motion and functional parts produce the intended effect. **KnowBody** is a harness that makes these action-relevant body relations explicit, queryable, and revisable while keeping the model weights frozen.
-
-Initialized from one off-task trajectory, a partial body model guides action selection and the interpretation of past interactions. New evidence refines the model, and knowledge dependent on revised body estimates is rechecked before reuse.
-
-## Method
-
-KnowBody connects four parts of the interaction loop:
-
-- **Decision context:** the task, current observations, current state, eligible rules, and selected original evidence.
-- **Queryable body model:** action-relevant motion, functional-geometry, and whole-arm feasibility relations.
-- **Execution feedback:** robot actions, observations, and outcome checks update the current episode state.
-- **Validated revision:** candidate body and rule updates are independently checked before reuse in later episodes.
-
-![KnowBody harness architecture.](https://loule0-0.github.io/KnowBody/assets/fig2-harness-formal.png)
-
-## Real-robot evaluation
-
-We evaluate KnowBody on four manipulation tasks: duck placement, apple pushing, writing, and pouring. Under the matched fixed-initialization protocol, both methods use the same frozen VLM and cross-episode updates are disabled.
-
-| Method | Completed trials | Completion |
-| --- | ---: | ---: |
-| **KnowBody** | **12 / 16** | **75%** |
-| Native harness | 4 / 16 | 25% |
-
-![KnowBody real-robot task examples and evaluation results.](https://loule0-0.github.io/KnowBody/assets/fig10-evaluation-formal.png)
-
-## Repository status
-
-This repository is the public home of KnowBody. The project page, paper, and overview video are available now. The public release of the source code, prompts, configuration files, and reproducibility materials is undergoing approval. We will make them available as soon as the approval process is complete.
-
-## Citation
-
-```bibtex
-@article{lou2026knowbody,
-  title   = {Know Your Body: A Harness for Direct and
-             Self-Improving Robot Control with VLMs},
-  author  = {Lou, Zeyu and Zeng, Yanhong and
-             Wang, Yong and Si, Chenyang},
-  year    = {2026},
-  journal = {arXiv preprint},
-  eprint  = {2609.28530},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO},
-  doi     = {10.48550/arXiv.2609.28530}
-}
+```text
+collaborator_guide_20261030/
+├── KnowBody_Collaborator_Guide.docx
+├── KnowBody_Collaborator_Guide.pdf
+├── guide.html / index.html
+├── assets/
+│   ├── originals/real/ 与 originals/simulation/
+│   ├── previews/
+│   ├── sequences/
+│   └── diagrams/             # PNG + SVG
+├── catalog/                  # CSV、JSON与精选总览
+├── evidence/                 # 案例、知识与代码来源
+├── reference_figures/        # 参考PPT/PDF
+└── FILE_MANIFEST.json        # 相对路径、大小与SHA256
 ```
+
+正式绘图从 `assets/originals/` 取图；时序图的组成与裁切记录见 `catalog/sequences.json`。真机开发演示与当前v4实验案例分别标明证据身份。
+
+正文、案例链和关键图已由Astra复核；文件来源、Word/PDF排版及离线网页功能检查通过。详见 [检查说明](collaborator_guide_20261030/REVIEW_AND_VALIDATION.txt)。

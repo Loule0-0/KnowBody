@@ -1,0 +1,8 @@
+{
+  "version": "v4",
+  "workspace": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime37-20261030",
+  "manifest": "/home/lzy/KnowYourBody_RoboDojo/releases/v4/runtime37_20261030/HARNESS.json",
+  "source_version": "v4-runtime37-20261030",
+  "manifest_sha256": "37d6203870589e408620f7aec7ef7670c9177178ff338b71dc5aa06e30400b73",
+  "activated_at_utc": "2026-10-30T01:36:45.838676+00:00"
+}

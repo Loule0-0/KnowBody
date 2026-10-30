@@ -1,0 +1,226 @@
+[
+  {
+    "path": "assets/sequences/case_A.png",
+    "title": "A · 当前E35：读到K33后，重新看当前关系并分段操作",
+    "items": [
+      {
+        "asset_id": "CASE_A_000537_left_wrist",
+        "crop_normalized": null,
+        "label": "端部抓持，留下孔口"
+      },
+      {
+        "asset_id": "CASE_A_000547_left_wrist",
+        "crop_normalized": null,
+        "label": "提升后检查保持与孔口"
+      },
+      {
+        "asset_id": "CASE_A_000563_left_wrist",
+        "crop_normalized": null,
+        "label": "运送，重新看孔杆关系"
+      },
+      {
+        "asset_id": "CASE_A_000567_left_wrist",
+        "crop_normalized": null,
+        "label": "浅入，孔中可见白杆"
+      },
+      {
+        "asset_id": "CASE_A_000574_left_wrist",
+        "crop_normalized": null,
+        "label": "下放与松开"
+      },
+      {
+        "asset_id": "CASE_A_000584_left_wrist",
+        "crop_normalized": null,
+        "label": "撤手后，蓝块仍留杆"
+      }
+    ],
+    "note": "同一当前episode；图像支持可见关系，完整读卡与执行证据见案例A。"
+  },
+  {
+    "path": "assets/sequences/case_A_history.png",
+    "title": "A · 历史E28：K33的来源，不是当前E35",
+    "items": [
+      {
+        "asset_id": "CASE_A_HISTORY_728",
+        "crop_normalized": null,
+        "label": "历史接触/释放区间"
+      },
+      {
+        "asset_id": "CASE_A_HISTORY_738",
+        "crop_normalized": null,
+        "label": "历史清手后的蓝块"
+      }
+    ],
+    "note": "历史与当前分别标区；提炼在E28终局续接发布。"
+  },
+  {
+    "path": "assets/sequences/case_B.png",
+    "title": "B · 历史装箱端点 → 当前挂杯前暂存位",
+    "items": [
+      {
+        "asset_id": "CASE_B_SOURCE_000368_head",
+        "crop_normalized": null,
+        "label": "历史：装箱身体姿态"
+      },
+      {
+        "asset_id": "CASE_B_000145_head",
+        "crop_normalized": null,
+        "label": "当前：重新选择暂存位"
+      },
+      {
+        "asset_id": "CASE_B_000145_left_wrist",
+        "crop_normalized": null,
+        "label": "当前：腕图检查杯子保持"
+      }
+    ],
+    "note": "明确引用历史端点；当前局部到位残差约2.14 mm；完整挂杯任务为NEEDS_WORK。"
+  },
+  {
+    "path": "assets/sequences/case_C.png",
+    "title": "C · 管理比较失败时序后，开爪与撤手分开检查",
+    "items": [
+      {
+        "asset_id": "CASE_C_000566_head",
+        "crop_normalized": [
+          0.2,
+          0.32,
+          0.98,
+          0.84
+        ],
+        "label": "旧尝试：次小件开爪前"
+      },
+      {
+        "asset_id": "CASE_C_000571_head",
+        "crop_normalized": [
+          0.2,
+          0.32,
+          0.98,
+          0.84
+        ],
+        "label": "旧尝试：开爪区间已侧倒"
+      },
+      {
+        "asset_id": "CASE_C_000740_head",
+        "crop_normalized": [
+          0.12,
+          0.28,
+          0.98,
+          0.85
+        ],
+        "label": "新尝试：最大件开后站立"
+      },
+      {
+        "asset_id": "CASE_C_000790_head",
+        "crop_normalized": [
+          0.12,
+          0.28,
+          0.98,
+          0.85
+        ],
+        "label": "新尝试：撤手后仍站立"
+      },
+      {
+        "asset_id": "CASE_C_000911_head",
+        "crop_normalized": [
+          0.12,
+          0.28,
+          0.98,
+          0.85
+        ],
+        "label": "次小件：撤手后复查"
+      },
+      {
+        "asset_id": "CASE_C_001086_head",
+        "crop_normalized": [
+          0.1,
+          0.24,
+          0.98,
+          0.85
+        ],
+        "label": "最终：五件站立，官方PASS"
+      }
+    ],
+    "note": "图中局部裁切只保留视窗；松开保持与清手保持是两次检查。"
+  },
+  {
+    "path": "assets/sequences/case_D.png",
+    "title": "D · 蓝块响应 → 紫星类比 → 终局才形成K46",
+    "items": [
+      {
+        "asset_id": "CASE_D_e002660_cam_left_wrist",
+        "crop_normalized": null,
+        "label": "先：蓝块清手后的观察"
+      },
+      {
+        "asset_id": "CASE_D_e003055_cam_left_wrist",
+        "crop_normalized": null,
+        "label": "后：紫星当前几何"
+      },
+      {
+        "asset_id": "CASE_D_e003200_cam_left_wrist",
+        "crop_normalized": null,
+        "label": "再：紫星清手后的观察"
+      }
+    ],
+    "note": "原生会话内的当前类比；K46不在这段操作之前。"
+  },
+  {
+    "path": "assets/sequences/case_E.png",
+    "title": "E · 吐司机：新交互先发生，K13在终局整理",
+    "items": [
+      {
+        "asset_id": "SIM_TOAST_000471_cam_head",
+        "crop_normalized": null,
+        "label": "过程中：当前操作场景"
+      },
+      {
+        "asset_id": "SIM_TOAST_000706_cam_head",
+        "crop_normalized": null,
+        "label": "过程中：吐司机与机构"
+      },
+      {
+        "asset_id": "CASE_E_000824_head",
+        "crop_normalized": null,
+        "label": "终局：官方PASS对应场景"
+      }
+    ],
+    "note": "画面用于说明阶段；K13的精确证据与完整读取链见案例E。"
+  },
+  {
+    "path": "assets/sequences/real_hero.png",
+    "title": "真实素材 · 身体、功能点与外物关系",
+    "items": [
+      {
+        "asset_id": "REAL_CROSSWORD_06",
+        "crop_normalized": [
+          0.25,
+          0.14,
+          0.91,
+          0.9
+        ],
+        "label": "持笔：功能点在笔尖"
+      },
+      {
+        "asset_id": "REAL_ARCHIVE_POUR_TILT",
+        "crop_normalized": null,
+        "label": "倾倒：容器姿态与接收区域"
+      },
+      {
+        "asset_id": "REAL_ARCHIVE_DUCK_LIFT",
+        "crop_normalized": null,
+        "label": "搬运：物体相对夹爪的保持"
+      },
+      {
+        "asset_id": "REAL_ANT_FINAL",
+        "crop_normalized": [
+          0.24,
+          0.21,
+          0.91,
+          0.91
+        ],
+        "label": "卡片：接触边缘与图案结果"
+      }
+    ],
+    "note": "真机历史开发演示；原图无内容修改，与当前v4机制证据分别标记。"
+  }
+]
