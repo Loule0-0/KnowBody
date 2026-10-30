@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "snapshot": "v4-runtime38-20261030",
+  "checked_at_utc": "2026-10-30T09:25:22.784439+00:00",
+  "source_files_verified": 85,
+  "release_pinned_files": 76,
+  "python": "3.10.12",
+  "offline_unit_tests": {
+    "status": "PASS",
+    "count": 59,
+    "modules": [
+      "test_memory",
+      "test_hybrid_retrieval",
+      "test_source_scope",
+      "test_outline_size",
+      "test_manager_continuity"
+    ],
+    "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=research:research/tests:. python3 -m unittest test_memory test_hybrid_retrieval test_source_scope test_outline_size test_manager_continuity"
+  },
+  "checks": [
+    "copied source SHA256",
+    "frozen release SHA256",
+    "all exported Python AST syntax",
+    "README relative links",
+    "credential pattern scan",
+    "no binary dependencies/weights/environment assets/logs/databases"
+  ],
+  "scope": "Static source checks and selected offline/fake-manager tests only. No hosted model calls, simulator launch or robot actions."
+}

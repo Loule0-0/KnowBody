@@ -1,0 +1,37 @@
+{
+  "version": "v4",
+  "logical_version": "v4",
+  "refinement": "runtime38-20261030",
+  "status": "FROZEN_CODE_OFFLINE_VALIDATED",
+  "created_at_utc": "2026-10-30T09:10:32.129852+00:00",
+  "memory": "Bounded relevant experience8192bytes; full scoped operator contracts separately; historical pins unchanged; each study owns its cumulative chain",
+  "models": {
+    "primary": {
+      "model": "gpt-6-astra",
+      "effort": "medium"
+    },
+    "manager": {
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh"
+    },
+    "manager_capacity_alternative": {
+      "model": "gpt-6-astra",
+      "effort": "high"
+    }
+  },
+  "validation": {
+    "verdict": "PASS",
+    "scope": "517 offline/fakeCLI tests, full actual S37 unfiltered request/cursor/permission and S37/S38 preparation replay, exact K46 and relation checks, five bounded CPU timing groups, independent source and deployment reviews.",
+    "changes": [
+      "Optional exact source_episode filter on existing knowledge text search, using visible exact case provenance or direct evidence only; no transitive related-K or recovery lineage expansion.",
+      "Existing domain/family/roles intersect, latest-active/source-frontier/own-overlay/owner/profile rules and BM-first interleave ranking remain.",
+      "Source role counts survive complete statements, navigation and immutable readout pages; no raw or writing authority from source matching.",
+      "Independent outline meter counts at most4096 compact UTF-8 stage bytes/max6, preserving original source/order/condition/result gates."
+    ],
+    "unchanged": "Unfiltered answers/cursors/delivery effects and preparation are byte-identical in archived replay; role instruction bodies, physical/planner/sensor identity, KB rows/pins, original queues/layouts/order/caps/horizons and separate own libraries retained.",
+    "limits": "Source-filter K46 complete5850/6000B. Fixed schema cost: primary memory tools+550UTF8B,manager tools+469B; no online cost/success benefit established. Experience packet8192B excludes native history/images. CPU timings use a declared rank double and warm OS cache, not real inference. Outline admission is a separate formatting effect.",
+    "natural_observation_window": "Original single queue only: first5 sealed episodes after adoption OR first3 eligible staged-history comparison opportunities. Record actual selection/newly delivered knowledge/unique subsequent use/additional cost. No prompts, quotas or trials added to induce use; remove cleanly in a later revision if no added value."
+  },
+  "source_manifest_sha256": "4a52c3af04fb566a935b9d0a00cd5d6bc4c90d7d1ab8bdb6ed1294cfa0c07282",
+  "source_workspace": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030"
+}

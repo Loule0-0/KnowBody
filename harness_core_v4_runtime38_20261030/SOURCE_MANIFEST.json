@@ -1,0 +1,688 @@
+{
+  "snapshot": "v4-runtime38-20261030",
+  "source_manifest_sha256": "4a52c3af04fb566a935b9d0a00cd5d6bc4c90d7d1ab8bdb6ed1294cfa0c07282",
+  "exported_at_utc": "2026-10-30T09:22:46.403457+00:00",
+  "rule": "Source files are byte-for-byte copies. matched_frozen_release distinguishes release-pinned code from shared helper/test/license snapshots.",
+  "files": [
+    {
+      "path": "research/kyb/__init__.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/__init__.py",
+      "group": "harness_core",
+      "bytes": 68,
+      "sha256": "af1717cfdc5e7f94b0e9eab7bba24a0b6c61ac9b6a4a08346f2cc284156eac8c",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/action_digest.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/action_digest.py",
+      "group": "harness_core",
+      "bytes": 3635,
+      "sha256": "1a8288b3ca46caa8653e35db3ec88a1d26edaee3f2f7943ce5d2921b7d2d5208",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/body_guard.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/body_guard.py",
+      "group": "harness_core",
+      "bytes": 5446,
+      "sha256": "1e94fd6be70237b87686cd862f64b04204b349bbc78052b8c539ea73c63e9b35",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/body_index.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/body_index.py",
+      "group": "harness_core",
+      "bytes": 9044,
+      "sha256": "efd6e0fc41f8cdc408813da91bb6a82a2c93bfc0a017fd64be1c0df1e4c8c8f2",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/body_visual.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/body_visual.py",
+      "group": "harness_core",
+      "bytes": 10699,
+      "sha256": "7491f73f4c4cb1d73a3705d3138544c46126c3756209f93353f8ef7e8fa04f6b",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/budget.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/budget.py",
+      "group": "harness_core",
+      "bytes": 2019,
+      "sha256": "1c73429b7e0210a78acf2deebf72059ac88bd894260769b005b198f73fc54c41",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/clarification.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/clarification.py",
+      "group": "harness_core",
+      "bytes": 7070,
+      "sha256": "bc0ade7d405b3e93e95263421906cd78a700e67f6ad55934f1bcd6c50cb28a4d",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/codex_cli.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/codex_cli.py",
+      "group": "harness_core",
+      "bytes": 27895,
+      "sha256": "937aa331fae3f81a465117330d7167307d2ab75f2e634f401d6687f69dd6a02a",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/context.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/context.py",
+      "group": "harness_core",
+      "bytes": 3330,
+      "sha256": "607a48d9185e9fffd3d5d172950c72899cfbb71ce245f1ee6f09511ddb10c54b",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/contracts.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/contracts.py",
+      "group": "harness_core",
+      "bytes": 4949,
+      "sha256": "e69f234d86c6c59ee77ced153e67f6eaa75f13edbb8725e8a9e651e97875a5dc",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/embedding_worker.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/embedding_worker.py",
+      "group": "harness_core",
+      "bytes": 3027,
+      "sha256": "a37cc04668b77c58cc35595b5462b42e560d2c1ba146043c81438d4aa37898f2",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/embeddings.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/embeddings.py",
+      "group": "harness_core",
+      "bytes": 9743,
+      "sha256": "ef402c36f2fb66694fc1232642ae06409f21fe5edc04055ae065245fa4cb7f6c",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/episode_index.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/episode_index.py",
+      "group": "harness_core",
+      "bytes": 21251,
+      "sha256": "b8fe62d051cd6b46a34d112f122c04cf02d2726d4a5ebc446642c739a8a4994e",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/episodes.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/episodes.py",
+      "group": "harness_core",
+      "bytes": 17342,
+      "sha256": "27b344fe8b47d1134015cc10201fdf150ff75511bd29206b43d191ac34646308",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/execution.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/execution.py",
+      "group": "harness_core",
+      "bytes": 4347,
+      "sha256": "d7b005eba80abac63a0c66400f45e48427063257b0720612a2a5713cb9fbdd14",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/execution_contract.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/execution_contract.py",
+      "group": "harness_core",
+      "bytes": 3556,
+      "sha256": "5c3e72d1aa41733a7bd48571ac02d9c7e47f23005fa829dde753521303958f23",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/geometry_relations.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/geometry_relations.py",
+      "group": "harness_core",
+      "bytes": 2402,
+      "sha256": "7e985850f7be279764b1f13e7c5e87fba7602e18ae984647901ca78e49dbad3e",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/hybrid.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/hybrid.py",
+      "group": "harness_core",
+      "bytes": 14557,
+      "sha256": "14f1cd45f7a833ebf34fb88a6f9a6bbcdf2969ab43902a4e1f4f49d4f76a9bf5",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/instances.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/instances.py",
+      "group": "harness_core",
+      "bytes": 8641,
+      "sha256": "43dd35df8ac8411084c8b95e535856e38f56fd830f46329917804f5f17e95cfd",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/knowledge.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/knowledge.py",
+      "group": "harness_core",
+      "bytes": 34509,
+      "sha256": "ca2d846ee8bf8b9237a511c6fcbce21ba1bbd7a3c17f6a8cf9b33f3da97413fd",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/layout.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/layout.py",
+      "group": "harness_core",
+      "bytes": 1016,
+      "sha256": "047f1cd4413f3f284f779e16b4cb3ce8f987c1c2ccf152d165fef59a4e7db3a7",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/leads.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/leads.py",
+      "group": "harness_core",
+      "bytes": 3691,
+      "sha256": "9fa0ac2db094506051e4b26c9d14247ab50499682aaacbdf5e2ad1c05f53d8c4",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/library.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/library.py",
+      "group": "harness_core",
+      "bytes": 40287,
+      "sha256": "025aa23923cc2e830cfab84f46725e9ef6c40b9a9a4d63217ff996f80acc6bd7",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/manager.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/manager.py",
+      "group": "harness_core",
+      "bytes": 105526,
+      "sha256": "403564a5677230b8501458ad0039dcca66e18cb21cb09ec705129948abcd03ab",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/memory.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/memory.py",
+      "group": "harness_core",
+      "bytes": 50833,
+      "sha256": "71ed919d7b631f11181955b2b071454d03bed162ec7d9d789995b5c75cdbf240",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/motion_core.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/motion_core.py",
+      "group": "harness_core",
+      "bytes": 5838,
+      "sha256": "31d2ccf7caaadb600f8caeb8866b5b72fd94062ce582f623d4fde64fa188dca7",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/native_dispatch.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/native_dispatch.py",
+      "group": "harness_core",
+      "bytes": 4129,
+      "sha256": "e299af9c9012db25f4378e177930edd9a7c983e623a7c8d656c2aa629d4a2cfa",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/native_usage.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/native_usage.py",
+      "group": "harness_core",
+      "bytes": 14133,
+      "sha256": "2c0f0a63ca5eef27680da6ad6ab02cfd982fbce00adf797e29336aa123ff14ed",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/operating_notes.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/operating_notes.py",
+      "group": "harness_core",
+      "bytes": 848,
+      "sha256": "b0399e6852b6cbd4e649eb9d3d41c1feff7d8d891c441290a9309ad706fc26e7",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/perception.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/perception.py",
+      "group": "harness_core",
+      "bytes": 2783,
+      "sha256": "35a8e4ac7a295788254189a2936fd0f638681a608d598055705882bfb0519727",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/policy.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/policy.py",
+      "group": "harness_core",
+      "bytes": 8834,
+      "sha256": "4a62b127d8c67eca01d6cf3d51b1b2a0c720824b5c18a1700b38cea802c95361",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/preparation.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/preparation.py",
+      "group": "harness_core",
+      "bytes": 7795,
+      "sha256": "bdd91233140629c38cadd61cd65eb5424827391d2478b6fbeace0e090c134016",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/qualification.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/qualification.py",
+      "group": "harness_core",
+      "bytes": 7012,
+      "sha256": "4be67972686b997c3ac8b1abac2c9180a8fe946837d8e44129a568935ca33399",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/readout.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/readout.py",
+      "group": "harness_core",
+      "bytes": 10880,
+      "sha256": "4c1e368d406730ee71d4c76792c4e6dd34ca614ef1774ce751f48c6efbcc975c",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/replay.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/replay.py",
+      "group": "harness_core",
+      "bytes": 8933,
+      "sha256": "0019df566d2c67e821faacccd8a30fc9ccedd178355fc28154f1312a8fda13b6",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/resources.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/resources.py",
+      "group": "harness_core",
+      "bytes": 1837,
+      "sha256": "65fa9cfcc19b6ac10c0f406f837cff6fc7d55a27fcc2e414848c88c3dbd41f68",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/retrieval.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/retrieval.py",
+      "group": "harness_core",
+      "bytes": 1491,
+      "sha256": "0196d6b1b9264dd623b7fadba5ed2c2ed1a6fc06880db5ab4af33f696f39da0f",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/robodojo_adapter.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/robodojo_adapter.py",
+      "group": "harness_core",
+      "bytes": 1631,
+      "sha256": "c08f9201451d5bee8a7b784db1e5016275857a4d78dad3598400b9a683e9e8fb",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/runtime.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/runtime.py",
+      "group": "harness_core",
+      "bytes": 1221,
+      "sha256": "7e6a8230c62a2c2faf514544dbc45c65d67c3605e28c1c980829311b6c23904b",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/segments.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/segments.py",
+      "group": "harness_core",
+      "bytes": 18466,
+      "sha256": "e6430b4159cec638695ddb356a3dfb0e40f3134dc45af149c96c154605c9a0e8",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/session.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/session.py",
+      "group": "harness_core",
+      "bytes": 32161,
+      "sha256": "077dbfbed3b407f07ca04d4b1eee9989379777251d8c2a419937ab1beffe3d9f",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/snapshots.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/snapshots.py",
+      "group": "harness_core",
+      "bytes": 3083,
+      "sha256": "da00101523e0b17e2aec39225a82e4b30cc1af78dc273c55846d5eee9d7d4fad",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/state.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/state.py",
+      "group": "harness_core",
+      "bytes": 7265,
+      "sha256": "0406fa3f37a8fd18f32d7d4248886419dc346a17dd8aa6b52fac069497e03107",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/surface.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/surface.py",
+      "group": "harness_core",
+      "bytes": 7942,
+      "sha256": "615c884f3ae4c6575ff9c52cf3d919f1dc3bfe2adf30bab3ee0d113511e8325d",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/terminal.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/terminal.py",
+      "group": "harness_core",
+      "bytes": 14300,
+      "sha256": "a98f328d989b3992b8f1b915743e3b05d6da013716c53029c753f5a6fbc7abef",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/trace.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/trace.py",
+      "group": "harness_core",
+      "bytes": 2360,
+      "sha256": "6d955e4350c47a2123bc39685a81566de5c25200c7be1fb098ee01fbe8a2f172",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/tracking.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/tracking.py",
+      "group": "harness_core",
+      "bytes": 13284,
+      "sha256": "d9252336d05cbf4bcfcd4897e8dce332da8dea5080a52dfb5d2d4637f42a0075",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/kyb/retrieval_encoder.json",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/kyb/retrieval_encoder.json",
+      "group": "retrieval_configuration",
+      "bytes": 1678,
+      "sha256": "733bc86c2dbf195f5f2a3f32be08291c33c9d1a6dc21ca6e4b8afee98b06df9f",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/run_episode.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/run_episode.py",
+      "group": "integration_entrypoint",
+      "bytes": 27441,
+      "sha256": "88b38ca8e570734bcd5a22a9aae869beccf9b4e2bd46dcddee81d0bc6baddb25",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/__init__.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/__init__.py",
+      "group": "direct_eef_controller",
+      "bytes": 73,
+      "sha256": "a0d46791a7f68f63d86634656f4d863a4e3430963f4144189715becb333db424",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/deploy.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/deploy.py",
+      "group": "direct_eef_controller",
+      "bytes": 2036,
+      "sha256": "786c75c35737427ff00dedcd22633ce47a36f501caf09f0f3b6a7b0fb650a94d",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/docs.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/docs.py",
+      "group": "direct_eef_controller",
+      "bytes": 3959,
+      "sha256": "0bb6f862d31fe7fba666485806505764be0cfeb97492f178d86c00f466c7d7bc",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/__init__.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/__init__.py",
+      "group": "direct_eef_controller",
+      "bytes": 75,
+      "sha256": "cfb6346fb6715c5139c6c5ebdbe30b07da107df84adf0fd1aef779f44889f110",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/deploy.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/deploy.py",
+      "group": "direct_eef_controller",
+      "bytes": 30045,
+      "sha256": "773b1e24152ac84f21651f9e0178ce76621a429413558653a78b4a466f7a0601",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/embodiment_docs.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/embodiment_docs.py",
+      "group": "direct_eef_controller",
+      "bytes": 5349,
+      "sha256": "412e160a42123985e3e825a130119a36f0839e6df1e5fe51a467e86c5588a60e",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/model.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/model.py",
+      "group": "direct_eef_controller",
+      "bytes": 1318,
+      "sha256": "97ca62e47389469233d46f5051b92eb32eebbe081ae49cec8d30f5fd6b8ae25a",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/planner_http_worker.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/planner_http_worker.py",
+      "group": "direct_eef_controller",
+      "bytes": 4690,
+      "sha256": "0986ae8f67b6d94101482e23188f8c9553d41818d1c511e08e9ffb69153fde8b",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/policy.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/policy.py",
+      "group": "direct_eef_controller",
+      "bytes": 63978,
+      "sha256": "59bab970b1f9bbb7742caa48f6b3c67ef261d6f6924fb25bfa2aed5a3857be58",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/prior_attempt.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/prior_attempt.py",
+      "group": "direct_eef_controller",
+      "bytes": 5593,
+      "sha256": "42fecd65674f8d8f48b2309577b02b788eb4cb6059bf5a59de3bc949c7c5ba63",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/probe.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/probe.py",
+      "group": "direct_eef_controller",
+      "bytes": 5369,
+      "sha256": "f03416beb339cb75ee94dbb351bb9c06bb55a2f92c7e574a6ed07fbb61131b3b",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/recipes/__init__.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/recipes/__init__.py",
+      "group": "direct_eef_controller",
+      "bytes": 1490,
+      "sha256": "125acfd1c933cd83f1b30e881ace88e3c622a6fd325744ca9622608b5795e536",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/trace.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/trace.py",
+      "group": "direct_eef_controller",
+      "bytes": 7732,
+      "sha256": "45c6511f5ecbe0c0632341c176ae8e7bc6a6bd48f7181b177b6d4de4e1d6e35f",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/trace_viewer.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/trace_viewer.py",
+      "group": "direct_eef_controller",
+      "bytes": 20378,
+      "sha256": "654e22a0613a5fcd5b21d580ac334adbccb8496da42a79ab5c8cfb645a1e9ce7",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/types.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/inspect/types.py",
+      "group": "direct_eef_controller",
+      "bytes": 4552,
+      "sha256": "fc87915f2e638bfea0036bf19ad5a9796428c0f9006ddbdc081e1657cd029af2",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/model.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/model.py",
+      "group": "direct_eef_controller",
+      "bytes": 272,
+      "sha256": "aa2d086e502806896ae9b368d76463732cc76d8e556401e8b0bed5e244de741d",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/policy.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/policy.py",
+      "group": "direct_eef_controller",
+      "bytes": 35599,
+      "sha256": "f2d5f474a0a4bf513b4613cb5b9da8408513a3e1953f51303369c9ab89769325",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/GPT_6_Astra_Direct_EEF/pose.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/GPT_6_Astra_Direct_EEF/pose.py",
+      "group": "direct_eef_controller",
+      "bytes": 11388,
+      "sha256": "e9c8248bb4a6170557a2588be7202ba1afde440c45b0c539829c6ccaf17f3df1",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "XPolicyLab/policy/__init__.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/policy/__init__.py",
+      "group": "shared_source_dependency",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matched_frozen_release": false
+    },
+    {
+      "path": "XPolicyLab/__init__.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/__init__.py",
+      "group": "shared_source_dependency",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matched_frozen_release": false
+    },
+    {
+      "path": "XPolicyLab/model_template.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/model_template.py",
+      "group": "shared_source_dependency",
+      "bytes": 3478,
+      "sha256": "4f8d1eeb8073aa7ae6093abf0f395cd5fef70ff4a4bd1fa6b2d83b356a90754a",
+      "matched_frozen_release": false
+    },
+    {
+      "path": "XPolicyLab/utils/live_frames.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/utils/live_frames.py",
+      "group": "shared_source_dependency",
+      "bytes": 4555,
+      "sha256": "3c262606c4dc3345db8afeefbe87bfcf342be482e5cdc9a2f9a163571c927099",
+      "matched_frozen_release": false
+    },
+    {
+      "path": "XPolicyLab/utils/process_data.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/utils/process_data.py",
+      "group": "shared_source_dependency",
+      "bytes": 29337,
+      "sha256": "e044e627eb2677907e9227eda8458c857208913bd484c5e922b53025010eef0b",
+      "matched_frozen_release": false
+    },
+    {
+      "path": "XPolicyLab/utils/load_file.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/utils/load_file.py",
+      "group": "shared_source_dependency",
+      "bytes": 997,
+      "sha256": "488590d76084f419a36c2fb3e658eeb240ae554678899e9f2ce0cc10da5c4b57",
+      "matched_frozen_release": false
+    },
+    {
+      "path": "XPolicyLab/utils/openai_responses.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/utils/openai_responses.py",
+      "group": "shared_source_dependency",
+      "bytes": 10900,
+      "sha256": "ad93cfdf51fa913e43998677ef415ea29bd26719884286ea9b3660c6ccf7e849",
+      "matched_frozen_release": false
+    },
+    {
+      "path": "research/tests/manager_fixtures.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/manager_fixtures.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 1368,
+      "sha256": "664e391ef7bf521dcae86ac5fbac5333458b081d00e613a8d66481c12c58d3ad",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/tests/test_hybrid_retrieval.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/test_hybrid_retrieval.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 16174,
+      "sha256": "a6fc1f13f6c93013f1ff7909f40234096edbfbe99bd94f641b6ef4618b4dd972",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/tests/test_manager.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/test_manager.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 15606,
+      "sha256": "9e3c5b6f9cf7d01f353b0ace86a7f33db709860f516031d410ed6ad0c7d1b000",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/tests/test_manager_continuity.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/test_manager_continuity.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 8393,
+      "sha256": "10e278f84264adac13dbd18a821dee0f5f7d10e5b96ae01fc54432a51545e381",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/tests/test_memory.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/test_memory.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 24123,
+      "sha256": "9e93131ba52c96df9d9cc532e0d8fbbb9403d81f0f4196d0a0fc857daef51fcc",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/tests/test_outline_size.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/test_outline_size.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 2323,
+      "sha256": "2be7725b3a513718c16d7d20a6d21edfd146625b2b653c7b8dfae8b1fb6aa931",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/tests/test_physical_memory.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/test_physical_memory.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 15405,
+      "sha256": "eccc6bf0313bf5deaec0e9e164301d22ee082174d146fd90e832a96bbae77e4e",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/tests/test_source_scope.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/test_source_scope.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 11776,
+      "sha256": "fb0061630e11191760ba5f5bc6752902ab190a06f56d0b3cf31699870aa0e1c0",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "research/tests/test_terminal.py",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/workspaces/v4-runtime38-20261030/research/tests/test_terminal.py",
+      "group": "offline_tests_and_fixtures",
+      "bytes": 12899,
+      "sha256": "492a3f5ed961b403734f5ffb6a975bbad1a86797a9d6e7f52b8f8bd289ef4693",
+      "matched_frozen_release": true
+    },
+    {
+      "path": "licenses/RoboDojo-MIT.txt",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/LICENSE",
+      "group": "original_license_notice",
+      "bytes": 1078,
+      "sha256": "4f2b6958d25115c1bc461044e022889852d9e3a9bb854ab581c416514b9984a0",
+      "matched_frozen_release": false
+    },
+    {
+      "path": "licenses/XPolicyLab-Apache-2.0.txt",
+      "source": "/home/lzy/KnowYourBody_RoboDojo/RoboDojo/XPolicyLab/LICENSE",
+      "group": "original_license_notice",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "matched_frozen_release": false
+    }
+  ]
+}

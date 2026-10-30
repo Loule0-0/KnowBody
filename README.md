@@ -1,9 +1,10 @@
 # KnowBody 合作者文档与绘图素材
 
-本分支收录 2026-10-30 整理的 **v4-runtime37** 架构指南、经验案例与真实素材。
+本分支收录合作者指南、经验案例、真实素材与核心源码。图文指南锚定 **runtime37**；最新代码快照为 **v4-runtime38-20261030**。
 
 | 内容 | 入口 |
 | --- | --- |
+| 最新核心源码（runtime38） | [代码与阅读指南](harness_core_v4_runtime38_20261030/) |
 | 详细中文 Word（24页） | [下载 Word](collaborator_guide_20261030/KnowBody_Collaborator_Guide.docx?raw=true) |
 | 固定排版预览 | [PDF](collaborator_guide_20261030/KnowBody_Collaborator_Guide.pdf) |
 | 架构与案例图文指南 | [guide.html](collaborator_guide_20261030/guide.html) |
@@ -21,6 +22,10 @@
 3. 打开 `guide.html`，从整体分工读到经验组织、检索、更新和具体案例。
 
 HTML离线可用；请保留解压后的目录结构。
+
+## 核心源码
+
+[harness_core_v4_runtime38_20261030/](harness_core_v4_runtime38_20261030/) 提供经验存储、检索、上下文准备、管理提炼、原生CLI会话、用量记账、EEF控制和执行回执的真实源码，以及选定离线测试。目录README给出模块地图和阅读顺序；`SOURCE_MANIFEST.json`提供逐文件来源与SHA256。仿真引擎、场景资产、依赖环境和模型权重不打包。
 
 ## 素材内容
 
