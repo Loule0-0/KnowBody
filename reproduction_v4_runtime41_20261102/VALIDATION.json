@@ -1,0 +1,53 @@
+{
+  "verdict": "PASS",
+  "scope": "Published-source integrity, static checks, isolated offline regressions and synthetic-asset protocol preparation",
+  "at_utc": "2026-11-02T06:07:02.141653+00:00",
+  "source_version": "v4-runtime41-20261101",
+  "original_source_files": 401,
+  "byte_identical_to_exported_originals": true,
+  "frozen_release_pin_matches": 301,
+  "core_portable_offline_tests": {
+    "verdict": "PASS",
+    "tests": 99,
+    "method": "fake native CLI and retrieval ranker, temporary leases/CODEX_HOME, no encoder/Kit/hosted requests"
+  },
+  "deployment_tests": {
+    "verdict": "PASS",
+    "tests": 6,
+    "method": "Temporary roots, synthetic public assets and mock download/extension metadata; actual empty schema and original main42/single50 preflight coordinators",
+    "checks": [
+      "50 unique stacking layouts; reset index identity; explicit exclusion exhaustion",
+      "Existing mismatching download preserved",
+      "main42 RGB-D empty seed to original coordinator preflight",
+      "single50 RGB empty seed to original coordinator preflight",
+      "Active/unknown episode boundary recovery refused; clean idle boundary recorded",
+      "Primary/manager usage separated; missing coverage remains unknown"
+    ]
+  },
+  "static": {
+    "python_ast": 290,
+    "json": 17,
+    "shell_syntax": 22,
+    "pptx_zip": 2,
+    "new_document_links": "PASS",
+    "credential_pattern_scan": "PASS",
+    "no_credentials_sqlite_weights_or_vendor_binaries": "PASS",
+    "git_whitespace": {
+      "new_authored_files": "PASS",
+      "unchanged_original_files_with_existing_whitespace": 28,
+      "policy": "Preserve exact frozen/exported source bytes; all warnings mapped to SOURCE_MANIFEST originals"
+    }
+  },
+  "target_server": {
+    "status": "NOT_RUN",
+    "dependency_installation": "NOT_RUN",
+    "real_encoder": "NOT_RUN",
+    "kit_rendering_and_task_execution": "NOT_RUN",
+    "hosted_model_access": "NOT_RUN"
+  },
+  "paid_model_calls": 0,
+  "simulation_actions": 0,
+  "existing_experimental_lines_changed": false,
+  "original_549_tests": "Historical source-release result only, not rerun or counted as package checks",
+  "instructions": "docs/01_SETUP.md and docs/02_EXPERIMENTS.md"
+}

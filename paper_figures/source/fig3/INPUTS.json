@@ -1,0 +1,77 @@
+{
+  "texts": [
+    "Body relations",
+    "motion response · acting part · configuration",
+    "(a) Motion–image response",
+    "Before",
+    "After",
+    "Recorded EEF move + image response",
+    "Use: choose direction (same camera)",
+    "(b) EEF reference and acting tip",
+    "EEF ref.",
+    "Visible tip",
+    "Condition: tool mounting / grasp",
+    "Use: locate the functional part",
+    "(c) Computed path check",
+    "Schematic",
+    "Declared geometry + current joints",
+    "Use: check the selected path",
+    "External interactions",
+    "grasp layout · downstream access · retention",
+    "(d) Grasp layout preserves downstream access",
+    "Exposed tip",
+    "Opening",
+    "Grasp layout",
+    "Insertion access",
+    "Keep the working end accessible",
+    "Match grasp and target geometry",
+    "Demonstration candidate",
+    "(e) Retention across lift and transfer",
+    "Empty pads",
+    "Lift retained",
+    "Transfer retained",
+    "Later loss",
+    "Context: recorded bowl-rim grasp attempts",
+    "Observed: lift retention did not always persist",
+    "Use: recheck the bowl–pad relation at arrival",
+    "Recorded sim knowledge · cause unresolved"
+  ],
+  "photos": [
+    {
+      "file": "fig3_original-000.jpg",
+      "sha256": "46dddb4a36027b2d2ea89c2ca8e85cf43c1175db2b949d3013829f1cf52b4d6d"
+    },
+    {
+      "file": "fig3_original-001.jpg",
+      "sha256": "6f99a522ca71e51fc51955940474e0fba7df2087351cb021cc75c13e015aafd2"
+    },
+    {
+      "file": "fig3_original-002.jpg",
+      "sha256": "74080884a580bbab3b9c4116b27dc5424f83b0c8c7df7e62d2318d710ec88026"
+    },
+    {
+      "file": "fig3_original-003.jpg",
+      "sha256": "1b2905585d49d9c01d6d8e6d82b97a2d28e6445b06b18334c004b9baff8e436f"
+    },
+    {
+      "file": "key_demo_grasp.png",
+      "sha256": "97ae1db8633ea45f086ff759552c759da5c38a584e84a4d5f2a2da4e7399db57"
+    },
+    {
+      "file": "key_demo_align.png",
+      "sha256": "7a307b90c135eaeadd809ef3c72dc3282002ad1538b900a13c6c197f8197077d"
+    },
+    {
+      "file": "bowl_lift_head.jpg",
+      "sha256": "0ce47817ba308d391fca1af965669cf3338472d284a4680e9380a70bab210cc2"
+    },
+    {
+      "file": "bowl_context_head.jpg",
+      "sha256": "379a5ced3bc7d5e153f60b1da21b15af2bd8429d9938a38348215c83e0636f45"
+    },
+    {
+      "file": "bowl_lost.jpg",
+      "sha256": "9e5dfe970325faa73285efbc8982b9da78fc795bde34cb001fa63512ea78eaa0"
+    }
+  ]
+}

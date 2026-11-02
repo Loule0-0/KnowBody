@@ -1,0 +1,21 @@
+[
+  {
+    "asset": "/data/KnowYourBody_RoboDojo/Assets/Object/RoboDojo/Geometry/camera_stand/00000/object.usd",
+    "original_sha256": "6c4b9ec4cd325f6e47d862b87e7dddbe9adc5e9a5aa0f04224c47d0f16a600a8",
+    "local_sha256": "4b8687eec04b85d963b18ff800353a0d30383e052f154ab67e6ef74b86b85286",
+    "changes": [
+      {
+        "original": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Plastics/Plastic_ABS.mdl",
+        "local": "/data/KnowYourBody_RoboDojo/nvidia_materials/Base/Plastics/Plastic_ABS.mdl"
+      },
+      {
+        "original": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Cast.mdl",
+        "local": "/data/KnowYourBody_RoboDojo/nvidia_materials/Base/Metals/Aluminum_Cast.mdl"
+      },
+      {
+        "original": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized.mdl",
+        "local": "/data/KnowYourBody_RoboDojo/nvidia_materials/Base/Metals/Aluminum_Anodized.mdl"
+      }
+    ]
+  }
+]

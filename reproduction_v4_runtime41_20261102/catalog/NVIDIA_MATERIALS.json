@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized.mdl",
+      "path": "nvidia_materials/Base/Metals/Aluminum_Anodized.mdl",
+      "bytes": 1586,
+      "sha256": "5469bfef01fbd8c4b1784ed90884a29d93eb68ce6f27a8ae61803411ea3fb713"
+    },
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+      "path": "nvidia_materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "d1d042502d7d94bca13cee10c63ab5b3801fb0a46e26d79169e13f5b9c7b5a31"
+    },
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+      "path": "nvidia_materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+      "bytes": 3321558,
+      "sha256": "6dc1cb1b23a9abd766188a85ccbad1a2639d0a9a334f284e359c6c5d4438608e"
+    },
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+      "path": "nvidia_materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+      "bytes": 637843,
+      "sha256": "768f2dbb4f702a9624b912b431efd1a6a8e0ff3e93744cf54f3866ef8f7986e9"
+    },
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Cast.mdl",
+      "path": "nvidia_materials/Base/Metals/Aluminum_Cast.mdl",
+      "bytes": 2006,
+      "sha256": "78c3edb2398c7a48618ebe011a9a9d09802e56e1af041ea7797b115f934bce53"
+    },
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Cast/Aluminum_Cast_BaseColor.png",
+      "path": "nvidia_materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_BaseColor.png",
+      "bytes": 1154931,
+      "sha256": "03ab7494d37e1f6551a26894628c5fe03a65b4d85a09ed11337e184852a580b3"
+    },
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Cast/Aluminum_Cast_N.png",
+      "path": "nvidia_materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_N.png",
+      "bytes": 6557833,
+      "sha256": "812c0161ea14abc581cb35c47b33dc6005c089f8e82dca6cb4dd4832deb0556c"
+    },
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Cast/Aluminum_Cast_ORM.png",
+      "path": "nvidia_materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_ORM.png",
+      "bytes": 4198310,
+      "sha256": "571eba5a99da444b681609a722a29914490c6dae45d230dac471a45875211a4c"
+    },
+    {
+      "url": "https://omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Plastics/Plastic_ABS.mdl",
+      "path": "nvidia_materials/Base/Plastics/Plastic_ABS.mdl",
+      "bytes": 1522,
+      "sha256": "996caa235e62010e15fcf8c820ffdf502a3c276fc416d3f95298e325adf44616"
+    }
+  ]
+}

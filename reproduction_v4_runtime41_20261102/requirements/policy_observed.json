@@ -1,0 +1,28 @@
+{
+  "packages": {
+    "PyYAML": "6.0.3",
+    "annotated-types": "0.8.0",
+    "anyio": "4.15.1",
+    "h11": "0.16.0",
+    "h5py": "3.16.0",
+    "httpcore2": "2.13.1",
+    "httpx2": "2.13.1",
+    "idna": "3.20",
+    "jiter": "0.17.0",
+    "msgpack": "1.2.3",
+    "msgpack-numpy": "0.4.8",
+    "numpy": "1.26.0",
+    "openai": "3.8.0",
+    "opencv-python-headless": "4.11.0.86",
+    "pillow": "11.3.0",
+    "pydantic": "2.14.1",
+    "pydantic_core": "2.50.1",
+    "sniffio": "1.3.1",
+    "socksio": "1.0.0",
+    "truststore": "0.10.5",
+    "typing-inspection": "0.4.4",
+    "typing_extensions": "4.16.0",
+    "websockets": "15.0.1"
+  },
+  "python": "3.11.16 (main, Aug 14 2026, 15:35:36) [Clang 22.1.3 ]"
+}

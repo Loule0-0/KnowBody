@@ -1,0 +1,23 @@
+{
+  "harness_version": "v4",
+  "source_version": "v4-runtime41-20261101",
+  "dataset_revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41",
+  "simulation_seed": 0,
+  "primary": {
+    "model": "gpt-6-astra",
+    "effort": "medium",
+    "calls_per_episode": 100
+  },
+  "manager": {
+    "model": "gpt-6.1-sol",
+    "effort": "xhigh",
+    "calls_per_episode": 100
+  },
+  "human_action_guidance": false,
+  "manual_memory_edits": false,
+  "environment_horizon": "Official original per-task action limits; no extensions",
+  "normal_failure": "Seal actual task outcome, consolidate when chosen, then continue",
+  "unknown_or_runtime_error": "Pause; no automatic retry, replay, reset, model switch or new allowance",
+  "memory_initialization": "Independent empty E/C/K store for each new line",
+  "token_accounting": "Separate roles and episode budgets; native response usage once, cached/reasoning subsets, unknown coverage remains unknown; not a bill"
+}

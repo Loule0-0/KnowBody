@@ -1,0 +1,8 @@
+numpy==1.26.0
+Pillow==11.3.0
+opencv-python-headless==4.11.0.86
+openai==3.8.0
+PyYAML==6.0.3
+websockets==15.0.1
+msgpack==1.2.3
+msgpack-numpy==0.4.8

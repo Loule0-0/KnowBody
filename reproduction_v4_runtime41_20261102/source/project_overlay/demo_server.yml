@@ -1,0 +1,12 @@
+policy_name: demo_policy
+protocol: ws
+host: 127.0.0.1
+port: 19099
+bench_name: RoboDojo
+task_name: stack_bowls
+ckpt_name: none
+env_cfg_type: arx_x5
+seed: 0
+action_type: joint
+gpu_id: 0
+eval_batch: false

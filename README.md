@@ -1,10 +1,13 @@
 # KnowBody 合作者文档与绘图素材
 
-本分支收录合作者指南、经验案例、真实素材与核心源码。图文指南锚定 **runtime37**；最新代码快照为 **v4-runtime38-20261030**。
+本分支收录合作者指南、经验案例、真实素材、论文可编辑主图和新服务器复线代码。**最新运行源码：v4-runtime41-20261101**；新实验线各自独立空库起步。原图文指南锚定 runtime37，runtime38 阅读快照作为历史材料保留。
 
 | 内容 | 入口 |
 | --- | --- |
-| 最新核心源码（runtime38） | [代码与阅读指南](harness_core_v4_runtime38_20261030/) |
+| 最新完整复线包（runtime41） | [代码与说明](reproduction_v4_runtime41_20261102/) · [新服务器安装](reproduction_v4_runtime41_20261102/docs/01_SETUP.md) · [实验操作](reproduction_v4_runtime41_20261102/docs/02_EXPERIMENTS.md) |
+| 论文 Fig.2 可编辑 PPT | [下载 Fig.2](paper_figures/Fig2_KnowBody_Harness_Editable.pptx?raw=true) |
+| 论文 Fig.3 可编辑 PPT | [下载 Fig.3](paper_figures/Fig3_Body_External_Editable.pptx?raw=true) · [预览与素材说明](paper_figures/) |
+| 历史核心阅读快照（runtime38） | [代码与阅读指南](harness_core_v4_runtime38_20261030/) |
 | 详细中文 Word（24页） | [下载 Word](collaborator_guide_20261030/KnowBody_Collaborator_Guide.docx?raw=true) |
 | 固定排版预览 | [PDF](collaborator_guide_20261030/KnowBody_Collaborator_Guide.pdf) |
 | 架构与案例图文指南 | [guide.html](collaborator_guide_20261030/guide.html) |
@@ -24,6 +27,8 @@
 HTML离线可用；请保留解压后的目录结构。
 
 ## 核心源码
+
+[reproduction_v4_runtime41_20261102/](reproduction_v4_runtime41_20261102/) 包含当前完整 harness、实验协调器、仿真接入源码覆盖层、固定上游版本、依赖约束、资源获取和独立空库建线工具。105 项离线检查通过；目标服务器的实际依赖安装、Kit 渲染与任务执行需按文档核验。权重、仿真二进制、账号认证及既有实验库不上传。
 
 [harness_core_v4_runtime38_20261030/](harness_core_v4_runtime38_20261030/) 提供经验存储、检索、上下文准备、管理提炼、原生CLI会话、用量记账、EEF控制和执行回执的真实源码，以及选定离线测试。目录README给出模块地图和阅读顺序；`SOURCE_MANIFEST.json`提供逐文件来源与SHA256。仿真引擎、场景资产、依赖环境和模型权重不打包。
 

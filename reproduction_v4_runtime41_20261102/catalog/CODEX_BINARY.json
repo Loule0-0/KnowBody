@@ -1,0 +1,14 @@
+{
+  "version": "codex-cli 0.161.0",
+  "binary_sha256": "9a820c17865fa825d04db416818679a9d63bd72e50835c396f496e5684626c9c",
+  "target": "releases/harness-v1/tools/codex",
+  "archive_url": "https://github.com/openai/codex/releases/download/rust-v0.161.0/codex-x86_64-unknown-linux-musl.tar.gz",
+  "archive_sha256": "b1efb95097660d7f2e5a3887618a23f2ea1b0d548078bf92b0f7a5d229a0cef2",
+  "required_flags": [
+    "--ignore-user-config",
+    "--strict-config",
+    "--output-schema",
+    "--image"
+  ],
+  "authentication": "Native ChatGPT saved login; no credential files in this repository"
+}

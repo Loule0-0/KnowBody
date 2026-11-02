@@ -1,0 +1,22 @@
+{
+  "robodojo": {
+    "url": "https://github.com/RoboDojo-Benchmark/RoboDojo.git",
+    "commit": "09bd5f5e762b949f5858ece31347ce62057b3a5e",
+    "path": "RoboDojo"
+  },
+  "xpolicylab": {
+    "url": "https://github.com/XPolicyLab/XPolicyLab.git",
+    "commit": "53c5da5a01bc720d1cf0e6ab6ed212e8cef0eda2",
+    "path": "RoboDojo/XPolicyLab"
+  },
+  "isaaclab": {
+    "url": "https://github.com/yuechen0614/IsaacLab.git",
+    "commit": "afca7b09d60d8beb9c1cb28b43066499940b969b",
+    "path": "RoboDojo/third_party/IsaacLab"
+  },
+  "curobo": {
+    "url": "https://github.com/yuechen0614/curobo.git",
+    "commit": "d17b54ce32cba095c0b000c4c58777075d11de0e",
+    "path": "RoboDojo/third_party/curobo"
+  }
+}

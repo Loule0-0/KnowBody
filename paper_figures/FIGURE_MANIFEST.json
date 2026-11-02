@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Native-object/content/source integrity; exported visual review follows separately",
+  "fig2_original_native_source": "/home/lzy/OneTraj_Paper_Revision_20260916/KnowYourBody_Formal_Current/work/main_figure_functional_key_20261027/KnowBody_Main_Figure_Refined.pptx",
+  "fig2_native_byte_identical": true,
+  "fig2_paper_pdf_matches_current_manuscript": true,
+  "fig3_paper_pdf_matches_current_manuscript": true,
+  "fig3_reconstructed_from": "Exact current reportlab scene, same coordinates, text, photos, crops, and independent annotation objects",
+  "fig3_objects": 96,
+  "fig3_text_objects": 35,
+  "fig3_original_photo_placements": 9,
+  "files": {
+    "Fig3_PPT_Preview.png": "df6b357da667c7778b12973837e8bb8b2358df06b53b4f0e2add83e85e9ac8f2",
+    "Fig3_Body_External_Editable.pptx": "d7e4086d281c826518c09ec90dd0b2156170ec5d88e0a02d6db15586bba8ee15",
+    "Fig2_KnowBody_Harness_Editable.pptx": "b9b827d11e31852fd456532740b1a7158c3162d6f8374c3ea545b64b7db960b8",
+    "Fig2_KnowBody_Harness_Paper.pdf": "658c27ade9d86a725842cf1504c101fa9a74d892247ea6116e230329b7dc1a3d",
+    "Fig3_Paper_Preview.png": "80d7eb5811238d1480509d61e594ca36dde95c809eaef2f339df161e4a57aacb",
+    "Fig3_Body_External_Paper.pdf": "aae9ae6babf91999cb8b71bfd3cbea302c234f067c90b16c51c06b09e31b922a",
+    "Fig2_Preview.png": "46fca4607d4ee3b9c87c89f0222de419071a71e0cb3ca5ca78a3b7e93832de45"
+  },
+  "visual_review": {
+    "verdict": "PASS",
+    "method": "LibreOffice native PPTX export to PDF, rendered at1600px; direct image inspection against the current paper PDF",
+    "checked": [
+      "five panels, photos and annotation placements",
+      "35 text objects match paper scene",
+      "no clipped text or missing objects",
+      "Fig2 copied byte-identical from original native deck"
+    ],
+    "note": "Native text metrics may differ slightly by installed fonts; paper PDF retains its exact published vector layout."
+  }
+}

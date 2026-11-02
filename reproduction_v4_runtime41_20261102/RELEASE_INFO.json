@@ -1,0 +1,67 @@
+{
+  "source_version": "v4-runtime41-20261101",
+  "original_release_sha256": "ae6eb6b5689184cfdf488dce27fb776364967bd0c9b586cd941b77de5b9697a7",
+  "models": {
+    "primary": {
+      "model": "gpt-6-astra",
+      "effort": "medium"
+    },
+    "manager": {
+      "model": "gpt-6.1-sol",
+      "effort": "xhigh"
+    },
+    "manager_capacity_alternative": {
+      "model": "gpt-6-astra",
+      "effort": "high"
+    }
+  },
+  "frozen_code_validation": {
+    "verdict": "PASS",
+    "at_utc": "2026-11-01T03:06:32.169972+00:00",
+    "scope": "Historical case visual drill-down and current-state/media identity repair only.",
+    "static_and_astra_review": "PASS",
+    "offline_tests": 549,
+    "archive_case_revisions": [
+      303,
+      304
+    ],
+    "archive_historical_images": 6,
+    "archive_text_bytes_including_references": 13019,
+    "database_writes_in_archive_replay": 0,
+    "main_memory_method": "UNCHANGED",
+    "old_database_adaptation_required": false,
+    "changed": [
+      "research/kyb/codex_cli.py",
+      "research/kyb/context.py",
+      "research/kyb/manager.py",
+      "research/kyb/policy.py",
+      "research/kyb/readout.py",
+      "research/kyb/session.py",
+      "research/kyb/terminal.py",
+      "research/tests/test_codex_cli.py",
+      "research/tests/test_manager.py",
+      "research/tests/test_memory.py",
+      "research/tests/test_policy_pipeline.py",
+      "research/tests/test_transition.py"
+    ],
+    "added": [
+      "research/kyb/media.py",
+      "research/kyb/witness.py",
+      "research/tests/test_case_witness.py"
+    ],
+    "models_encoder_or_physics_probes": 0,
+    "existing_queues_and_scenes": "UNCHANGED; no resume, reset or hot source switch",
+    "benefit": "Not measured; functional and offline validation do not establish cost/success gains.",
+    "review": "/home/lzy/KnowYourBody_RoboDojo/experiments/historical_witness_refinement_20261101/ASTRA_FINAL_REVIEW.json",
+    "replay": "/home/lzy/KnowYourBody_RoboDojo/experiments/historical_witness_refinement_20261101/ARCHIVE_REPLAY.json"
+  },
+  "exported_at_utc": "2026-11-02T05:32:52.634847+00:00",
+  "export_scope": "Current code/import closure and fixed upstream revisions, no archived experiments, model credentials, memory stores, trajectories, vendor engines, extensions or model weights.",
+  "deployment_paths": {
+    "project": "/home/lzy/KnowYourBody_RoboDojo",
+    "data": "/data/KnowYourBody_RoboDojo"
+  },
+  "path_policy": "Canonical original runtime paths preserve source bytes. Destination account need not be named lzy; these two directories must be writable by it.",
+  "new_line_initialization": "Independent empty memory, as selected by the user2026-11-02",
+  "source_edits": false
+}
