@@ -5,6 +5,7 @@ import hashlib
 import io
 import json
 import math
+import sys
 from PIL import Image
 from pptx import Presentation
 from pptx.util import Pt
@@ -96,7 +97,10 @@ def tag(x,y,value,color='#477BB8'):
 ns=globals().copy();ns.update(O=ASSETS.parent,F=ASSETS,B=ASSETS,
     INK='#20313E',BLUE='#477BB8',ORANGE='#C97835',GREEN='#5E8C43',GRAY='#CBD4DC',MUTED='#586774')
 exec(compile(scene,str(OUT/'source/fig3/scene.py'),'exec'),ns)
-target=args.output;deck.save(target)
 assert len(slide.shapes)>80 and len(texts)==len(inputs['texts'])
 assert texts==inputs['texts']
-print('PASS: saved',target,'native shapes',len(slide.shapes),'editable text',len(texts))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from organize_for_editing import organize_fig3
+organize_fig3(slide)
+target=args.output;deck.save(target)
+print('PASS: saved',target,'named top-level groups',len(slide.shapes),'editable text',len(texts))

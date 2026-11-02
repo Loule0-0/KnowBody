@@ -1,0 +1,1958 @@
+{
+  "verdict": "PASS",
+  "scope": "Semantic grouping, native text/image preservation, native transform smoke checks and LibreOffice render comparison",
+  "at_utc": "2026-11-02T07:52:42.949480+00:00",
+  "previous_flat_files_commit": "cd237398fe9ef0244963d66aaedf9c0bf378c9d5",
+  "interactive_microsoft_powerpoint_ui": "NOT_RUN",
+  "figures": [
+    {
+      "file": "Fig2_KnowBody_Harness_Editable.pptx",
+      "verdict": "PASS",
+      "before_flat_objects": 243,
+      "after_top_level_named_groups": 5,
+      "total_named_groups": 77,
+      "native_leaf_objects": 243,
+      "max_group_depth": 4,
+      "unchanged_nonempty_text_frames": 72,
+      "unchanged_original_photo_placements": 23,
+      "geometry_and_rich_text": "PASS: each original leaf shape preserved; effective coordinates identical",
+      "original_photo_bytes_and_crops": "PASS",
+      "before_after_native_render": {
+        "verdict": "PASS",
+        "size_px": [
+          1600,
+          970
+        ],
+        "pixel_identical": true
+      },
+      "native_group_move_resize_save_reload": {
+        "verdict": "PASS",
+        "scope": "Programmatic DrawingML group transforms, no interactive GUI automation",
+        "target": "05 | (c) Structured experience library",
+        "unselected_shapes_unchanged": true
+      },
+      "selection_pane_tree": [
+        {
+          "name": "01 | (a) Interaction worlds",
+          "children": [
+            {
+              "name": "Section heading",
+              "children": [
+                {
+                  "name": "a header",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "a heading",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "a boundary",
+              "type": "AUTO_SHAPE (1)"
+            },
+            {
+              "name": "Real examples",
+              "children": [
+                {
+                  "name": "Pen operation | photo + border + caption",
+                  "children": [
+                    {
+                      "name": "real pen operation",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "real pen operation border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "pen caption",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Pouring | photo + border + caption",
+                  "children": [
+                    {
+                      "name": "real pouring",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "real pouring border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "pour caption",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Real badge",
+                  "children": [
+                    {
+                      "name": "real badge",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "real badge label",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Simulation examples",
+              "children": [
+                {
+                  "name": "simulation boundary",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Push | photo + border + caption",
+                  "children": [
+                    {
+                      "name": "simulation push",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "simulation push border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "sim caption Push",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Cover | photo + border + caption",
+                  "children": [
+                    {
+                      "name": "simulation cover",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "simulation cover border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "sim caption Cover",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Stack | photo + border + caption",
+                  "children": [
+                    {
+                      "name": "simulation stack",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "simulation stack border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "sim caption Stack",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Tool use | photo + border + caption",
+                  "children": [
+                    {
+                      "name": "simulation tool use",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "simulation tool use border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "sim caption Tool use",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Simulation badge",
+                  "children": [
+                    {
+                      "name": "simulation badge",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "simulation badge label",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Observed feedback strip",
+              "children": [
+                {
+                  "name": "feedback strip",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "feedback label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "02 | KnowBody execution loop",
+          "children": [
+            {
+              "name": "Action arrow + label",
+              "children": [
+                {
+                  "name": "action loop",
+                  "type": "FREEFORM (5)"
+                },
+                {
+                  "name": "action loop label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "Observation arrow + label",
+              "children": [
+                {
+                  "name": "observation loop",
+                  "type": "FREEFORM (5)"
+                },
+                {
+                  "name": "observation label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "method name",
+              "type": "TEXT_BOX (17)"
+            }
+          ]
+        },
+        {
+          "name": "03 | Record evidence link",
+          "children": [
+            {
+              "name": "record raw evidence 0",
+              "type": "LINE (9)"
+            },
+            {
+              "name": "record label",
+              "type": "TEXT_BOX (17)"
+            }
+          ]
+        },
+        {
+          "name": "04 | (b) Experience-guided execution",
+          "children": [
+            {
+              "name": "Section heading",
+              "children": [
+                {
+                  "name": "b header",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "b heading",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "b boundary",
+              "type": "AUTO_SHAPE (1)"
+            },
+            {
+              "name": "Execution agent",
+              "children": [
+                {
+                  "name": "execution agent",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "execution title",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "execution session",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Task input card",
+                  "children": [
+                    {
+                      "name": "input Task",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "input Task heading",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Task document icon",
+                      "children": [
+                        {
+                          "name": "task document",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "task document folded corner 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "task document folded corner 1",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "task document line 15 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "task document line 21 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "task document line 27 0",
+                          "type": "LINE (9)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "key task",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Brief input card",
+                  "children": [
+                    {
+                      "name": "input Brief",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "input Brief heading",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "task brief exposed key",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "task brief exposed key border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "brief exposure cue",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Live-state input card",
+                  "children": [
+                    {
+                      "name": "input Live state",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "input Live state heading",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "current key approach",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "current key approach border",
+                      "type": "AUTO_SHAPE (1)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Action chunk",
+                  "children": [
+                    {
+                      "name": "action chunk",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "action chunk heading",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "action chunk progression 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "Free-space steps + bracket + caption",
+                      "children": [
+                        {
+                          "name": "free space target 0",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "free space target 1",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "free space target 2",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "free space target 3",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "free space target 4",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "coarse chunk bracket 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "coarse chunk bracket 1",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "coarse chunk bracket 2",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "free space cue",
+                          "type": "TEXT_BOX (17)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Contact steps + bracket + caption",
+                      "children": [
+                        {
+                          "name": "contact target 0",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "contact target 1",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "contact target 2",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "contact target 3",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "contact target 4",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "contact target 5",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "contact target 6",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "fine chunk bracket 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "fine chunk bracket 1",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "fine chunk bracket 2",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "contact cue",
+                          "type": "TEXT_BOX (17)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Retrieve",
+              "children": [
+                {
+                  "name": "retrieve",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "retrieve heading",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Same-task process card",
+                  "children": [
+                    {
+                      "name": "same task process entry",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "same task process heading",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "historical exposed key",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "historical exposed key border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "historical insertion approach",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "historical insertion approach border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "process snippet transition 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "more process snippets",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Body / interaction knowledge card",
+                  "children": [
+                    {
+                      "name": "body interaction entry",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "body interaction heading",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "retrieved marker evidence",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "retrieved marker evidence border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "retrieved marker fields",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "retrieved marker fields text",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "retrieval conditions cue",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "Query / return link",
+              "children": [
+                {
+                  "name": "query and return 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "query return label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "Memory manager",
+              "children": [
+                {
+                  "name": "memory manager",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "manager title",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Prepare context",
+                  "children": [
+                    {
+                      "name": "prepare context operation",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Preparation document icon",
+                      "children": [
+                        {
+                          "name": "prepare context document",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "prepare context document folded corner 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "prepare context document folded corner 1",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "prepare context document line 15 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "prepare context document line 21 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "prepare context document line 27 0",
+                          "type": "LINE (9)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "prepare context label",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "prepare and review link 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "Review / learn",
+                  "children": [
+                    {
+                      "name": "review learn operation",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Review lens icon",
+                      "children": [
+                        {
+                          "name": "review learn lens",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "review learn lens handle 0",
+                          "type": "LINE (9)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "review learn label",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Episode-start link",
+              "children": [
+                {
+                  "name": "episode start preparation 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "episode start label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "On-demand management link",
+              "children": [
+                {
+                  "name": "on demand management 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "on demand label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "Brief / evidence return link",
+              "children": [
+                {
+                  "name": "brief and evidence return 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "brief evidence label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "Source checks and validated write",
+              "children": [
+                {
+                  "name": "Checked shield icon",
+                  "children": [
+                    {
+                      "name": "host source scope gate",
+                      "type": "FREEFORM (5)"
+                    },
+                    {
+                      "name": "host source scope check 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "host source scope check 1",
+                      "type": "LINE (9)"
+                    }
+                  ]
+                },
+                {
+                  "name": "manager to host checks 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "source scope label",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Input to append link",
+                  "children": [
+                    {
+                      "name": "checked append input 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "checked append input 1",
+                      "type": "LINE (9)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Append / revise operation",
+                  "children": [
+                    {
+                      "name": "append revise operation",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "append revise text",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Complete write connector",
+                  "children": [
+                    {
+                      "name": "checked experience write 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "checked experience write 1",
+                      "type": "LINE (9)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Manager reads library link",
+              "children": [
+                {
+                  "name": "manager reads library 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "manager read label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "Retrieval reads library link",
+              "children": [
+                {
+                  "name": "retrieval reads library 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "retrieval read label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "05 | (c) Structured experience library",
+          "children": [
+            {
+              "name": "library outer",
+              "type": "AUTO_SHAPE (1)"
+            },
+            {
+              "name": "Section heading",
+              "children": [
+                {
+                  "name": "library header",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "library heading",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "Organization rule",
+              "children": [
+                {
+                  "name": "organization strip",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "organization label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "E / C / K level headings",
+              "children": [
+                {
+                  "name": "Raw evidence column heading",
+                  "children": [
+                    {
+                      "name": "column Raw evidence",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "column Raw evidence title",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Conditional cases column heading",
+                  "children": [
+                    {
+                      "name": "column Conditional cases",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "column Conditional cases title",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Reusable knowledge column heading",
+                  "children": [
+                    {
+                      "name": "column Reusable knowledge",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "column Reusable knowledge title",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "evidence to case heading 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "case to knowledge heading 0",
+                  "type": "LINE (9)"
+                }
+              ]
+            },
+            {
+              "name": "Body experience row",
+              "children": [
+                {
+                  "name": "Body raw-evidence card",
+                  "children": [
+                    {
+                      "name": "body raw row",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Body domain label",
+                      "children": [
+                        {
+                          "name": "body domain",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "body domain title",
+                          "type": "TEXT_BOX (17)"
+                        },
+                        {
+                          "name": "body domain content",
+                          "type": "TEXT_BOX (17)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Marker photo + EEF / tip annotations",
+                      "children": [
+                        {
+                          "name": "raw marker body relation",
+                          "type": "PICTURE (13)"
+                        },
+                        {
+                          "name": "raw marker body relation border",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "raw marker mounting relation 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "raw marker EEF reference",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "raw marker visible tip",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "raw marker EEF label plate",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "raw marker EEF label",
+                          "type": "TEXT_BOX (17)"
+                        },
+                        {
+                          "name": "raw marker EEF label leader 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "raw marker tip label plate",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "raw marker tip label",
+                          "type": "TEXT_BOX (17)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "body raw to case 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "Body conditional-case card",
+                  "children": [
+                    {
+                      "name": "body conditional",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "marker mounting case",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "marker mounting case border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "body case heading",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "case EEF reference",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "case functional tip",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "case body relationship 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "case EEF meaning",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "case tip meaning",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "tool offset schematic brace",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "tool dependent relation",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "schematic body geometry label",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "body case to reusable 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "Body reusable-knowledge card",
+                  "children": [
+                    {
+                      "name": "body reusable",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Functional point photo + annotations",
+                      "children": [
+                        {
+                          "name": "functional marker point photo",
+                          "type": "PICTURE (13)"
+                        },
+                        {
+                          "name": "functional marker point photo border",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "functional marker mounting relation 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "functional marker EEF reference",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "functional marker visible tip",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "functional marker EEF label plate",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "functional marker EEF label",
+                          "type": "TEXT_BOX (17)"
+                        },
+                        {
+                          "name": "functional marker EEF leader 0",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "functional marker tip label plate",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "functional marker tip label",
+                          "type": "TEXT_BOX (17)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "functional point knowledge title",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "functional point knowledge use",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "External interaction experience row",
+              "children": [
+                {
+                  "name": "External raw-evidence card",
+                  "children": [
+                    {
+                      "name": "external raw row",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "External domain label",
+                      "children": [
+                        {
+                          "name": "external domain",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "external domain title",
+                          "type": "TEXT_BOX (17)"
+                        },
+                        {
+                          "name": "external domain content",
+                          "type": "TEXT_BOX (17)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Key grasp photo",
+                      "children": [
+                        {
+                          "name": "demonstration exposed key grasp",
+                          "type": "PICTURE (13)"
+                        },
+                        {
+                          "name": "demonstration exposed key grasp border",
+                          "type": "AUTO_SHAPE (1)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Insertion access photo",
+                      "children": [
+                        {
+                          "name": "demonstration target access",
+                          "type": "PICTURE (13)"
+                        },
+                        {
+                          "name": "demonstration target access border",
+                          "type": "AUTO_SHAPE (1)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "external raw to case 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "External conditional-case card",
+                  "children": [
+                    {
+                      "name": "external conditional",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "external candidate heading",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Grasp layout photo + caption",
+                      "children": [
+                        {
+                          "name": "candidate grasp layout",
+                          "type": "PICTURE (13)"
+                        },
+                        {
+                          "name": "candidate grasp layout border",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "grasp layout label",
+                          "type": "TEXT_BOX (17)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Insertion access photo + caption",
+                      "children": [
+                        {
+                          "name": "candidate insertion access",
+                          "type": "PICTURE (13)"
+                        },
+                        {
+                          "name": "candidate insertion access border",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "insertion access label",
+                          "type": "TEXT_BOX (17)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "grasp layout enables access 0",
+                      "type": "LINE (9)"
+                    }
+                  ]
+                },
+                {
+                  "name": "external case to reusable 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "External reusable-knowledge card",
+                  "children": [
+                    {
+                      "name": "external reusable",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "downstream access photo",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "downstream access photo border",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "downstream access title plate",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "downstream access title",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "downstream access use",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "candidate scope separator 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "candidate applicability note",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Episode history strip",
+              "children": [
+                {
+                  "name": "episode history view",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Episode history label",
+                  "children": [
+                    {
+                      "name": "episode history label plate",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "episode history heading",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "History frame 1",
+                  "children": [
+                    {
+                      "name": "episode retained head grasp",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "episode retained head grasp border",
+                      "type": "AUTO_SHAPE (1)"
+                    }
+                  ]
+                },
+                {
+                  "name": "History frame 2",
+                  "children": [
+                    {
+                      "name": "episode held reorientation",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "episode held reorientation border",
+                      "type": "AUTO_SHAPE (1)"
+                    }
+                  ]
+                },
+                {
+                  "name": "History frame 3",
+                  "children": [
+                    {
+                      "name": "episode approach",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "episode approach border",
+                      "type": "AUTO_SHAPE (1)"
+                    }
+                  ]
+                },
+                {
+                  "name": "History frame 4",
+                  "children": [
+                    {
+                      "name": "episode contact view",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "episode contact view border",
+                      "type": "AUTO_SHAPE (1)"
+                    }
+                  ]
+                },
+                {
+                  "name": "episode chronology 0 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "episode chronology 1 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "episode chronology 2 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "episode further records",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Source document icon",
+                  "children": [
+                    {
+                      "name": "episode source links",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "episode source links folded corner 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "episode source links folded corner 1",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "episode source links line 15 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "episode source links line 21 0",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "episode source links line 27 0",
+                      "type": "LINE (9)"
+                    }
+                  ]
+                },
+                {
+                  "name": "episode provenance label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "Knowledge-first / details-on-demand links",
+              "children": [
+                {
+                  "name": "knowledge to history details 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "knowledge detail continuation 0",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "knowledge first label",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fig3_Body_External_Editable.pptx",
+      "verdict": "PASS",
+      "before_flat_objects": 96,
+      "after_top_level_named_groups": 2,
+      "total_named_groups": 30,
+      "native_leaf_objects": 96,
+      "max_group_depth": 4,
+      "unchanged_nonempty_text_frames": 35,
+      "unchanged_original_photo_placements": 9,
+      "geometry_and_rich_text": "PASS: each original leaf shape preserved; effective coordinates identical",
+      "original_photo_bytes_and_crops": "PASS",
+      "before_after_native_render": {
+        "verdict": "PASS",
+        "size_px": [
+          1600,
+          991
+        ],
+        "pixel_identical": true
+      },
+      "native_group_move_resize_save_reload": {
+        "verdict": "PASS",
+        "scope": "Programmatic DrawingML group transforms, no interactive GUI automation",
+        "target": "02 | External interactions",
+        "unselected_shapes_unchanged": true
+      },
+      "selection_pane_tree": [
+        {
+          "name": "01 | Body relations",
+          "children": [
+            {
+              "name": "Body section heading",
+              "children": [
+                {
+                  "name": "Body section heading | part 1",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Text | Body relations",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Text | motion response · acting part · configuration",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "(a) Motion-image response",
+              "children": [
+                {
+                  "name": "(a) Motion-image response | part 1",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Text | (a) Motion–image response",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Before | photo + marker + label",
+                  "children": [
+                    {
+                      "name": "Original photo with editable viewport crop: fig3_original-000.jpg",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "Before | photo + marker + label | part 2",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Before | photo + marker + label | part 3",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Before",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "After | photo + marker + label",
+                  "children": [
+                    {
+                      "name": "Original photo with editable viewport crop: fig3_original-001.jpg",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "After | photo + marker + label | part 2",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "After | photo + marker + label | part 3",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | After",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "(a) Motion-image response | part 5",
+                  "type": "LINE (9)"
+                },
+                {
+                  "name": "Motion response explanation",
+                  "children": [
+                    {
+                      "name": "Text | Recorded EEF move + image response",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Text | Use: choose direction (same camera)",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "(b) EEF reference and acting tip",
+              "children": [
+                {
+                  "name": "(b) EEF reference and acting tip | part 1",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Text | (b) EEF reference and acting tip",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Tool photo + EEF / tip annotations",
+                  "children": [
+                    {
+                      "name": "Original photo with editable viewport crop: fig3_original-002.jpg",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "Tool photo + EEF / tip annotations | part 2",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Tool photo + EEF / tip annotations | part 3",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | EEF ref.",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Tool photo + EEF / tip annotations | part 5",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "Text | Visible tip",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Tool photo + EEF / tip annotations | part 7",
+                      "type": "LINE (9)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Tool relation explanation",
+                  "children": [
+                    {
+                      "name": "Text | Condition: tool mounting / grasp",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Text | Use: locate the functional part",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "(c) Computed path check",
+              "children": [
+                {
+                  "name": "(c) Computed path check | part 1",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Text | (c) Computed path check",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Original photo with editable viewport crop: fig3_original-003.jpg",
+                  "type": "PICTURE (13)"
+                },
+                {
+                  "name": "Path schematic",
+                  "children": [
+                    {
+                      "name": "Path schematic | part 1",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Schematic",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Direct invalid path",
+                      "children": [
+                        {
+                          "name": "Direct invalid path | part 1",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "Direct invalid path | part 2",
+                          "type": "FREEFORM (5)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Invalid-path cross",
+                      "children": [
+                        {
+                          "name": "Invalid-path cross | part 1",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "Invalid-path cross | part 2",
+                          "type": "LINE (9)"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Feasible path + waypoints",
+                      "children": [
+                        {
+                          "name": "Feasible path + waypoints | part 1",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "Feasible path + waypoints | part 2",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "Feasible path + waypoints | part 3",
+                          "type": "LINE (9)"
+                        },
+                        {
+                          "name": "Feasible path + waypoints | part 4",
+                          "type": "FREEFORM (5)"
+                        },
+                        {
+                          "name": "Feasible path + waypoints | part 5",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "Feasible path + waypoints | part 6",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "Feasible path + waypoints | part 7",
+                          "type": "AUTO_SHAPE (1)"
+                        },
+                        {
+                          "name": "Feasible path + waypoints | part 8",
+                          "type": "AUTO_SHAPE (1)"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Path-check explanation",
+                  "children": [
+                    {
+                      "name": "Text | Declared geometry + current joints",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Text | Use: check the selected path",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "02 | External interactions",
+          "children": [
+            {
+              "name": "External section heading",
+              "children": [
+                {
+                  "name": "External section heading | part 1",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Text | External interactions",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Text | grasp layout · downstream access · retention",
+                  "type": "TEXT_BOX (17)"
+                }
+              ]
+            },
+            {
+              "name": "(d) Grasp layout and downstream access",
+              "children": [
+                {
+                  "name": "(d) Grasp layout and downstream access | part 1",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Text | (d) Grasp layout preserves downstream access",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Grasp layout | photo + annotations + caption",
+                  "children": [
+                    {
+                      "name": "Original photo with editable viewport crop: key_demo_grasp.png",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "Grasp layout | photo + annotations + caption | part 2",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Grasp layout | photo + annotations + caption | part 3",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Grasp layout | photo + annotations + caption | part 4",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Exposed tip",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Grasp layout | photo + annotations + caption | part 6",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "Text | Grasp layout",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Insertion access | photo + annotations + caption",
+                  "children": [
+                    {
+                      "name": "Original photo with editable viewport crop: key_demo_align.png",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "Insertion access | photo + annotations + caption | part 2",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Insertion access | photo + annotations + caption | part 3",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Insertion access | photo + annotations + caption | part 4",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Opening",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Insertion access | photo + annotations + caption | part 6",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "Text | Insertion access",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Complete transition arrow",
+                  "children": [
+                    {
+                      "name": "Complete transition arrow | part 1",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "Complete transition arrow | part 2",
+                      "type": "FREEFORM (5)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Downstream access explanation",
+                  "children": [
+                    {
+                      "name": "Text | Keep the working end accessible",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Text | Match grasp and target geometry",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Demonstration-candidate label",
+                  "children": [
+                    {
+                      "name": "Demonstration-candidate label | part 1",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Demonstration candidate",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "(e) Retention across lift and transfer",
+              "children": [
+                {
+                  "name": "(e) Retention across lift and transfer | part 1",
+                  "type": "AUTO_SHAPE (1)"
+                },
+                {
+                  "name": "Text | (e) Retention across lift and transfer",
+                  "type": "TEXT_BOX (17)"
+                },
+                {
+                  "name": "Lift retained | photo + marker + caption",
+                  "children": [
+                    {
+                      "name": "Original photo with editable viewport crop: bowl_lift_head.jpg",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "Lift retained | photo + marker + caption | part 2",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Lift retained | photo + marker + caption | part 3",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Lift retained",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Transfer retained | photo + marker + caption",
+                  "children": [
+                    {
+                      "name": "Original photo with editable viewport crop: bowl_context_head.jpg",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "Transfer retained | photo + marker + caption | part 2",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Transfer retained | photo + marker + caption | part 3",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Transfer retained",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Later loss | photo + marker + caption",
+                  "children": [
+                    {
+                      "name": "Original photo with editable viewport crop: bowl_lost.jpg",
+                      "type": "PICTURE (13)"
+                    },
+                    {
+                      "name": "Later loss | photo + marker + caption | part 2",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Later loss | photo + marker + caption | part 3",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Later loss | photo + marker + caption | part 4",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Empty pads",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Text | Later loss",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Lift-to-transfer arrow",
+                  "children": [
+                    {
+                      "name": "Lift-to-transfer arrow | part 1",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "Lift-to-transfer arrow | part 2",
+                      "type": "FREEFORM (5)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Transfer-to-loss arrow",
+                  "children": [
+                    {
+                      "name": "Transfer-to-loss arrow | part 1",
+                      "type": "LINE (9)"
+                    },
+                    {
+                      "name": "Transfer-to-loss arrow | part 2",
+                      "type": "FREEFORM (5)"
+                    }
+                  ]
+                },
+                {
+                  "name": "Reusable retention knowledge note",
+                  "children": [
+                    {
+                      "name": "Reusable retention knowledge note | part 1",
+                      "type": "AUTO_SHAPE (1)"
+                    },
+                    {
+                      "name": "Text | Context: recorded bowl-rim grasp attempts",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Text | Observed: lift retention did not always persist",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Text | Use: recheck the bowl–pad relation at arrival",
+                      "type": "TEXT_BOX (17)"
+                    },
+                    {
+                      "name": "Text | Recorded sim knowledge · cause unresolved",
+                      "type": "TEXT_BOX (17)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,22 +1,38 @@
 {
   "status": "PASS",
-  "scope": "Native-object/content/source integrity; exported visual review follows separately",
+  "scope": "Native content/geometry preservation, semantic editing groups, transform smoke checks and exported visual comparison",
   "fig2_original_native_source": "/home/lzy/OneTraj_Paper_Revision_20260916/KnowYourBody_Formal_Current/work/main_figure_functional_key_20261027/KnowBody_Main_Figure_Refined.pptx",
-  "fig2_native_byte_identical": true,
+  "fig2_native_byte_identical": false,
   "fig2_paper_pdf_matches_current_manuscript": true,
   "fig3_paper_pdf_matches_current_manuscript": true,
   "fig3_reconstructed_from": "Exact current reportlab scene, same coordinates, text, photos, crops, and independent annotation objects",
-  "fig3_objects": 96,
   "fig3_text_objects": 35,
   "fig3_original_photo_placements": 9,
   "files": {
-    "Fig3_PPT_Preview.png": "df6b357da667c7778b12973837e8bb8b2358df06b53b4f0e2add83e85e9ac8f2",
-    "Fig3_Body_External_Editable.pptx": "d7e4086d281c826518c09ec90dd0b2156170ec5d88e0a02d6db15586bba8ee15",
-    "Fig2_KnowBody_Harness_Editable.pptx": "b9b827d11e31852fd456532740b1a7158c3162d6f8374c3ea545b64b7db960b8",
+    ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "EDITABILITY_CHECK.json": "4baf0f9d45be3a5bd9514ba7206ee4bda84e44566085d6ddaf61a1742f2cecb1",
+    "Fig2_KnowBody_Harness_Editable.pptx": "dc004cae60a681014e3e5648c30b84aeceaf622431374a313e3001fbe3a7f69c",
     "Fig2_KnowBody_Harness_Paper.pdf": "658c27ade9d86a725842cf1504c101fa9a74d892247ea6116e230329b7dc1a3d",
-    "Fig3_Paper_Preview.png": "80d7eb5811238d1480509d61e594ca36dde95c809eaef2f339df161e4a57aacb",
+    "Fig2_Preview.png": "46fca4607d4ee3b9c87c89f0222de419071a71e0cb3ca5ca78a3b7e93832de45",
+    "Fig3_Body_External_Editable.pptx": "b741a0b7f566e250bf77e08bdcf98d9bd777de0fe8ae7e180638bf5b3f7973ed",
     "Fig3_Body_External_Paper.pdf": "aae9ae6babf91999cb8b71bfd3cbea302c234f067c90b16c51c06b09e31b922a",
-    "Fig2_Preview.png": "46fca4607d4ee3b9c87c89f0222de419071a71e0cb3ca5ca78a3b7e93832de45"
+    "Fig3_PPT_Preview.png": "df6b357da667c7778b12973837e8bb8b2358df06b53b4f0e2add83e85e9ac8f2",
+    "Fig3_Paper_Preview.png": "80d7eb5811238d1480509d61e594ca36dde95c809eaef2f339df161e4a57aacb",
+    "README.md": "f23a7ba9e3dd3dc3a7d35cffa6385ce3cf86d50c9a2b7405817fdd97059de300",
+    "source/fig3/INPUTS.json": "023b01d1a792fcb2f6ecff6b84ba1239fb47a22ad967ad06a089fa427dec6c41",
+    "source/fig3/assets/bowl_context_head.jpg": "379a5ced3bc7d5e153f60b1da21b15af2bd8429d9938a38348215c83e0636f45",
+    "source/fig3/assets/bowl_lift_head.jpg": "0ce47817ba308d391fca1af965669cf3338472d284a4680e9380a70bab210cc2",
+    "source/fig3/assets/bowl_lost.jpg": "9e5dfe970325faa73285efbc8982b9da78fc795bde34cb001fa63512ea78eaa0",
+    "source/fig3/assets/fig3_original-000.jpg": "46dddb4a36027b2d2ea89c2ca8e85cf43c1175db2b949d3013829f1cf52b4d6d",
+    "source/fig3/assets/fig3_original-001.jpg": "6f99a522ca71e51fc51955940474e0fba7df2087351cb021cc75c13e015aafd2",
+    "source/fig3/assets/fig3_original-002.jpg": "74080884a580bbab3b9c4116b27dc5424f83b0c8c7df7e62d2318d710ec88026",
+    "source/fig3/assets/fig3_original-003.jpg": "1b2905585d49d9c01d6d8e6d82b97a2d28e6445b06b18334c004b9baff8e436f",
+    "source/fig3/assets/fig3_original-004.png": "93e8120ef465009b1ea3684d6e5442df1353c0cb08f6f3ed6e1ee99ffb2d598d",
+    "source/fig3/assets/key_demo_align.png": "7a307b90c135eaeadd809ef3c72dc3282002ad1538b900a13c6c197f8197077d",
+    "source/fig3/assets/key_demo_grasp.png": "97ae1db8633ea45f086ff759552c759da5c38a584e84a4d5f2a2da4e7399db57",
+    "source/fig3/build_pptx.py": "1b3f173bc306cd654b160c315e57b315ab2572d33916bebaf7f68ec8da3a9f4e",
+    "source/fig3/scene.py": "51f5f5c528f98a83d9668d954c8139b020112562ab1a8be4edf26b31283ebb85",
+    "source/organize_for_editing.py": "2361b0db8f0db7a26759ba37007e68462deceaaacb30e68aa91c11cbf9af1b58"
   },
   "visual_review": {
     "verdict": "PASS",
@@ -25,8 +41,15 @@
       "five panels, photos and annotation placements",
       "35 text objects match paper scene",
       "no clipped text or missing objects",
-      "Fig2 copied byte-identical from original native deck"
+      "Fig2 copied byte-identical from original native deck",
+      "Both native decks organized into named semantic groups, original rich text, photos and geometry preserved"
     ],
-    "note": "Native text metrics may differ slightly by installed fonts; paper PDF retains its exact published vector layout."
-  }
+    "note": "Native text metrics may differ slightly by installed fonts; paper PDF retains its exact published vector layout.",
+    "grouped_before_after_render": "PASS: both 1600px exports pixel-identical to their ungrouped native predecessors"
+  },
+  "fig2_native_content_and_geometry_preserved": true,
+  "fig2_editing_groups": 5,
+  "fig3_native_leaf_objects": 96,
+  "fig3_editing_groups": 2,
+  "editability_review": "EDITABILITY_CHECK.json"
 }
